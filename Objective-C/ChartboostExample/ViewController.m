@@ -82,8 +82,8 @@
     [self log:[NSString stringWithFormat:@"didCacheAd: %@ %@", [event.ad class], [self statusWithError:error]]];
 }
 
-- (void)willShowAd:(CHBShowEvent *)event error:(nullable CHBShowError *)error {
-    [self log:[NSString stringWithFormat:@"willShowAd: %@ %@", [event.ad class], [self statusWithError:error]]];
+- (void)willShowAd:(CHBShowEvent *)event {
+    [self log:[NSString stringWithFormat:@"willShowAd: %@", [event.ad class]]];
 }
 
 - (void)didShowAd:(CHBShowEvent *)event error:(nullable CHBShowError *)error {
