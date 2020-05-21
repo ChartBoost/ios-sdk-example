@@ -10,6 +10,7 @@
 
 @interface ViewController () <CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (nonatomic) NSString *logBeforeViewDidLoad;
 @property (nonatomic, strong) CHBInterstitial *interstitial;
 @property (nonatomic, strong) CHBRewarded *rewarded;
 @property (nonatomic, strong) CHBBanner *banner;
@@ -23,6 +24,7 @@
     self.interstitial = [[CHBInterstitial alloc] initWithLocation:CBLocationDefault delegate:self];
     self.rewarded = [[CHBRewarded alloc] initWithLocation:CBLocationDefault delegate:self];
     self.banner = [[CHBBanner alloc] initWithSize:CHBBannerSizeStandard location:CBLocationDefault delegate:self];
+    [self log:self.logBeforeViewDidLoad];
 }
 
 - (IBAction)cacheInterstitial:(id)sender {
@@ -73,7 +75,11 @@
 - (void)log:(NSString *)message
 {
     NSLog(@"%@", message);
-    self.textView.text = [NSString stringWithFormat:@"%@\n%@", self.textView.text, message];
+    if (self.textView) {
+        self.textView.text = [NSString stringWithFormat:@"%@\n%@", self.textView.text, message];
+    } else {
+        self.logBeforeViewDidLoad = message;
+    }
 }
 
 // MARK: - CHBAdDelegate
