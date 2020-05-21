@@ -30,11 +30,11 @@
 }
 
 - (IBAction)cacheInterstitial:(id)sender {
-    // If the interstitial is not cached didShowAd:error: will be called with an error.
     [self.interstitial cache];
 }
 
 - (IBAction)showInterstitial:(id)sender {
+    // If the interstitial is not cached didShowAd:error: will be called with an error.
     [self.interstitial showFromViewController:self];
 }
 
@@ -43,11 +43,11 @@
 }
 
 - (IBAction)showRewarded:(id)sender {
-    // We can let showFromViewController: fail for not-cached ads as we do in cacheInterstitial:, or preemtively check against the isCached property before calling it:
+    // We can let showFromViewController: fail for not-cached ads as we do in showInterstitial:, or preemtively check against the isCached property before calling it:
     if (self.rewarded.isCached) {
         [self.rewarded showFromViewController:self];
     } else {
-        [self log:@"Cache a rewarded ad before showing it"];
+        [self log:@"Tried to show a rewarded ad before it is cached"];
     }
 }
 

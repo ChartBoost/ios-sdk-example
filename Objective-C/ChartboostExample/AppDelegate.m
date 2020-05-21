@@ -17,9 +17,11 @@
   
     [Chartboost setPIDataUseConsent:YesBehavioral];
     [Chartboost setLoggingLevel:CBLoggingLevelInfo];
-    // Begin a user session. Must not be dependent on user actions or any prior network requests.
-    [Chartboost startWithAppId:@"4f21c409cd1cb2fb7000001b" appSignature:@"92e2de2fd7070327bdeb54c15a5295309c6fcd2d" completion:^(BOOL success) {
-        [((ViewController *)self.window.rootViewController) log:success ? @"Chartboost initialized successfully!" : @"Chartboost failed to initialize."];
+    [Chartboost startWithAppId:@"4f21c409cd1cb2fb7000001b"
+                  appSignature:@"92e2de2fd7070327bdeb54c15a5295309c6fcd2d"
+                    completion:^(BOOL success) {
+        ViewController *vc = (ViewController *)self.window.rootViewController;
+        [vc log:success ? @"Chartboost initialized successfully!" : @"Chartboost failed to initialize."];
     }];
 
     return YES;
