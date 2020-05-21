@@ -8,8 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		03A8BB6A1D3D8CA20014B7A5 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A8BB691D3D8CA20014B7A5 /* Chartboost.framework */; };
+		0708DCD62507507E5C4A1C4E /* Pods_ChartboostExample_Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DDB3CEF20B1080F7794556 /* Pods_ChartboostExample_Pods.framework */; };
 		11D6027A1EC13FDB0075AF5E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D602791EC13FDB0075AF5E /* WebKit.framework */; };
 		11E67ECC203778E8004291DF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E67ECB203778E8004291DF /* Launch Screen.storyboard */; };
+		33790B18247682F5007502D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6C9182B31BC00C21472 /* ViewController.m */; };
+		33790B19247682F5007502D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6C0182B31BC00C21472 /* AppDelegate.m */; };
+		33790B1A247682F5007502D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6BC182B31BC00C21472 /* main.m */; };
+		33790B1C247682F5007502D3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D602791EC13FDB0075AF5E /* WebKit.framework */; };
+		33790B1D247682F5007502D3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA93B6F2182B33FD00C21472 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		33790B21247682F5007502D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6CB182B31BC00C21472 /* Images.xcassets */; };
+		33790B22247682F5007502D3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E67ECB203778E8004291DF /* Launch Screen.storyboard */; };
+		33790B23247682F5007502D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6B9182B31BC00C21472 /* InfoPlist.strings */; };
+		33790B24247682F5007502D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6C2182B31BC00C21472 /* Main.storyboard */; };
 		DA93B6BB182B31BC00C21472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6B9182B31BC00C21472 /* InfoPlist.strings */; };
 		DA93B6BD182B31BC00C21472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6BC182B31BC00C21472 /* main.m */; };
 		DA93B6C1182B31BC00C21472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6C0182B31BC00C21472 /* AppDelegate.m */; };
@@ -23,6 +33,10 @@
 		03A8BB691D3D8CA20014B7A5 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = ../Chartboost.framework; sourceTree = "<group>"; };
 		11D602791EC13FDB0075AF5E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		11E67ECB203778E8004291DF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		33790B28247682F5007502D3 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33790B29247682F5007502D3 /* ChartboostExample-Pods-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChartboostExample-Pods-Info.plist"; path = "/Users/Dani/ios-sdk-example/Objective-C/ChartboostExample-Pods-Info.plist"; sourceTree = "<absolute>"; };
+		72DDB3CEF20B1080F7794556 /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDE8983C85C358EF6DE6BCF /* Pods-ChartboostExample-Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.debug.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DA93B6AD182B31BC00C21472 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA93B6B8182B31BC00C21472 /* ChartboostExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChartboostExample-Info.plist"; sourceTree = "<group>"; };
 		DA93B6BA182B31BC00C21472 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -34,9 +48,20 @@
 		DA93B6C9182B31BC00C21472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA93B6CB182B31BC00C21472 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DA93B6F2182B33FD00C21472 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DF956CB46F9DFFA4DFA14EBF /* Pods-ChartboostExample-Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.release.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		33790B1B247682F5007502D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33790B1C247682F5007502D3 /* WebKit.framework in Frameworks */,
+				33790B1D247682F5007502D3 /* StoreKit.framework in Frameworks */,
+				0708DCD62507507E5C4A1C4E /* Pods_ChartboostExample_Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA93B6AA182B31BC00C21472 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,12 +75,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFC2DA014ADE0FA1979F306D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CDE8983C85C358EF6DE6BCF /* Pods-ChartboostExample-Pods.debug.xcconfig */,
+				DF956CB46F9DFFA4DFA14EBF /* Pods-ChartboostExample-Pods.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DA93B6A4182B31BC00C21472 = {
 			isa = PBXGroup;
 			children = (
 				DA93B6B6182B31BC00C21472 /* ChartboostExample */,
 				DA93B6AF182B31BC00C21472 /* Frameworks */,
 				DA93B6AE182B31BC00C21472 /* Products */,
+				BFC2DA014ADE0FA1979F306D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				DA93B6AD182B31BC00C21472 /* Chartboost.app */,
+				33790B28247682F5007502D3 /* Chartboost.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +109,7 @@
 				03A8BB691D3D8CA20014B7A5 /* Chartboost.framework */,
 				DA93B6F2182B33FD00C21472 /* StoreKit.framework */,
 				11D602791EC13FDB0075AF5E /* WebKit.framework */,
+				72DDB3CEF20B1080F7794556 /* Pods_ChartboostExample_Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				DA93B6B8182B31BC00C21472 /* ChartboostExample-Info.plist */,
+				33790B29247682F5007502D3 /* ChartboostExample-Pods-Info.plist */,
 				DA93B6B9182B31BC00C21472 /* InfoPlist.strings */,
 				DA93B6BC182B31BC00C21472 /* main.m */,
 				DA93B6CB182B31BC00C21472 /* Images.xcassets */,
@@ -105,6 +143,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		33790B15247682F5007502D3 /* ChartboostExample-Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33790B25247682F5007502D3 /* Build configuration list for PBXNativeTarget "ChartboostExample-Pods" */;
+			buildPhases = (
+				33790B16247682F5007502D3 /* [CP] Check Pods Manifest.lock */,
+				33790B17247682F5007502D3 /* Sources */,
+				33790B1B247682F5007502D3 /* Frameworks */,
+				33790B20247682F5007502D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChartboostExample-Pods";
+			productName = ChartboostExampleApp;
+			productReference = 33790B28247682F5007502D3 /* Chartboost.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DA93B6AC182B31BC00C21472 /* ChartboostExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA93B6E2182B31BC00C21472 /* Build configuration list for PBXNativeTarget "ChartboostExample" */;
@@ -131,6 +187,10 @@
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = chartboost;
 				TargetAttributes = {
+					33790B15247682F5007502D3 = {
+						DevelopmentTeam = F38H382JLK;
+						ProvisioningStyle = Automatic;
+					};
 					DA93B6AC182B31BC00C21472 = {
 						DevelopmentTeam = F38H382JLK;
 						ProvisioningStyle = Automatic;
@@ -151,11 +211,23 @@
 			projectRoot = "";
 			targets = (
 				DA93B6AC182B31BC00C21472 /* ChartboostExample */,
+				33790B15247682F5007502D3 /* ChartboostExample-Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		33790B20247682F5007502D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33790B21247682F5007502D3 /* Images.xcassets in Resources */,
+				33790B22247682F5007502D3 /* Launch Screen.storyboard in Resources */,
+				33790B23247682F5007502D3 /* InfoPlist.strings in Resources */,
+				33790B24247682F5007502D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA93B6AB182B31BC00C21472 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,7 +241,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33790B16247682F5007502D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChartboostExample-Pods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		33790B17247682F5007502D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33790B18247682F5007502D3 /* ViewController.m in Sources */,
+				33790B19247682F5007502D3 /* AppDelegate.m in Sources */,
+				33790B1A247682F5007502D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA93B6A9182B31BC00C21472 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,6 +309,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		33790B26247682F5007502D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDE8983C85C358EF6DE6BCF /* Pods-ChartboostExample-Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F38H382JLK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "ChartboostExample-Pods-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleObjC;
+				PRODUCT_NAME = Chartboost;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33790B27247682F5007502D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF956CB46F9DFFA4DFA14EBF /* Pods-ChartboostExample-Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F38H382JLK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "ChartboostExample-Pods-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleObjC;
+				PRODUCT_NAME = Chartboost;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		DA93B6E0182B31BC00C21472 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -360,6 +523,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		33790B25247682F5007502D3 /* Build configuration list for PBXNativeTarget "ChartboostExample-Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33790B26247682F5007502D3 /* Debug */,
+				33790B27247682F5007502D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DA93B6A8182B31BC00C21472 /* Build configuration list for PBXProject "ChartboostExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
