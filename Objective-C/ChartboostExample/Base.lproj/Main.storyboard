@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_0" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,25 +16,32 @@
                         <viewControllerLayoutGuide type="bottom" id="vIJ-D3-7Wo"/>
                     </layoutGuides>
                     <view key="view" autoresizesSubviews="NO" opaque="NO" contentMode="scaleAspectFit" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Uwc-9C-GZo">
-                                <rect key="frame" x="20" y="40" width="280" height="528"/>
+                                <rect key="frame" x="20" y="20" width="335" height="647"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chartboost-LogoH1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rqc-A0-7FO">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="60"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chartboost-LogoH1" translatesAutoresizingMaskIntoConstraints="NO" id="rqc-A0-7FO">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="n56-9Z-tgW"/>
                                         </constraints>
                                     </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Nz-SE-ZUy">
+                                        <rect key="frame" x="0.0" y="70" width="335" height="1"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="7h9-Er-m2U"/>
+                                        </constraints>
+                                    </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ouF-Nd-yie">
-                                        <rect key="frame" x="0.0" y="70" width="280" height="60"/>
+                                        <rect key="frame" x="0.0" y="81" width="335" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVt-3P-4OP">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="60"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                <state key="normal" title="Cache Interstitial" backgroundImage="Demo-Button.png">
+                                                <state key="normal" title="Cache Interstitial" backgroundImage="Demo-Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -45,9 +50,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPB-VW-3lG">
-                                                <rect key="frame" x="145" y="0.0" width="135" height="60"/>
+                                                <rect key="frame" x="172.5" y="0.0" width="162.5" height="60"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                <state key="normal" title="Show Interstitial" backgroundImage="Demo-Button.png">
+                                                <state key="normal" title="Show Interstitial" backgroundImage="Demo-Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -62,12 +67,12 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2nA-AQ-cyg">
-                                        <rect key="frame" x="0.0" y="140" width="280" height="60"/>
+                                        <rect key="frame" x="0.0" y="151" width="335" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNw-eW-ZXQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="60"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                <state key="normal" title="Cache Rewarded" backgroundImage="Demo-Button.png">
+                                                <state key="normal" title="Cache Rewarded" backgroundImage="Demo-Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -76,9 +81,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ro-rs-utC">
-                                                <rect key="frame" x="145" y="0.0" width="135" height="60"/>
+                                                <rect key="frame" x="172.5" y="0.0" width="162.5" height="60"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                <state key="normal" title="Show Rewarded" backgroundImage="Demo-Button.png">
+                                                <state key="normal" title="Show Rewarded" backgroundImage="Demo-Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -93,12 +98,12 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="I7X-pc-4dz">
-                                        <rect key="frame" x="0.0" y="210" width="280" height="60"/>
+                                        <rect key="frame" x="0.0" y="221" width="335" height="60"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6G-5U-jIQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="60"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                <state key="normal" title="Show Banner" backgroundImage="Demo-Button.png">
+                                                <state key="normal" title="Show Banner" backgroundImage="Demo-Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -107,9 +112,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJp-bs-CyY">
-                                                <rect key="frame" x="145" y="0.0" width="135" height="60"/>
+                                                <rect key="frame" x="172.5" y="0.0" width="162.5" height="60"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                <state key="normal" title="Support" backgroundImage="Demo-Button.png">
+                                                <state key="normal" title="Support" backgroundImage="Demo-Button">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -120,7 +125,7 @@
                                         </subviews>
                                     </stackView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNl-TK-1A4">
-                                        <rect key="frame" x="0.0" y="280" width="280" height="248"/>
+                                        <rect key="frame" x="0.0" y="291" width="335" height="356"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -149,7 +154,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Chartboost-LogoH1.png" width="960" height="150"/>
-        <image name="Demo-Button.png" width="229" height="73"/>
+        <image name="Chartboost-LogoH1" width="480" height="75"/>
+        <image name="Demo-Button" width="114.5" height="36.5"/>
     </resources>
 </document>
