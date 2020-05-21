@@ -1,6 +1,6 @@
 /*
  * ViewController.h
- * ChartboostExampleApp
+ * ChartboostExample
  *
  * Copyright (c) 2013 Chartboost. All rights reserved.
  */
