@@ -136,7 +136,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="vIJ-D3-7Wo" firstAttribute="top" secondItem="Uwc-9C-GZo" secondAttribute="bottom" id="L1n-ux-1wT"/>
                             <constraint firstItem="Uwc-9C-GZo" firstAttribute="top" secondItem="84t-Bg-V6Z" secondAttribute="bottom" constant="20" id="a5c-r5-yqf"/>
