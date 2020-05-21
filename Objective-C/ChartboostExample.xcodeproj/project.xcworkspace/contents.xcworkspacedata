@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ChartboostExampleApp.xcodeproj">
+      location = "self:/Users/Dani/ios-sdk-example/Objective-C/ChartboostExample.xcodeproj">
    </FileRef>
 </Workspace>
