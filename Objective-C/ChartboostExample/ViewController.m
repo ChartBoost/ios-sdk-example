@@ -7,10 +7,6 @@
 
 #import "ViewController.h"
 #import <Chartboost/Chartboost.h>
-#import <Chartboost/CBAnalytics.h>
-#import <Chartboost/CHBInterstitial.h>
-#import <Chartboost/CHBRewarded.h>
-#import <Chartboost/CHBBanner.h>
 
 @interface ViewController () <CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
