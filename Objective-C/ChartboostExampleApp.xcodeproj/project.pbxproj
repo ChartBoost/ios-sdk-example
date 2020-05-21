@@ -7,14 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03098A892099075F00AA27CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03098A882099075F00AA27CA /* AVFoundation.framework */; };
 		03A8BB6A1D3D8CA20014B7A5 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A8BB691D3D8CA20014B7A5 /* Chartboost.framework */; };
 		11D6027A1EC13FDB0075AF5E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D602791EC13FDB0075AF5E /* WebKit.framework */; };
 		11E67ECC203778E8004291DF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E67ECB203778E8004291DF /* Launch Screen.storyboard */; };
-		B57E85E51A1FD5C400E6D9AD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57E85E41A1FD5C400E6D9AD /* AdSupport.framework */; };
-		DA93B6B1182B31BC00C21472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA93B6B0182B31BC00C21472 /* Foundation.framework */; };
-		DA93B6B3182B31BC00C21472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA93B6B2182B31BC00C21472 /* CoreGraphics.framework */; };
-		DA93B6B5182B31BC00C21472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA93B6B4182B31BC00C21472 /* UIKit.framework */; };
 		DA93B6BB182B31BC00C21472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6B9182B31BC00C21472 /* InfoPlist.strings */; };
 		DA93B6BD182B31BC00C21472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6BC182B31BC00C21472 /* main.m */; };
 		DA93B6C1182B31BC00C21472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6C0182B31BC00C21472 /* AppDelegate.m */; };
@@ -25,16 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03098A882099075F00AA27CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		03A8BB691D3D8CA20014B7A5 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = ../Chartboost.framework; sourceTree = "<group>"; };
-		11768D631D7F9DE200241EE4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		11D602791EC13FDB0075AF5E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		11E67ECB203778E8004291DF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		B57E85E41A1FD5C400E6D9AD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		DA93B6AD182B31BC00C21472 /* ChartboostExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartboostExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA93B6B0182B31BC00C21472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DA93B6B2182B31BC00C21472 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DA93B6B4182B31BC00C21472 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA93B6AD182B31BC00C21472 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA93B6B8182B31BC00C21472 /* ChartboostExampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChartboostExampleApp-Info.plist"; sourceTree = "<group>"; };
 		DA93B6BA182B31BC00C21472 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA93B6BC182B31BC00C21472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,14 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03098A892099075F00AA27CA /* AVFoundation.framework in Frameworks */,
 				11D6027A1EC13FDB0075AF5E /* WebKit.framework in Frameworks */,
-				B57E85E51A1FD5C400E6D9AD /* AdSupport.framework in Frameworks */,
 				DA93B6F3182B33FD00C21472 /* StoreKit.framework in Frameworks */,
-				DA93B6B3182B31BC00C21472 /* CoreGraphics.framework in Frameworks */,
 				03A8BB6A1D3D8CA20014B7A5 /* Chartboost.framework in Frameworks */,
-				DA93B6B5182B31BC00C21472 /* UIKit.framework in Frameworks */,
-				DA93B6B1182B31BC00C21472 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +62,7 @@
 		DA93B6AE182B31BC00C21472 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA93B6AD182B31BC00C21472 /* ChartboostExampleApp.app */,
+				DA93B6AD182B31BC00C21472 /* Chartboost.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,15 +70,9 @@
 		DA93B6AF182B31BC00C21472 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03098A882099075F00AA27CA /* AVFoundation.framework */,
-				11D602791EC13FDB0075AF5E /* WebKit.framework */,
-				11768D631D7F9DE200241EE4 /* SystemConfiguration.framework */,
 				03A8BB691D3D8CA20014B7A5 /* Chartboost.framework */,
-				B57E85E41A1FD5C400E6D9AD /* AdSupport.framework */,
 				DA93B6F2182B33FD00C21472 /* StoreKit.framework */,
-				DA93B6B0182B31BC00C21472 /* Foundation.framework */,
-				DA93B6B2182B31BC00C21472 /* CoreGraphics.framework */,
-				DA93B6B4182B31BC00C21472 /* UIKit.framework */,
+				11D602791EC13FDB0075AF5E /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,6 +80,7 @@
 		DA93B6B6182B31BC00C21472 /* ChartboostExampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				11E67ECB203778E8004291DF /* Launch Screen.storyboard */,
 				DA93B6C2182B31BC00C21472 /* Main.storyboard */,
 				DA93B6BF182B31BC00C21472 /* AppDelegate.h */,
 				DA93B6C0182B31BC00C21472 /* AppDelegate.m */,
@@ -109,7 +88,6 @@
 				DA93B6C9182B31BC00C21472 /* ViewController.m */,
 				DA93B6CB182B31BC00C21472 /* Images.xcassets */,
 				DA93B6B7182B31BC00C21472 /* Supporting Files */,
-				11E67ECB203778E8004291DF /* Launch Screen.storyboard */,
 			);
 			path = ChartboostExampleApp;
 			sourceTree = "<group>";
@@ -141,7 +119,7 @@
 			);
 			name = ChartboostExampleApp;
 			productName = ChartboostExampleApp;
-			productReference = DA93B6AD182B31BC00C21472 /* ChartboostExampleApp.app */;
+			productReference = DA93B6AD182B31BC00C21472 /* Chartboost.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -318,9 +296,7 @@
 				DEVELOPMENT_TEAM = F38H382JLK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../\"",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ChartboostExampleApp",
+					"$(PROJECT_DIR)/..",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
@@ -328,8 +304,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.CB.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ObjCExample;
+				PRODUCT_NAME = Chartboost;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,9 +323,7 @@
 				DEVELOPMENT_TEAM = F38H382JLK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../\"",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ChartboostExampleApp",
+					"$(PROJECT_DIR)/..",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
@@ -357,8 +331,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.CB.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ObjCExample;
+				PRODUCT_NAME = Chartboost;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
