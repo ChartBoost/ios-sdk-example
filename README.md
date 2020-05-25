@@ -37,7 +37,7 @@ provides the functionality for showing interstitial, rewarded and banner ads.
 ```
 
  **Please note:**
- - `startWithAppId:appSignature:completion:` must always be called on bootups, no matter what other actions your app takes.
+ - `startWithAppId:appSignature:completion:` must always be called on bootup, no matter what other actions your app takes.
 
 7. Add your app ID and app signature.
     - Replace `YOUR_CHARTBOOST_APP_ID` and `YOUR_CHARTBOOST_APP_SIGNATURE` with your app ID and app signature.
