@@ -82,7 +82,7 @@
     }
 }
 
-// MARK: - CHBAdDelegate
+// MARK: - Ad Delegate (Interstitial, Rewarded & Banner)
 
 - (void)didCacheAd:(CHBCacheEvent *)event error:(nullable CHBCacheError *)error {
     [self log:[NSString stringWithFormat:@"didCacheAd: %@ %@", [event.ad class], [self statusWithError:error]]];
@@ -114,13 +114,13 @@
     return error ? [NSString stringWithFormat:@"FAILED (%@)", error] : @"SUCCESS";
 }
 
-// MARK: - CHBInterstitialDelegate
+// MARK: - Ad Delegate (Interstitial & Rewarded)
 
 - (void)didDismissAd:(CHBDismissEvent *)event {
     [self log:[NSString stringWithFormat:@"didDismissAd: %@", [event.ad class]]];
 }
 
-// MARK: - CHBRewardedDelegate
+// MARK: - Ad Delegate (Rewarded)
 
 - (void)didEarnReward:(CHBRewardEvent *)event {
     [self log:[NSString stringWithFormat:@"didEarnReward: %ld", (long)event.reward]];
