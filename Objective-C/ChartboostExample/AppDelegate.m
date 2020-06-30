@@ -15,8 +15,11 @@
 {
     NSLog(@"Chartboost SDK Version %@", [Chartboost getSDKVersion]);
   
-    [Chartboost setPIDataUseConsent:YesBehavioral];
+    [Chartboost addDataUseConsent:[CHBGDPRDataUseConsent gdprConsent:CHBGDPRConsentBehavioral]];
+    [Chartboost addDataUseConsent:[CHBCCPADataUseConsent ccpaConsent:CHBCCPAConsentOptInSale]];
+    
     [Chartboost setLoggingLevel:CBLoggingLevelInfo];
+    
     [Chartboost startWithAppId:@"4f21c409cd1cb2fb7000001b"
                   appSignature:@"92e2de2fd7070327bdeb54c15a5295309c6fcd2d"
                     completion:^(BOOL success) {

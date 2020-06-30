@@ -1,6 +1,6 @@
 # Chartboost SDK for iOS
 
-*Version 8.1.0*
+*Version 8.2.0*
 
 The Chartboost iOS SDK is the cornerstone of the Chartboost network. It
 provides the functionality for showing interstitial, rewarded and banner ads.
