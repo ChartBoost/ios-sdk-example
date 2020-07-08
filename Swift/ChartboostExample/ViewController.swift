@@ -8,12 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate {
+
+    private var interstitial: CHBInterstitial?
+    private var rewarded: CHBRewarded?
+    private var banner: CHBBanner?
+
+    @IBOutlet weak var textView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        interstitial = CHBInterstitial(location: CBLocationDefault, delegate: self)
+        rewarded = CHBRewarded(location: CBLocationDefault, delegate: self)
+        banner = CHBBanner(size: CHBBannerSizeStandard, location: CBLocationDefault, delegate: self)
     }
+
+    private func log(message: String) {
+        self.textView.text = self.textView.text + "\n" + message
+    }
+
 
     @IBAction func cacheInterstitial(_ sender: Any) {
     }

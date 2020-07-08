@@ -142,6 +142,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WeC-J3-CLD"/>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="VDw-7x-1XP" id="dg9-Oj-Gdj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G0G-hn-vxu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
