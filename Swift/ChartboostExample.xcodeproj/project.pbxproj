@@ -9,19 +9,18 @@
 /* Begin PBXBuildFile section */
 		D51A147324B5DCEC00F2F6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */; };
 		D51A147724B5DCEC00F2F6B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147624B5DCEC00F2F6B4 /* ViewController.swift */; };
-		D51A147A24B5DCEC00F2F6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147824B5DCEC00F2F6B4 /* Main.storyboard */; };
 		D51A147C24B5DCED00F2F6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */; };
 		D51A147F24B5DCED00F2F6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */; };
 		D51A148824B5DF7000F2F6B4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148724B5DF7000F2F6B4 /* StoreKit.framework */; };
 		D51A148A24B5DF7A00F2F6B4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148924B5DF7A00F2F6B4 /* WebKit.framework */; };
 		D51A148C24B5DFE800F2F6B4 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148B24B5DFE800F2F6B4 /* Chartboost.framework */; };
+		D51A149324B5FF0000F2F6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D51A146F24B5DCEC00F2F6B4 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D51A147624B5DCEC00F2F6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D51A147924B5DCEC00F2F6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D51A147E24B5DCED00F2F6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D51A148024B5DCED00F2F6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,6 +28,7 @@
 		D51A148924B5DF7A00F2F6B4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D51A148B24B5DFE800F2F6B4 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = ../Chartboost.framework; sourceTree = "<group>"; };
 		D51A148F24B5E0D000F2F6B4 /* ChartboostExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChartboostExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		D51A149224B5FF0000F2F6B4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +67,11 @@
 			children = (
 				D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */,
 				D51A147624B5DCEC00F2F6B4 /* ViewController.swift */,
-				D51A147824B5DCEC00F2F6B4 /* Main.storyboard */,
 				D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */,
 				D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */,
 				D51A148024B5DCED00F2F6B4 /* Info.plist */,
 				D51A148F24B5E0D000F2F6B4 /* ChartboostExample-Bridging-Header.h */,
+				D51A149224B5FF0000F2F6B4 /* Main.storyboard */,
 			);
 			path = ChartboostExample;
 			sourceTree = "<group>";
@@ -145,9 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51A149324B5FF0000F2F6B4 /* Main.storyboard in Resources */,
 				D51A147F24B5DCED00F2F6B4 /* LaunchScreen.storyboard in Resources */,
 				D51A147C24B5DCED00F2F6B4 /* Assets.xcassets in Resources */,
-				D51A147A24B5DCEC00F2F6B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,14 +166,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D51A147824B5DCEC00F2F6B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D51A147924B5DCEC00F2F6B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,6 +300,7 @@
 				DEVELOPMENT_TEAM = 38H6Z8EN2F;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
 				INFOPLIST_FILE = ChartboostExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +323,7 @@
 				DEVELOPMENT_TEAM = 38H6Z8EN2F;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
 				INFOPLIST_FILE = ChartboostExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
