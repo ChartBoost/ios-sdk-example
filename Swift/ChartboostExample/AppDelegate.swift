@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         Chartboost.start(withAppId: "4f21c409cd1cb2fb7000001b",
                          appSignature: "92e2de2fd7070327bdeb54c15a5295309c6fcd2d") { (success) in
+                            let vc = self.window?.rootViewController as? ViewController
+                            vc?.log(message: success ? "Chartboost initialized successfully!" : "Chartboost failed to initialize.")
         }
         return true
     }
