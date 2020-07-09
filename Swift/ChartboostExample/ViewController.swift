@@ -10,50 +10,47 @@ import UIKit
 
 class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate {
 
-    private var interstitial: CHBInterstitial?
-    private var rewarded: CHBRewarded?
-    private var banner: CHBBanner?
+    private lazy var interstitial = CHBInterstitial(location: CBLocationDefault, delegate: self)
+    private lazy var rewarded = CHBRewarded(location: CBLocationDefault, delegate: self)
+    private lazy var banner = CHBBanner(size: CHBBannerSizeStandard, location: CBLocationDefault, delegate: self)
     private var logBeforeViewDidLoad = String()
 
     @IBOutlet weak var textView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        interstitial = CHBInterstitial(location: CBLocationDefault, delegate: self)
-        rewarded = CHBRewarded(location: CBLocationDefault, delegate: self)
-        banner = CHBBanner(size: CHBBannerSizeStandard, location: CBLocationDefault, delegate: self)
         log(message: logBeforeViewDidLoad)
     }
 
     //MARK: - IBActions
 
     @IBAction func cacheInterstitial(_ sender: Any) {
-        interstitial?.cache()
+        interstitial.cache()
     }
 
     @IBAction func showInterstitial(_ sender: Any) {
         // If the interstitial is not cached didShowAd:error: will be called with an error.
-        interstitial?.show(from: self)
+        interstitial.show(from: self)
     }
 
     @IBAction func cacheRewarded(_ sender: Any) {
-        rewarded?.cache()
+        rewarded.cache()
     }
 
     @IBAction func showRewarded(_ sender: Any) {
         // We can let showFromViewController: fail for not-cached ads as we do in showInterstitial:, or preemtively check against the isCached property before calling it:
-        if rewarded?.isCached == true {
-            rewarded?.show(from: self)
+        if rewarded.isCached == true {
+            rewarded.show(from: self)
         } else {
             self.log(message: "Tried to show rewarded ad before it is cached")
         }
     }
 
     @IBAction func showBanner(_ sender: Any) {
-        if banner?.superview == nil {
+        if banner.superview == nil {
             layoutBanner()
         }
-        banner?.show(from: self)
+        banner.show(from: self)
     }
 
     @IBAction func showSupport(_ sender: Any) {
@@ -77,7 +74,6 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     }
 
     private func layoutBanner() {
-        guard let banner = banner else { return }
         self.view.addSubview(banner)
 
         banner.translatesAutoresizingMaskIntoConstraints = false
@@ -96,15 +92,17 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
         ])
     }
 
-    private func statusWithError(_ error: Any?) -> String? {
-        return error != nil ? "FAILED (\(String(describing: error)))" : "SUCCESS"
+    private func statusWithError(_ error: Any?) -> String {
+        if let error = error {
+            return "FAILED (\(error))"
+        }
+        return "SUCCESS"
     }
 
     // MARK: - Ad Delegate (Interstitial, Rewarded & Banner)
 
     func didCacheAd(_ event: CHBCacheEvent, error: CHBCacheError?) {
-        let stringError = statusWithError(error) ?? ""
-        log(message: "didCacheAd: \(type(of: event.ad)) \(stringError)")
+        log(message: "didCacheAd: \(type(of: event.ad)) \(statusWithError(error))")
     }
 
     func willShowAd(_ event: CHBShowEvent) {
@@ -112,8 +110,7 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     }
 
     func didShowAd(_ event: CHBShowEvent, error: CHBShowError?) {
-        let stringError = statusWithError(error) ?? ""
-        log(message: "didShowAd: \(type(of: event.ad)) \(stringError)")
+        log(message: "didShowAd: \(type(of: event.ad)) \(statusWithError(error))")
     }
 
     func shouldConfirmClick(_ event: CHBClickEvent, confirmationHandler: @escaping (Bool) -> Void) -> Bool {
@@ -122,13 +119,11 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     }
 
     func didClickAd(_ event: CHBClickEvent, error: CHBClickError?) {
-        let stringError = statusWithError(error) ?? ""
-        log(message: "didClickAd: \(type(of: event.ad)) \(stringError)")
+        log(message: "didClickAd: \(type(of: event.ad)) \(statusWithError(error))")
     }
 
     func didFinishHandlingClick(_ event: CHBClickEvent, error: CHBClickError?) {
-        let stringError = statusWithError(error) ?? ""
-        log(message: "didFinishHandlingClick: \(type(of: event.ad)) \(stringError)")
+        log(message: "didFinishHandlingClick: \(type(of: event.ad)) \(statusWithError(error))")
     }
 
     // MARK: - Ad Delegate (Interstitial & Rewarded)
