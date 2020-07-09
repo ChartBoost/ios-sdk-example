@@ -113,7 +113,7 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
 
     func didShowAd(_ event: CHBShowEvent, error: CHBShowError?) {
         let stringError = statusWithError(error) ?? ""
-        log(message: "didShowAd: \(type(of: event.ad)) \(stringError))")
+        log(message: "didShowAd: \(type(of: event.ad)) \(stringError)")
     }
 
     func shouldConfirmClick(_ event: CHBClickEvent, confirmationHandler: @escaping (Bool) -> Void) -> Bool {
