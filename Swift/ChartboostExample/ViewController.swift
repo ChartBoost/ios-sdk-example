@@ -103,7 +103,8 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     // MARK: - Ad Delegate (Interstitial, Rewarded & Banner)
 
     func didCacheAd(_ event: CHBCacheEvent, error: CHBCacheError?) {
-        log(message: "didCacheAd: \(type(of: event.ad)) \(String(describing: statusWithError(error)))")
+        let stringError = statusWithError(error) ?? ""
+        log(message: "didCacheAd: \(type(of: event.ad)) \(stringError)")
     }
 
     func willShowAd(_ event: CHBShowEvent) {
@@ -111,7 +112,8 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     }
 
     func didShowAd(_ event: CHBShowEvent, error: CHBShowError?) {
-        log(message: "didShowAd: \(type(of: event.ad)) \(String(describing: statusWithError(error)))")
+        let stringError = statusWithError(error) ?? ""
+        log(message: "didShowAd: \(type(of: event.ad)) \(stringError))")
     }
 
     func shouldConfirmClick(_ event: CHBClickEvent, confirmationHandler: @escaping (Bool) -> Void) -> Bool {
@@ -120,11 +122,13 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     }
 
     func didClickAd(_ event: CHBClickEvent, error: CHBClickError?) {
-        log(message: "didClickAd: \(type(of: event.ad)) \(String(describing: statusWithError(error)))")
+        let stringError = statusWithError(error) ?? ""
+        log(message: "didClickAd: \(type(of: event.ad)) \(stringError)")
     }
 
     func didFinishHandlingClick(_ event: CHBClickEvent, error: CHBClickError?) {
-        log(message: "didFinishHandlingClick: \(type(of: event.ad)) \(String(describing: statusWithError(error)))")
+        let stringError = statusWithError(error) ?? ""
+        log(message: "didFinishHandlingClick: \(type(of: event.ad)) \(stringError)")
     }
 
     // MARK: - Ad Delegate (Interstitial & Rewarded)
