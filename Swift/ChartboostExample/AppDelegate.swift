@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        print("Chartboost SDK Version ", Chartboost.getSDKVersion() ?? "Error")
+        print("Chartboost SDK Version ", Chartboost.getSDKVersion() ?? "N/A")
 
         Chartboost.addDataUseConsent(.CCPA(.optInSale))
         Chartboost.addDataUseConsent(.GDPR(.behavioral))
