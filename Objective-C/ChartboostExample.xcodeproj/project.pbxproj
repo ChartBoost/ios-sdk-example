@@ -34,7 +34,6 @@
 		11D602791EC13FDB0075AF5E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		11E67ECB203778E8004291DF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		33790B28247682F5007502D3 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33790B29247682F5007502D3 /* ChartboostExample-Pods-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChartboostExample-Pods-Info.plist"; path = "/Users/Dani/ios-sdk-example/Objective-C/ChartboostExample-Pods-Info.plist"; sourceTree = "<absolute>"; };
 		72DDB3CEF20B1080F7794556 /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CDE8983C85C358EF6DE6BCF /* Pods-ChartboostExample-Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.debug.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DA93B6AD182B31BC00C21472 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				DA93B6B8182B31BC00C21472 /* ChartboostExample-Info.plist */,
-				33790B29247682F5007502D3 /* ChartboostExample-Pods-Info.plist */,
 				DA93B6B9182B31BC00C21472 /* InfoPlist.strings */,
 				DA93B6BC182B31BC00C21472 /* main.m */,
 				DA93B6CB182B31BC00C21472 /* Images.xcassets */,
@@ -324,7 +322,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "ChartboostExample/ChartboostExample-Pods-Info.plist";
+				INFOPLIST_FILE = "ChartboostExample/ChartboostExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -352,7 +350,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "ChartboostExample/ChartboostExample-Pods-Info.plist";
+				INFOPLIST_FILE = "ChartboostExample/ChartboostExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
