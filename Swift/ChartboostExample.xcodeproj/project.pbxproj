@@ -30,7 +30,6 @@
 		3C74121A23869ECDFE056A35 /* Pods-ChartboostExample-Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.release.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.release.xcconfig"; sourceTree = "<group>"; };
 		62F672CEC8AE474CE80A0CCF /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50ADF0024B709A800452367 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D50ADF0124B709A800452367 /* ChartboostExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChartboostExample copy-Info.plist"; path = "/Users/ArnauMarti/Desktop/ios-sdk-example/Swift/ChartboostExample copy-Info.plist"; sourceTree = "<absolute>"; };
 		D51A146F24B5DCEC00F2F6B4 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D51A147624B5DCEC00F2F6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +75,6 @@
 				D51A147024B5DCEC00F2F6B4 /* Products */,
 				D51A148624B5DF7000F2F6B4 /* Frameworks */,
 				E3CF80C754565E1F5D1D10F5 /* Pods */,
-				D50ADF0124B709A800452367 /* ChartboostExample copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -287,7 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38H6Z8EN2F;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
-				INFOPLIST_FILE = "ChartboostExample copy-Info.plist";
+				INFOPLIST_FILE = ChartboostExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38H6Z8EN2F;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
-				INFOPLIST_FILE = "ChartboostExample copy-Info.plist";
+				INFOPLIST_FILE = ChartboostExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
