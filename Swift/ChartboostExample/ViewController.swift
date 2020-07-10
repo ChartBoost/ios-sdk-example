@@ -39,7 +39,7 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
 
     @IBAction func showRewarded(_ sender: Any) {
         // We can let showFromViewController: fail for not-cached ads as we do in showInterstitial:, or preemtively check against the isCached property before calling it:
-        if rewarded.isCached == true {
+        if rewarded.isCached {
             rewarded.show(from: self)
         } else {
             self.log(message: "Tried to show rewarded ad before it is cached")
