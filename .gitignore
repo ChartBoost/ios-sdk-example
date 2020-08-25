@@ -68,5 +68,5 @@ fastlane/test_output
 iOSInjectionProject/
 
 # Custom
-Chartboost.framework
+*.DS_Store
 */Pods
