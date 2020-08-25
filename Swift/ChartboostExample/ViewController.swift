@@ -7,6 +7,9 @@
 //
 
 import UIKit
+#if canImport(AppTrackingTransparency)
+import AppTrackingTransparency
+#endif
 
 class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate {
 
@@ -20,6 +23,11 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     override func viewDidLoad() {
         super.viewDidLoad()
         log(message: logBeforeViewDidLoad)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        requestPermission()
     }
 
     //MARK: - IBActions
@@ -63,6 +71,25 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     }
 
     //MARK: - Class Methods
+    
+    func requestPermission() {
+        if #available(iOS 14, *) {
+            ATTrackingManager.requestTrackingAuthorization { status in
+                switch status {
+                case .authorized:
+                    self.log(message: "Authorized")
+                case .denied:
+                    self.log(message: "Denied")
+                case .notDetermined:
+                    self.log(message: "Not Determined")
+                case .restricted:
+                    self.log(message: "Restricted")
+                @unknown default:
+                    self.log(message: "Unknown")
+                }
+            }
+        }
+    }
     
     func log(message: String) {
         print(message)
