@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import <Chartboost/Chartboost.h>
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
 
 @interface ViewController () <CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
@@ -25,6 +26,32 @@
     self.rewarded = [[CHBRewarded alloc] initWithLocation:CBLocationDefault delegate:self];
     self.banner = [[CHBBanner alloc] initWithSize:CHBBannerSizeStandard location:CBLocationDefault delegate:self];
     [self log:self.logBeforeViewDidLoad];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    if (@available(iOS 14, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                switch (status) {
+                    case ATTrackingManagerAuthorizationStatusAuthorized:
+                        [self log:@"Authorized"];
+                        break;
+                    case ATTrackingManagerAuthorizationStatusNotDetermined:
+                        [self log:@"Not Determined"];
+                        break;
+                    case ATTrackingManagerAuthorizationStatusDenied:
+                        [self log:@"Denied"];
+                        break;
+                    case ATTrackingManagerAuthorizationStatusRestricted:
+                        [self log:@"Restricted"];
+                        break;
+                    default:
+                        break;
+                }
+            });
+        }];
+    }
 }
 
 - (IBAction)cacheInterstitial:(id)sender {
