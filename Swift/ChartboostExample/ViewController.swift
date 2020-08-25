@@ -7,9 +7,7 @@
 //
 
 import UIKit
-#if canImport(AppTrackingTransparency)
 import AppTrackingTransparency
-#endif
 
 class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate {
 
