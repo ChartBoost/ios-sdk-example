@@ -72,18 +72,20 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     
     func requestPermission() {
         if #available(iOS 14, *) {
-            ATTrackingManager.requestTrackingAuthorization { status in
-                switch status {
-                case .authorized:
-                    self.log(message: "Authorized")
-                case .denied:
-                    self.log(message: "Denied")
-                case .notDetermined:
-                    self.log(message: "Not Determined")
-                case .restricted:
-                    self.log(message: "Restricted")
-                @unknown default:
-                    self.log(message: "Unknown")
+            DispatchQueue.main.async {
+                ATTrackingManager.requestTrackingAuthorization { status in
+                    switch status {
+                    case .authorized:
+                        self.log(message: "Authorized")
+                    case .denied:
+                        self.log(message: "Denied")
+                    case .notDetermined:
+                        self.log(message: "Not Determined")
+                    case .restricted:
+                        self.log(message: "Restricted")
+                    @unknown default:
+                        self.log(message: "Unknown")
+                    }
                 }
             }
         }
