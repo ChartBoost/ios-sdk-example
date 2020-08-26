@@ -30,28 +30,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    if (@available(iOS 14, *)) {
-        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                switch (status) {
-                    case ATTrackingManagerAuthorizationStatusAuthorized:
-                        [self log:@"Authorized"];
-                        break;
-                    case ATTrackingManagerAuthorizationStatusNotDetermined:
-                        [self log:@"Not Determined"];
-                        break;
-                    case ATTrackingManagerAuthorizationStatusDenied:
-                        [self log:@"Denied"];
-                        break;
-                    case ATTrackingManagerAuthorizationStatusRestricted:
-                        [self log:@"Restricted"];
-                        break;
-                    default:
-                        break;
-                }
-            });
-        }];
-    }
+    [self requestPermission];
 }
 
 - (IBAction)cacheInterstitial:(id)sender {
@@ -98,6 +77,32 @@
     [NSLayoutConstraint activateConstraints:@[[self.banner.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
                                               [self.banner.bottomAnchor constraintEqualToAnchor:bottomContainerAnchor]]];
 }
+
+- (void)requestPermission {
+    if (@available(iOS 14, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                switch (status) {
+                    case ATTrackingManagerAuthorizationStatusAuthorized:
+                        [self log:@"Authorized"];
+                        break;
+                    case ATTrackingManagerAuthorizationStatusNotDetermined:
+                        [self log:@"Not Determined"];
+                        break;
+                    case ATTrackingManagerAuthorizationStatusDenied:
+                        [self log:@"Denied"];
+                        break;
+                    case ATTrackingManagerAuthorizationStatusRestricted:
+                        [self log:@"Restricted"];
+                        break;
+                    default:
+                        break;
+                }
+            });
+        }];
+    }
+}
+
 
 - (void)log:(NSString *)message
 {
