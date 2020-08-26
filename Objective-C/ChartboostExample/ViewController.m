@@ -82,22 +82,7 @@
     if (@available(iOS 14, *)) {
         [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
             dispatch_async(dispatch_get_main_queue(), ^{
-                switch (status) {
-                    case ATTrackingManagerAuthorizationStatusAuthorized:
-                        [self log:@"Authorized"];
-                        break;
-                    case ATTrackingManagerAuthorizationStatusNotDetermined:
-                        [self log:@"Not Determined"];
-                        break;
-                    case ATTrackingManagerAuthorizationStatusDenied:
-                        [self log:@"Denied"];
-                        break;
-                    case ATTrackingManagerAuthorizationStatusRestricted:
-                        [self log:@"Restricted"];
-                        break;
-                    default:
-                        break;
-                }
+                [self log:[NSString stringWithFormat:@"Tracking authorization status: %lu", status]];
             });
         }];
     }
