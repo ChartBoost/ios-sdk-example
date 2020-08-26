@@ -30,6 +30,8 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    
+    //Showing an explanation on this permission to the user prior to making the request may lead to a better user experience and improved monetization for your app.
     [self requestPermission];
 }
 
