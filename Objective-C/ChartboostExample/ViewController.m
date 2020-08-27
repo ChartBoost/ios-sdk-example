@@ -32,7 +32,7 @@
     [super viewDidAppear:animated];
     
     //Showing an explanation on this permission to the user prior to making the request may lead to a better user experience and improved monetization for your app.
-    [self requestPermission];
+    [self requestTrackingAuthorization];
 }
 
 - (IBAction)cacheInterstitial:(id)sender {
@@ -80,7 +80,7 @@
                                               [self.banner.bottomAnchor constraintEqualToAnchor:bottomContainerAnchor]]];
 }
 
-- (void)requestPermission {
+- (void)requestTrackingAuthorization {
     if (@available(iOS 14, *)) {
         [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
             dispatch_async(dispatch_get_main_queue(), ^{

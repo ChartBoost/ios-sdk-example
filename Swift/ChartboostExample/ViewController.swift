@@ -26,7 +26,7 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         //Showing an explanation on this permission to the user prior to making the request may lead to a better user experience and improved monetization for your app.
-        requestPermission()
+        requestTrackingAuthorization()
     }
 
     //MARK: - IBActions
@@ -71,7 +71,7 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
 
     //MARK: - Class Methods
     
-    func requestPermission() {
+    func requestTrackingAuthorization() {
         if #available(iOS 14, *) {
             DispatchQueue.main.async {
                 ATTrackingManager.requestTrackingAuthorization { status in
