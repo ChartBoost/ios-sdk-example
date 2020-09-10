@@ -1,21 +1,16 @@
-# Chartboost SDK for iOS
+# Chartboost SDK iOS Example App
 
-*Version 8.3.0*
+*Version 8.3.1*
 
-The Chartboost iOS SDK is the cornerstone of the Chartboost network. It
-provides the functionality for showing interstitial, rewarded and banner ads.
+Our example app showcases how to integrate the [Chartboost SDK](https://answers.chartboost.com/en-us/child_article/ios).
 
-# Example App
-
-Our [example app](http://github.com/ChartBoost/ios-sdk-example/) showcases how to integrate the [Chartboost SDK](https://answers.chartboost.com/en-us/child_article/ios). 
-
-## Versions
+## Versions
 
 The `master` branch includes the example app supporting the latest version of the Chartboost SDK.
 
 For previous SDK versions check out the other branches.
 
-## Targets
+## Targets
 
 The ChartboostExample project includes two targets: 
 
