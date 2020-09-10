@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import AppTrackingTransparency
 
 class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate {
     
@@ -21,12 +20,6 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     override func viewDidLoad() {
         super.viewDidLoad()
         log(message: logBeforeViewDidLoad)
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        //Showing an explanation on this permission to the user prior to making the request may lead to a better user experience and improved monetization for your app.
-        requestTrackingAuthorization()
     }
     
     //MARK: - IBActions
@@ -61,26 +54,11 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     }
     
     @IBAction func showSupport(_ sender: Any) {
-        guard let url = URL(string: "http://answers.chartboost.com") else { return }
-        if #available(iOS 10.0, *) {
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        } else {
-            UIApplication.shared.openURL(url)
-        }
+        UIApplication.shared.open(URL(string: "http://answers.chartboost.com")!, options: [:], completionHandler: nil)
     }
     
-    //MARK: - Class Methods
-    
-    func requestTrackingAuthorization() {
-        if #available(iOS 14, *) {
-            ATTrackingManager.requestTrackingAuthorization { status in
-                DispatchQueue.main.async {
-                    self.log(message: "Tracking authorization status: \(status.rawValue)")
-                }
-            }
-        }
-    }
-    
+    //MARK: - Other
+        
     func log(message: String) {
         print(message)
         if self.textView != nil {

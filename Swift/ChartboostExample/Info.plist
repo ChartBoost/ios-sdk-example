@@ -34,8 +34,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>This will allow us to deliver better and more personalized ads to you.</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
