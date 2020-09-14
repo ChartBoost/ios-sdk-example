@@ -50,7 +50,9 @@
 }
 
 - (IBAction)showSupport:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://answers.chartboost.com"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://answers.chartboost.com"]
+                                       options:@{}
+                             completionHandler:nil];
 }
 
 - (IBAction)showBanner:(id)sender {
