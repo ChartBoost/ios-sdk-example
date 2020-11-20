@@ -21,6 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
  @brief The ad related to the event.
  */
 @property (nonatomic, readonly) id<CHBAd> ad;
+/*!
+ @brief A string that uniquely identifies the cached ad, updated when a cache operation ends.
+ */
+@property (nonatomic, readonly, nullable) NSString *adID;
 @end
 
 /*!

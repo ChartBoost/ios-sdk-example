@@ -124,7 +124,7 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     // MARK: - Ad Delegate (Interstitial & Rewarded)
     
     func didDismissAd(_ event: CHBDismissEvent) {
-        log(message: "didEarnReward: \(type(of: event.ad))")
+        log(message: "didDismissAd: \(type(of: event.ad))")
     }
     
     // MARK: - Ad Delegate (Rewarded)
