@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		342BBF295473A28B87B0C20A /* Pods_ChartboostExample_Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F672CEC8AE474CE80A0CCF /* Pods_ChartboostExample_Pods.framework */; };
-		D50ADEF324B709A800452367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147624B5DCEC00F2F6B4 /* ViewController.swift */; };
-		D50ADEF424B709A800452367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */; };
-		D50ADEF724B709A800452367 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148924B5DF7A00F2F6B4 /* WebKit.framework */; };
-		D50ADEF824B709A800452367 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148724B5DF7000F2F6B4 /* StoreKit.framework */; };
-		D50ADEFA24B709A800452367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
-		D50ADEFB24B709A800452367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */; };
-		D50ADEFC24B709A800452367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */; };
-		D51A147324B5DCEC00F2F6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */; };
-		D51A147724B5DCEC00F2F6B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147624B5DCEC00F2F6B4 /* ViewController.swift */; };
-		D51A147C24B5DCED00F2F6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */; };
-		D51A147F24B5DCED00F2F6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */; };
-		D51A148824B5DF7000F2F6B4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148724B5DF7000F2F6B4 /* StoreKit.framework */; };
-		D51A148A24B5DF7A00F2F6B4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148924B5DF7A00F2F6B4 /* WebKit.framework */; };
-		D51A148C24B5DFE800F2F6B4 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148B24B5DFE800F2F6B4 /* Chartboost.framework */; };
-		D51A149324B5FF0000F2F6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
+		399FC6F925821AD100666177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147624B5DCEC00F2F6B4 /* ViewController.swift */; };
+		399FC6FA25821AD100666177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */; };
+		399FC6FC25821AD100666177 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148B24B5DFE800F2F6B4 /* Chartboost.framework */; };
+		399FC6FD25821AD100666177 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148924B5DF7A00F2F6B4 /* WebKit.framework */; };
+		399FC6FE25821AD100666177 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148724B5DF7000F2F6B4 /* StoreKit.framework */; };
+		399FC70025821AD100666177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
+		399FC70125821AD100666177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */; };
+		399FC70225821AD100666177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */; };
+		399FC71025821AEC00666177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147624B5DCEC00F2F6B4 /* ViewController.swift */; };
+		399FC71125821AEC00666177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */; };
+		399FC71325821AEC00666177 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148924B5DF7A00F2F6B4 /* WebKit.framework */; };
+		399FC71425821AEC00666177 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148724B5DF7000F2F6B4 /* StoreKit.framework */; };
+		399FC71525821AEC00666177 /* Pods_ChartboostExample_Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F672CEC8AE474CE80A0CCF /* Pods_ChartboostExample_Pods.framework */; };
+		399FC71725821AEC00666177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
+		399FC71825821AEC00666177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */; };
+		399FC71925821AEC00666177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03F51F1336C84D5B123D2B80 /* Pods-ChartboostExample-Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.debug.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		399FC70625821AD100666177 /* ChartboostExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartboostExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		399FC71D25821AEC00666177 /* ChartboostExample-Pods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChartboostExample-Pods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C74121A23869ECDFE056A35 /* Pods-ChartboostExample-Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.release.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.release.xcconfig"; sourceTree = "<group>"; };
 		62F672CEC8AE474CE80A0CCF /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D50ADF0024B709A800452367 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D51A146F24B5DCEC00F2F6B4 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D51A147624B5DCEC00F2F6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,23 +45,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D50ADEF524B709A800452367 /* Frameworks */ = {
+		399FC6FB25821AD100666177 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50ADEF724B709A800452367 /* WebKit.framework in Frameworks */,
-				D50ADEF824B709A800452367 /* StoreKit.framework in Frameworks */,
-				342BBF295473A28B87B0C20A /* Pods_ChartboostExample_Pods.framework in Frameworks */,
+				399FC6FC25821AD100666177 /* Chartboost.framework in Frameworks */,
+				399FC6FD25821AD100666177 /* WebKit.framework in Frameworks */,
+				399FC6FE25821AD100666177 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D51A146C24B5DCEC00F2F6B4 /* Frameworks */ = {
+		399FC71225821AEC00666177 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D51A148C24B5DFE800F2F6B4 /* Chartboost.framework in Frameworks */,
-				D51A148A24B5DF7A00F2F6B4 /* WebKit.framework in Frameworks */,
-				D51A148824B5DF7000F2F6B4 /* StoreKit.framework in Frameworks */,
+				399FC71325821AEC00666177 /* WebKit.framework in Frameworks */,
+				399FC71425821AEC00666177 /* StoreKit.framework in Frameworks */,
+				399FC71525821AEC00666177 /* Pods_ChartboostExample_Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +81,8 @@
 		D51A147024B5DCEC00F2F6B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D51A146F24B5DCEC00F2F6B4 /* Chartboost.app */,
-				D50ADF0024B709A800452367 /* Chartboost.app */,
+				399FC70625821AD100666177 /* ChartboostExample.app */,
+				399FC71D25821AEC00666177 /* ChartboostExample-Pods.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,31 +125,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D50ADEF024B709A800452367 /* ChartboostExample-Pods */ = {
+		399FC6F725821AD100666177 /* ChartboostExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D50ADEFD24B709A800452367 /* Build configuration list for PBXNativeTarget "ChartboostExample-Pods" */;
+			buildConfigurationList = 399FC70325821AD100666177 /* Build configuration list for PBXNativeTarget "ChartboostExample" */;
 			buildPhases = (
-				D50ADEF124B709A800452367 /* [CP] Check Pods Manifest.lock */,
-				D50ADEF224B709A800452367 /* Sources */,
-				D50ADEF524B709A800452367 /* Frameworks */,
-				D50ADEF924B709A800452367 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ChartboostExample-Pods";
-			productName = ChartboostExample;
-			productReference = D50ADF0024B709A800452367 /* Chartboost.app */;
-			productType = "com.apple.product-type.application";
-		};
-		D51A146E24B5DCEC00F2F6B4 /* ChartboostExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D51A148324B5DCED00F2F6B4 /* Build configuration list for PBXNativeTarget "ChartboostExample" */;
-			buildPhases = (
-				D51A146B24B5DCEC00F2F6B4 /* Sources */,
-				D51A146C24B5DCEC00F2F6B4 /* Frameworks */,
-				D51A146D24B5DCEC00F2F6B4 /* Resources */,
+				399FC6F825821AD100666177 /* Sources */,
+				399FC6FB25821AD100666177 /* Frameworks */,
+				399FC6FF25821AD100666177 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,7 +139,25 @@
 			);
 			name = ChartboostExample;
 			productName = ChartboostExample;
-			productReference = D51A146F24B5DCEC00F2F6B4 /* Chartboost.app */;
+			productReference = 399FC70625821AD100666177 /* ChartboostExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		399FC70D25821AEC00666177 /* ChartboostExample-Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399FC71A25821AEC00666177 /* Build configuration list for PBXNativeTarget "ChartboostExample-Pods" */;
+			buildPhases = (
+				399FC70E25821AEC00666177 /* [CP] Check Pods Manifest.lock */,
+				399FC70F25821AEC00666177 /* Sources */,
+				399FC71225821AEC00666177 /* Frameworks */,
+				399FC71625821AEC00666177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChartboostExample-Pods";
+			productName = ChartboostExample;
+			productReference = 399FC71D25821AEC00666177 /* ChartboostExample-Pods.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,12 +169,6 @@
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Chartboost;
-				TargetAttributes = {
-					D51A146E24B5DCEC00F2F6B4 = {
-						CreatedOnToolsVersion = 11.5;
-						LastSwiftMigration = 1150;
-					};
-				};
 			};
 			buildConfigurationList = D51A146A24B5DCEC00F2F6B4 /* Build configuration list for PBXProject "ChartboostExample" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -189,37 +183,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D51A146E24B5DCEC00F2F6B4 /* ChartboostExample */,
-				D50ADEF024B709A800452367 /* ChartboostExample-Pods */,
+				399FC6F725821AD100666177 /* ChartboostExample */,
+				399FC70D25821AEC00666177 /* ChartboostExample-Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D50ADEF924B709A800452367 /* Resources */ = {
+		399FC6FF25821AD100666177 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50ADEFA24B709A800452367 /* Main.storyboard in Resources */,
-				D50ADEFB24B709A800452367 /* LaunchScreen.storyboard in Resources */,
-				D50ADEFC24B709A800452367 /* Assets.xcassets in Resources */,
+				399FC70025821AD100666177 /* Main.storyboard in Resources */,
+				399FC70125821AD100666177 /* LaunchScreen.storyboard in Resources */,
+				399FC70225821AD100666177 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D51A146D24B5DCEC00F2F6B4 /* Resources */ = {
+		399FC71625821AEC00666177 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D51A149324B5FF0000F2F6B4 /* Main.storyboard in Resources */,
-				D51A147F24B5DCED00F2F6B4 /* LaunchScreen.storyboard in Resources */,
-				D51A147C24B5DCED00F2F6B4 /* Assets.xcassets in Resources */,
+				399FC71725821AEC00666177 /* Main.storyboard in Resources */,
+				399FC71825821AEC00666177 /* LaunchScreen.storyboard in Resources */,
+				399FC71925821AEC00666177 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D50ADEF124B709A800452367 /* [CP] Check Pods Manifest.lock */ = {
+		399FC70E25821AEC00666177 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,21 +238,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D50ADEF224B709A800452367 /* Sources */ = {
+		399FC6F825821AD100666177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50ADEF324B709A800452367 /* ViewController.swift in Sources */,
-				D50ADEF424B709A800452367 /* AppDelegate.swift in Sources */,
+				399FC6F925821AD100666177 /* ViewController.swift in Sources */,
+				399FC6FA25821AD100666177 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D51A146B24B5DCEC00F2F6B4 /* Sources */ = {
+		399FC70F25821AEC00666177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D51A147724B5DCEC00F2F6B4 /* ViewController.swift in Sources */,
-				D51A147324B5DCEC00F2F6B4 /* AppDelegate.swift in Sources */,
+				399FC71025821AEC00666177 /* ViewController.swift in Sources */,
+				399FC71125821AEC00666177 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +270,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D50ADEFE24B709A800452367 /* Debug */ = {
+		399FC70425821AD100666177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38H6Z8EN2F;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
+				INFOPLIST_FILE = ChartboostExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		399FC70525821AD100666177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38H6Z8EN2F;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
+				INFOPLIST_FILE = ChartboostExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		399FC71B25821AEC00666177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03F51F1336C84D5B123D2B80 /* Pods-ChartboostExample-Pods.debug.xcconfig */;
 			buildSettings = {
@@ -295,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
-				PRODUCT_NAME = Chartboost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -303,7 +342,7 @@
 			};
 			name = Debug;
 		};
-		D50ADEFF24B709A800452367 /* Release */ = {
+		399FC71C25821AEC00666177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3C74121A23869ECDFE056A35 /* Pods-ChartboostExample-Pods.release.xcconfig */;
 			buildSettings = {
@@ -322,7 +361,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
-				PRODUCT_NAME = Chartboost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,59 +482,23 @@
 			};
 			name = Release;
 		};
-		D51A148424B5DCED00F2F6B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38H6Z8EN2F;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
-				INFOPLIST_FILE = ChartboostExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
-				PRODUCT_NAME = Chartboost;
-				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D51A148524B5DCED00F2F6B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38H6Z8EN2F;
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
-				INFOPLIST_FILE = ChartboostExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
-				PRODUCT_NAME = Chartboost;
-				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D50ADEFD24B709A800452367 /* Build configuration list for PBXNativeTarget "ChartboostExample-Pods" */ = {
+		399FC70325821AD100666177 /* Build configuration list for PBXNativeTarget "ChartboostExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D50ADEFE24B709A800452367 /* Debug */,
-				D50ADEFF24B709A800452367 /* Release */,
+				399FC70425821AD100666177 /* Debug */,
+				399FC70525821AD100666177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399FC71A25821AEC00666177 /* Build configuration list for PBXNativeTarget "ChartboostExample-Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399FC71B25821AEC00666177 /* Debug */,
+				399FC71C25821AEC00666177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -505,15 +508,6 @@
 			buildConfigurations = (
 				D51A148124B5DCED00F2F6B4 /* Debug */,
 				D51A148224B5DCED00F2F6B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D51A148324B5DCED00F2F6B4 /* Build configuration list for PBXNativeTarget "ChartboostExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D51A148424B5DCED00F2F6B4 /* Debug */,
-				D51A148524B5DCED00F2F6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
