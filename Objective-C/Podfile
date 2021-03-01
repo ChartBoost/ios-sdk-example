@@ -2,5 +2,5 @@ platform :ios, '10.0'
 
 target 'ChartboostExample-Pods' do
   use_frameworks!
-  pod 'ChartboostSDK', '~> 8.4.0'
+  pod 'ChartboostSDK', '~> 8.4.1'
 end
