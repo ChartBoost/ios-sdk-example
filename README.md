@@ -1,6 +1,6 @@
 # Chartboost SDK iOS Example App
 
-*Version 8.4.1*
+*Version 8.4.2*
 
 Our example app showcases how to integrate the [Chartboost SDK](https://answers.chartboost.com/en-us/child_article/ios).
 

@@ -182,7 +182,7 @@
 		DA93B6A5182B31BC00C21472 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = chartboost;
 				TargetAttributes = {
 					33790B15247682F5007502D3 = {
