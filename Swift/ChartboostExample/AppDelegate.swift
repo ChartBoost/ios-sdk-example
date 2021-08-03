@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if #available(iOS 14, *) {
             ATTrackingManager.requestTrackingAuthorization { status in
-                print("Tracking authorization status changed: \(status)")
+                print("Tracking authorization status changed: \(status.rawValue)")
             }
         }
 
