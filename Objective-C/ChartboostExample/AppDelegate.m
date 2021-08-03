@@ -6,6 +6,7 @@
  */
 
 #import <Chartboost/Chartboost.h>
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import "AppDelegate.h"
 #import "ViewController.h"
 
@@ -14,6 +15,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSLog(@"Chartboost SDK Version %@", [Chartboost getSDKVersion]);
+    
+    if (@available(iOS 14, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            NSLog(@"Tracking authorization status changed: %lu", (unsigned long)status);
+        }];
+    }
   
     [Chartboost addDataUseConsent:[CHBGDPRDataUseConsent gdprConsent:CHBGDPRConsentBehavioral]];
     [Chartboost addDataUseConsent:[CHBCCPADataUseConsent ccpaConsent:CHBCCPAConsentOptInSale]];

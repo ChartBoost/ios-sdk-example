@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AppTrackingTransparency
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         print("Chartboost SDK Version ", Chartboost.getSDKVersion() ?? "")
+        
+        if #available(iOS 14, *) {
+            ATTrackingManager.requestTrackingAuthorization { status in
+                print("Tracking authorization status changed: \(status)")
+            }
+        }
 
         Chartboost.addDataUseConsent(.CCPA(.optInSale))
         Chartboost.addDataUseConsent(.GDPR(.behavioral))

@@ -121,6 +121,8 @@
 			<string>hs6bdukanm.skadnetwork</string>
 		</dict>
 	</array>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Your identifiers may be used by Chartboost to provide more relevant ads</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
