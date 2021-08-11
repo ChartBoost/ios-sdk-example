@@ -27,6 +27,10 @@
 		DA93B6CA182B31BC00C21472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6C9182B31BC00C21472 /* ViewController.m */; };
 		DA93B6CC182B31BC00C21472 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6CB182B31BC00C21472 /* Images.xcassets */; };
 		DA93B6F3182B33FD00C21472 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA93B6F2182B33FD00C21472 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EAF3124726C3E39E008F9BF1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124626C3E39E008F9BF1 /* CoreMedia.framework */; };
+		EAF3124926C3E3A2008F9BF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124826C3E3A2008F9BF1 /* AVFoundation.framework */; };
+		EAF3124A26C3E3A8008F9BF1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124626C3E39E008F9BF1 /* CoreMedia.framework */; };
+		EAF3124B26C3E3AB008F9BF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124826C3E3A2008F9BF1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,8 @@
 		DA93B6CB182B31BC00C21472 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DA93B6F2182B33FD00C21472 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		DF956CB46F9DFFA4DFA14EBF /* Pods-ChartboostExample-Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.release.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EAF3124626C3E39E008F9BF1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EAF3124826C3E3A2008F9BF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF3124A26C3E3A8008F9BF1 /* CoreMedia.framework in Frameworks */,
 				33790B1C247682F5007502D3 /* WebKit.framework in Frameworks */,
+				EAF3124B26C3E3AB008F9BF1 /* AVFoundation.framework in Frameworks */,
 				33790B1D247682F5007502D3 /* StoreKit.framework in Frameworks */,
 				0708DCD62507507E5C4A1C4E /* Pods_ChartboostExample_Pods.framework in Frameworks */,
 			);
@@ -65,7 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF3124726C3E39E008F9BF1 /* CoreMedia.framework in Frameworks */,
 				11D6027A1EC13FDB0075AF5E /* WebKit.framework in Frameworks */,
+				EAF3124926C3E3A2008F9BF1 /* AVFoundation.framework in Frameworks */,
 				DA93B6F3182B33FD00C21472 /* StoreKit.framework in Frameworks */,
 				03A8BB6A1D3D8CA20014B7A5 /* Chartboost.framework in Frameworks */,
 			);
@@ -105,6 +115,8 @@
 		DA93B6AF182B31BC00C21472 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAF3124826C3E3A2008F9BF1 /* AVFoundation.framework */,
+				EAF3124626C3E39E008F9BF1 /* CoreMedia.framework */,
 				03A8BB691D3D8CA20014B7A5 /* Chartboost.framework */,
 				DA93B6F2182B33FD00C21472 /* StoreKit.framework */,
 				11D602791EC13FDB0075AF5E /* WebKit.framework */,
