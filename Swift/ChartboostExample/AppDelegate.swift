@@ -17,12 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         print("Chartboost SDK Version ", Chartboost.getSDKVersion() ?? "")
         
-        if #available(iOS 14, *) {
-            ATTrackingManager.requestTrackingAuthorization { status in
-                print("Tracking authorization status changed: \(status.rawValue)")
-            }
-        }
-
         Chartboost.addDataUseConsent(.CCPA(.optInSale))
         Chartboost.addDataUseConsent(.GDPR(.behavioral))
 
@@ -36,5 +30,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        if #available(iOS 14, *) {
+            if ATTrackingManager.trackingAuthorizationStatus == .notDetermined {
+                ATTrackingManager.requestTrackingAuthorization { status in
+                    print("Tracking authorization status changed: \(status.rawValue)")
+                }
+            } else {
+                print("Tracking authorization status: \(ATTrackingManager.trackingAuthorizationStatus.rawValue)")
+            }
+        }
+    }
 }
 
