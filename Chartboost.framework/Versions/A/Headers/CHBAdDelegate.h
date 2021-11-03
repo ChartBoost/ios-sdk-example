@@ -51,7 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
  @discussion This is the view controller you passed on the showFromViewController: call or a Chartboost ad view controller which was presented on top of it. If you called showFromViewController: passing a nil view controller this property will be nil too.
  You may use it to present your custom click confirmation gate if you implement the shouldConfirmClick:confirmationHandler: ad delegate method.
  */
-@property (nonatomic, readonly, nullable) UIViewController *viewController;
+@property (nonatomic, readonly, nullable) UIViewController *viewController DEPRECATED_MSG_ATTRIBUTE("This property is deprecated and will be removed in a future version.");
 @end
 
 /*!
@@ -246,7 +246,7 @@ typedef NS_ENUM(NSUInteger, CHBClickErrorCode) {
  }
  @endcode
  */
-- (BOOL)shouldConfirmClick:(CHBClickEvent *)event confirmationHandler:(void(^)(BOOL))confirmationHandler;
+- (BOOL)shouldConfirmClick:(CHBClickEvent *)event confirmationHandler:(void(^)(BOOL))confirmationHandler DEPRECATED_MSG_ATTRIBUTE("This method is deprecated and will be removed in a future version.");
 
 /*!
  @brief Called after an ad has been clicked.

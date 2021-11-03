@@ -23,6 +23,10 @@
 		399FC71725821AEC00666177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
 		399FC71825821AEC00666177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */; };
 		399FC71925821AEC00666177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */; };
+		EAF3124126C3E2B8008F9BF1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */; };
+		EAF3124326C3E2BC008F9BF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */; };
+		EAF3124426C3E2C3008F9BF1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */; };
+		EAF3124526C3E2C7008F9BF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,8 @@
 		D51A148F24B5E0D000F2F6B4 /* ChartboostExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChartboostExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		D51A149224B5FF0000F2F6B4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E9EF7192EA8F7BEE9969914B /* Pods_ChartboostExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF3124126C3E2B8008F9BF1 /* CoreMedia.framework in Frameworks */,
 				399FC6FC25821AD100666177 /* Chartboost.framework in Frameworks */,
+				EAF3124326C3E2BC008F9BF1 /* AVFoundation.framework in Frameworks */,
 				399FC6FD25821AD100666177 /* WebKit.framework in Frameworks */,
 				399FC6FE25821AD100666177 /* StoreKit.framework in Frameworks */,
 			);
@@ -59,7 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF3124426C3E2C3008F9BF1 /* CoreMedia.framework in Frameworks */,
 				399FC71325821AEC00666177 /* WebKit.framework in Frameworks */,
+				EAF3124526C3E2C7008F9BF1 /* AVFoundation.framework in Frameworks */,
 				399FC71425821AEC00666177 /* StoreKit.framework in Frameworks */,
 				399FC71525821AEC00666177 /* Pods_ChartboostExample_Pods.framework in Frameworks */,
 			);
@@ -104,6 +114,8 @@
 		D51A148624B5DF7000F2F6B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */,
+				EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */,
 				D51A148B24B5DFE800F2F6B4 /* Chartboost.framework */,
 				D51A148924B5DF7A00F2F6B4 /* WebKit.framework */,
 				D51A148724B5DF7000F2F6B4 /* StoreKit.framework */,

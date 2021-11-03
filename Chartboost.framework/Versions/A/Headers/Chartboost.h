@@ -14,8 +14,6 @@
 #import "CHBBanner.h"
 @class CBInPlay;
 
-FOUNDATION_EXPORT BOOL ChartboostInitialized(const char* function) DEPRECATED_MSG_ATTRIBUTE("This function is deprecated and will be removed in a future version.");
-
 @interface Chartboost : NSObject
 
 /*!
@@ -98,69 +96,6 @@ FOUNDATION_EXPORT BOOL ChartboostInitialized(const char* function) DEPRECATED_MS
 
 /*!
  @abstract
- Set a custom identifier to send in the POST body for all Chartboost API server requests.
- 
- @param customId The identifier to send with all Chartboost API server requests.
- 
- @discussion Use this method to set a custom identifier that can be used later in the Chartboost
- dashboard to group information by.
- */
-+ (void)setCustomId:(NSString *)customId;
-
-/*!
- @abstract
- Get the current custom identifier being sent in the POST body for all Chartboost API server requests.
- 
- @return The identifier being sent with all Chartboost API server requests.
- 
- @discussion Use this method to get the custom identifier that can be used later in the Chartboost
- dashboard to group information by.
- */
-+ (NSString *)getCustomId;
-
-/*!
- @abstract
- Set a custom version to append to the POST body of every request. This is useful for analytics and provides chartboost with important information.
- example: [Chartboost setChartboostWrapperVersion:@"6.4.6"];
- 
- @param chartboostWrapperVersion The version sent as a string.
- 
- @discussion This is an internal method used via Chartboost's Unity and Corona SDKs
- to track their usage.
- */
-+ (void)setChartboostWrapperVersion:(NSString*)chartboostWrapperVersion;
-
-/*!
- @brief Informs Chartboost of which environment it is running on, for tracking purposes.
- @param framework The framework used, e.g: Unity, Corona, etc.
- @param version The framework version.
- @discussion It is preferred that this method is called before starting the Chartboost SDK.
- */
-+ (void)setFramework:(CBFramework)framework withVersion:(NSString *)version;
-
-/*!
- @abstract
- Decide if Chartboost SDKK will attempt to fetch videos from the Chartboost API servers.
- 
- @param shouldPrefetch YES if Chartboost should prefetch video content, NO otherwise.
- 
- @discussion Set to control if Chartboost SDK control if videos should be prefetched.
- 
- Default is YES.
- */
-+ (void)setShouldPrefetchVideoContent:(BOOL)shouldPrefetch;
-
-/*!
- @abstract
- returns YES if auto IAP tracking is enabled, NO if it isn't.
- 
- @discussion Call to check if automatic tracking of in-app purchases is enabled.
- The setting is controlled by the server.
- */
-+ (BOOL)getAutoIAPTracking;
-
-/*!
- @abstract
  Mute/unmute chartboost ads.
  @param mute YES all sounds, NO activates them. Default is NO
  @discussion default value is NO
@@ -193,5 +128,12 @@ FOUNDATION_EXPORT BOOL ChartboostInitialized(const char* function) DEPRECATED_MS
 + (void)setMediation:(CBMediation)library withLibraryVersion:(NSString*)libraryVersion adapterVersion:(NSString*)adapterVersion DEPRECATED_MSG_ATTRIBUTE("Please use CHBMediation as specified in Chartboost+Mediation.h instead.");
 + (CBPIDataUseConsent)getPIDataUseConsent DEPRECATED_MSG_ATTRIBUTE("This method is deprecated and will be removed in a future version.");
 + (void)setPIDataUseConsent:(CBPIDataUseConsent)consent DEPRECATED_MSG_ATTRIBUTE("Please use addDataUseConsent: passing a CHBDataUseConsent GDPR object instead.");
+FOUNDATION_EXPORT BOOL ChartboostInitialized(const char* function) DEPRECATED_MSG_ATTRIBUTE("This function is deprecated and will be removed in a future version.");
++ (void)setCustomId:(NSString *)customId DEPRECATED_MSG_ATTRIBUTE("This method is deprecated and will be removed in a future version.");
++ (NSString *)getCustomId DEPRECATED_MSG_ATTRIBUTE("This method is deprecated and will be removed in a future version.");
++ (void)setChartboostWrapperVersion:(NSString*)chartboostWrapperVersion DEPRECATED_MSG_ATTRIBUTE("This method is deprecated and will be removed in a future version.");
++ (void)setFramework:(CBFramework)framework withVersion:(NSString *)version DEPRECATED_MSG_ATTRIBUTE("This method is deprecated and will be removed in a future version.");
++ (void)setShouldPrefetchVideoContent:(BOOL)shouldPrefetch DEPRECATED_MSG_ATTRIBUTE("This method is deprecated and will be removed in a future version.");
++ (BOOL)getAutoIAPTracking DEPRECATED_MSG_ATTRIBUTE("This method is deprecated and will be removed in a future version.");
 
 @end

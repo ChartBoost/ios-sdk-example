@@ -16,12 +16,6 @@
 {
     NSLog(@"Chartboost SDK Version %@", [Chartboost getSDKVersion]);
     
-    if (@available(iOS 14, *)) {
-        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
-            NSLog(@"Tracking authorization status changed: %lu", (unsigned long)status);
-        }];
-    }
-  
     [Chartboost addDataUseConsent:[CHBGDPRDataUseConsent gdprConsent:CHBGDPRConsentBehavioral]];
     [Chartboost addDataUseConsent:[CHBCCPADataUseConsent ccpaConsent:CHBCCPAConsentOptInSale]];
     
@@ -35,6 +29,19 @@
     }];
 
     return YES;
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    if (@available(iOS 14, *)) {
+        if ([ATTrackingManager trackingAuthorizationStatus] == ATTrackingManagerAuthorizationStatusNotDetermined) {
+            [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+                NSLog(@"Tracking authorization status changed: %lu", (unsigned long)status);
+            }];
+        } else {
+            NSLog(@"Tracking authorization status: %lu", (unsigned long)[ATTrackingManager trackingAuthorizationStatus]);
+        }
+    }
 }
 
 @end

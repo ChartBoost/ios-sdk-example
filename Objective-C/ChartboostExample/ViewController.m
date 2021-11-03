@@ -98,11 +98,6 @@
     [self log:[NSString stringWithFormat:@"didShowAd: %@ %@", [event.ad class], [self statusWithError:error]]];
 }
 
-- (BOOL)shouldConfirmClick:(CHBClickEvent *)event confirmationHandler:(void(^)(BOOL))confirmationHandler {
-    [self log:[NSString stringWithFormat:@"shouldConfirmClick: %@", [event.ad class]]];
-    return NO;
-}
-
 - (void)didClickAd:(CHBClickEvent *)event error:(nullable CHBClickError *)error {
     [self log:[NSString stringWithFormat:@"didClickAd: %@ %@", [event.ad class], [self statusWithError:error]]];
 }
