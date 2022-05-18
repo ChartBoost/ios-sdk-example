@@ -6,7 +6,7 @@
  */
 
 #import "ViewController.h"
-#import <Chartboost/Chartboost.h>
+#import <ChartboostSDK/Chartboost.h>
 
 @interface ViewController () <CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate>
 @property (weak, nonatomic) IBOutlet UITextView *textView;
@@ -21,9 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.interstitial = [[CHBInterstitial alloc] initWithLocation:CBLocationDefault delegate:self];
-    self.rewarded = [[CHBRewarded alloc] initWithLocation:CBLocationDefault delegate:self];
-    self.banner = [[CHBBanner alloc] initWithSize:CHBBannerSizeStandard location:CBLocationDefault delegate:self];
+    self.interstitial = [[CHBInterstitial alloc] initWithLocation:@"" delegate:self];
+    self.rewarded = [[CHBRewarded alloc] initWithLocation:@"" delegate:self];
+    self.banner = [[CHBBanner alloc] initWithSize:CHBBannerSizeStandard location:@"" delegate:self];
     [self log:self.logBeforeViewDidLoad];
 }
 
@@ -53,6 +53,9 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://answers.chartboost.com"]
                                        options:@{}
                              completionHandler:nil];
+}
+- (IBAction)cacheBanner:(id)sender {
+    [self.banner cache];
 }
 
 - (IBAction)showBanner:(id)sender {

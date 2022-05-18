@@ -5,7 +5,7 @@
  * Copyright (c) 2013 Chartboost. All rights reserved.
  */
 
-#import <Chartboost/Chartboost.h>
+#import <ChartboostSDK/Chartboost.h>
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import "AppDelegate.h"
 #import "ViewController.h"
@@ -21,11 +21,11 @@
     
     [Chartboost setLoggingLevel:CBLoggingLevelInfo];
     
-    [Chartboost startWithAppId:@"4f21c409cd1cb2fb7000001b"
+    [Chartboost startWithAppID:@"4f21c409cd1cb2fb7000001b"
                   appSignature:@"92e2de2fd7070327bdeb54c15a5295309c6fcd2d"
-                    completion:^(BOOL success) {
+                    completion:^(CHBStartError * error) {
         ViewController *vc = (ViewController *)self.window.rootViewController;
-        [vc log:success ? @"Chartboost initialized successfully!" : @"Chartboost failed to initialize."];
+        [vc log:error == nil ? @"Chartboost initialized successfully!" : @"Chartboost failed to initialize."];
     }];
 
     return YES;

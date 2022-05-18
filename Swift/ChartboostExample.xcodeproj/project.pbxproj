@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		399FC6F925821AD100666177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147624B5DCEC00F2F6B4 /* ViewController.swift */; };
 		399FC6FA25821AD100666177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */; };
-		399FC6FC25821AD100666177 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148B24B5DFE800F2F6B4 /* Chartboost.framework */; };
 		399FC6FD25821AD100666177 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148924B5DF7A00F2F6B4 /* WebKit.framework */; };
 		399FC6FE25821AD100666177 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148724B5DF7000F2F6B4 /* StoreKit.framework */; };
 		399FC70025821AD100666177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
@@ -23,6 +22,7 @@
 		399FC71725821AEC00666177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
 		399FC71825821AEC00666177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */; };
 		399FC71925821AEC00666177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */; };
+		9244443F2833829D00D7058C /* ChartboostSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9244443E2833829D00D7058C /* ChartboostSDK.xcframework */; };
 		EAF3124126C3E2B8008F9BF1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */; };
 		EAF3124326C3E2BC008F9BF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */; };
 		EAF3124426C3E2C3008F9BF1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */; };
@@ -31,10 +31,11 @@
 
 /* Begin PBXFileReference section */
 		03F51F1336C84D5B123D2B80 /* Pods-ChartboostExample-Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.debug.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		399FC70625821AD100666177 /* ChartboostExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ChartboostExample.app; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		399FC70625821AD100666177 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		399FC71D25821AEC00666177 /* ChartboostExample-Pods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ChartboostExample-Pods.app"; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C74121A23869ECDFE056A35 /* Pods-ChartboostExample-Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.release.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.release.xcconfig"; sourceTree = "<group>"; };
 		62F672CEC8AE474CE80A0CCF /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9244443E2833829D00D7058C /* ChartboostSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ChartboostSDK.xcframework; path = ../ChartboostSDK.xcframework; sourceTree = "<group>"; };
 		D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D51A147624B5DCEC00F2F6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,8 +43,6 @@
 		D51A148024B5DCED00F2F6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D51A148724B5DF7000F2F6B4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D51A148924B5DF7A00F2F6B4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		D51A148B24B5DFE800F2F6B4 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = ../Chartboost.framework; sourceTree = "<group>"; };
-		D51A148F24B5E0D000F2F6B4 /* ChartboostExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChartboostExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		D51A149224B5FF0000F2F6B4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E9EF7192EA8F7BEE9969914B /* Pods_ChartboostExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -56,8 +55,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF3124126C3E2B8008F9BF1 /* CoreMedia.framework in Frameworks */,
-				399FC6FC25821AD100666177 /* Chartboost.framework in Frameworks */,
 				EAF3124326C3E2BC008F9BF1 /* AVFoundation.framework in Frameworks */,
+				9244443F2833829D00D7058C /* ChartboostSDK.xcframework in Frameworks */,
 				399FC6FD25821AD100666177 /* WebKit.framework in Frameworks */,
 				399FC6FE25821AD100666177 /* StoreKit.framework in Frameworks */,
 			);
@@ -91,7 +90,7 @@
 		D51A147024B5DCEC00F2F6B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				399FC70625821AD100666177 /* ChartboostExample.app */,
+				399FC70625821AD100666177 /* Chartboost.app */,
 				399FC71D25821AEC00666177 /* ChartboostExample-Pods.app */,
 			);
 			name = Products;
@@ -105,7 +104,6 @@
 				D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */,
 				D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */,
 				D51A148024B5DCED00F2F6B4 /* Info.plist */,
-				D51A148F24B5E0D000F2F6B4 /* ChartboostExample-Bridging-Header.h */,
 				D51A149224B5FF0000F2F6B4 /* Main.storyboard */,
 			);
 			path = ChartboostExample;
@@ -114,9 +112,9 @@
 		D51A148624B5DF7000F2F6B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9244443E2833829D00D7058C /* ChartboostSDK.xcframework */,
 				EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */,
 				EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */,
-				D51A148B24B5DFE800F2F6B4 /* Chartboost.framework */,
 				D51A148924B5DF7A00F2F6B4 /* WebKit.framework */,
 				D51A148724B5DF7000F2F6B4 /* StoreKit.framework */,
 				E9EF7192EA8F7BEE9969914B /* Pods_ChartboostExample.framework */,
@@ -151,7 +149,7 @@
 			);
 			name = ChartboostExample;
 			productName = ChartboostExample;
-			productReference = 399FC70625821AD100666177 /* ChartboostExample.app */;
+			productReference = 399FC70625821AD100666177 /* Chartboost.app */;
 			productType = "com.apple.product-type.application";
 		};
 		399FC70D25821AEC00666177 /* ChartboostExample-Pods */ = {
@@ -298,7 +296,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
 				PRODUCT_NAME = Chartboost;
-				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
 				PRODUCT_NAME = Chartboost;
-				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
