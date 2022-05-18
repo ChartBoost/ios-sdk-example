@@ -20,7 +20,6 @@
 		33790B23247682F5007502D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6B9182B31BC00C21472 /* InfoPlist.strings */; };
 		33790B24247682F5007502D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6C2182B31BC00C21472 /* Main.storyboard */; };
 		921702572834CDCD006C4DE0 /* ChartboostSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921702562834CDCD006C4DE0 /* ChartboostSDK.xcframework */; };
-		921702592834CDF1006C4DE0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921702582834CDF1006C4DE0 /* File.swift */; };
 		DA93B6BB182B31BC00C21472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6B9182B31BC00C21472 /* InfoPlist.strings */; };
 		DA93B6BD182B31BC00C21472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6BC182B31BC00C21472 /* main.m */; };
 		DA93B6C1182B31BC00C21472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6C0182B31BC00C21472 /* AppDelegate.m */; };
@@ -40,7 +39,6 @@
 		33790B28247682F5007502D3 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DDB3CEF20B1080F7794556 /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921702562834CDCD006C4DE0 /* ChartboostSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ChartboostSDK.xcframework; path = ../ChartboostSDK.xcframework; sourceTree = "<group>"; };
-		921702582834CDF1006C4DE0 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		9CDE8983C85C358EF6DE6BCF /* Pods-ChartboostExample-Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.debug.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DA93B6AD182B31BC00C21472 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA93B6B8182B31BC00C21472 /* ChartboostExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChartboostExample-Info.plist"; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 		DA93B6B7182B31BC00C21472 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				921702582834CDF1006C4DE0 /* File.swift */,
 				DA93B6B8182B31BC00C21472 /* ChartboostExample-Info.plist */,
 				DA93B6B9182B31BC00C21472 /* InfoPlist.strings */,
 				DA93B6BC182B31BC00C21472 /* main.m */,
@@ -296,7 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA93B6CA182B31BC00C21472 /* ViewController.m in Sources */,
-				921702592834CDF1006C4DE0 /* File.swift in Sources */,
 				DA93B6C1182B31BC00C21472 /* AppDelegate.m in Sources */,
 				DA93B6BD182B31BC00C21472 /* main.m in Sources */,
 			);
@@ -501,8 +497,13 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					/usr/lib/swift,
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(SDKROOT)/usr/lib/swift\n$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleObjC;
 				PRODUCT_NAME = Chartboost;
@@ -535,8 +536,13 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					/usr/lib/swift,
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(SDKROOT)/usr/lib/swift\n$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleObjC;
 				PRODUCT_NAME = Chartboost;

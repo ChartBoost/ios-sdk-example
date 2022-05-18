@@ -11,9 +11,9 @@ import ChartboostSDK
 
 class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate {
     
-    private lazy var interstitial = CHBInterstitial(location: "", delegate: self)
-    private lazy var rewarded = CHBRewarded(location: "", delegate: self)
-    private lazy var banner = CHBBanner(size: CHBBannerSizeStandard, location: "", delegate: self)
+    private lazy var interstitial = CHBInterstitial(location: "default", delegate: self)
+    private lazy var rewarded = CHBRewarded(location: "default", delegate: self)
+    private lazy var banner = CHBBanner(size: CHBBannerSizeStandard, location: "default", delegate: self)
     private var logBeforeViewDidLoad = String()
     
     @IBOutlet weak var textView: UITextView!

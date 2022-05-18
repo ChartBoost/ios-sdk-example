@@ -21,9 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.interstitial = [[CHBInterstitial alloc] initWithLocation:@"" delegate:self];
-    self.rewarded = [[CHBRewarded alloc] initWithLocation:@"" delegate:self];
-    self.banner = [[CHBBanner alloc] initWithSize:CHBBannerSizeStandard location:@"" delegate:self];
+    self.interstitial = [[CHBInterstitial alloc] initWithLocation:@"default" delegate:self];
+    self.rewarded = [[CHBRewarded alloc] initWithLocation:@"default" delegate:self];
+    self.banner = [[CHBBanner alloc] initWithSize:CHBBannerSizeStandard location:@"default" delegate:self];
     [self log:self.logBeforeViewDidLoad];
 }
 
