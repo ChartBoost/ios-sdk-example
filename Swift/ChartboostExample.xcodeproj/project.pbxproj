@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		03F51F1336C84D5B123D2B80 /* Pods-ChartboostExample-Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.debug.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		399FC70625821AD100666177 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		399FC71D25821AEC00666177 /* ChartboostExample-Pods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ChartboostExample-Pods.app"; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		399FC71D25821AEC00666177 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C74121A23869ECDFE056A35 /* Pods-ChartboostExample-Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.release.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.release.xcconfig"; sourceTree = "<group>"; };
 		62F672CEC8AE474CE80A0CCF /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9244443E2833829D00D7058C /* ChartboostSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ChartboostSDK.xcframework; path = ../ChartboostSDK.xcframework; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				399FC70625821AD100666177 /* Chartboost.app */,
-				399FC71D25821AEC00666177 /* ChartboostExample-Pods.app */,
+				399FC71D25821AEC00666177 /* Chartboost.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 			);
 			name = "ChartboostExample-Pods";
 			productName = ChartboostExample;
-			productReference = 399FC71D25821AEC00666177 /* ChartboostExample-Pods.app */;
+			productReference = 399FC71D25821AEC00666177 /* Chartboost.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -343,7 +343,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
 				PRODUCT_NAME = Chartboost;
-				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,7 +369,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
 				PRODUCT_NAME = Chartboost;
-				SWIFT_OBJC_BRIDGING_HEADER = "ChartboostExample/ChartboostExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
