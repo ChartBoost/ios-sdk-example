@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import ChartboostSDK
 
 class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate {
     
-    private lazy var interstitial = CHBInterstitial(location: CBLocationDefault, delegate: self)
-    private lazy var rewarded = CHBRewarded(location: CBLocationDefault, delegate: self)
-    private lazy var banner = CHBBanner(size: CHBBannerSizeStandard, location: CBLocationDefault, delegate: self)
+    private lazy var interstitial = CHBInterstitial(location: "default", delegate: self)
+    private lazy var rewarded = CHBRewarded(location: "default", delegate: self)
+    private lazy var banner = CHBBanner(size: CHBBannerSizeStandard, location: "default", delegate: self)
     private var logBeforeViewDidLoad = String()
     
     @IBOutlet weak var textView: UITextView!
@@ -44,6 +45,10 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
         } else {
             self.log(message: "Tried to show rewarded ad before it is cached")
         }
+    }
+    
+    @IBAction func cacheBanner(_ sender: Any) {
+        banner.cache()
     }
     
     @IBAction func showBanner(_ sender: Any) {
