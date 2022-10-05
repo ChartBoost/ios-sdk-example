@@ -10,6 +10,12 @@ framework module ChartboostSDK {
   link framework "StoreKit"
   link framework "CoreMedia"
   link framework "AVFoundation"
+  link framework "AppTrackingTransparency"
+  link framework "AdSupport"
+  link framework "CoreTelephony"
+  link framework "SafariServices"
+  link framework "CoreFoundation"
+  link framework "SystemConfiguration"
 }
 
 module ChartboostSDK.Swift {
