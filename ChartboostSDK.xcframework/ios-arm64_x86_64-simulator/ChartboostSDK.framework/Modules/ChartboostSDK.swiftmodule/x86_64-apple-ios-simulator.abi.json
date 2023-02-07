@@ -1,0 +1,1643 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CHBMediation",
+        "printedName": "CHBMediation",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12CHBMediationC13ChartboostSDKE6encode2toys7Encoder_p_tKF",
+            "mangledName": "$sSo12CHBMediationC13ChartboostSDKE6encode2toys7Encoder_p_tKF",
+            "moduleName": "ChartboostSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CHBMediation",
+                "printedName": "ChartboostSDK.CHBMediation",
+                "usr": "c:objc(cs)CHBMediation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So12CHBMediationC13ChartboostSDKE4fromABs7Decoder_p_tKcfc",
+            "mangledName": "$sSo12CHBMediationC13ChartboostSDKE4fromABs7Decoder_p_tKcfc",
+            "moduleName": "ChartboostSDK",
+            "declAttributes": [
+              "Convenience",
+              "Required",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ChartboostSDK@@objc(cs)CHBMediation(im)isEqual:",
+            "mangledName": "$sSo12CHBMediationC13ChartboostSDKE7isEqualySbypSgF",
+            "moduleName": "ChartboostSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)CHBMediation",
+        "moduleName": "ChartboostSDK",
+        "isOpen": true,
+        "objc_name": "CHBMediation",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Snapshots\/ImpressionCounterSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 28,
+      "value": "\"ChartboostSDK.CHBImpressionCounterSnapshot\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 186,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 186,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 25,
+      "value": "\"{{ show_close_button }}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 15,
+      "value": "\"{{ ad_type }}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 15,
+      "value": "\"{% ad_type %}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 17,
+      "value": "\"{% ad_domain %}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 11,
+      "value": "\"{% adm %}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 12,
+      "value": "\"{% crid %}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 24,
+      "value": "\"{% publisher_app_id %}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 16,
+      "value": "\"{% encoding %}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 16,
+      "value": "\"{% is_muted %}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 17,
+      "value": "\"{% is_banner %}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 28,
+      "value": "\"{% publisher_has_frames %}\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 18,
+      "value": "\"\"{% params %}\"\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 228,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 228,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 11,
+      "value": "\"ChartboostSDK.CHBAdTraits\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/CurrentLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 12,
+      "value": "\"Chartboost\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/CurrentLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 19,
+      "value": "\"chartboost.logger\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ad Freezes\/AdFreezeInfoRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 25,
+      "value": "\"ad_freeze_event_context\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ad Freezes\/AdFreezeInfoRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 13,
+      "value": "\"ad_did_show\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ad Freezes\/AdFreezeInfoRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 678,
+      "length": 17,
+      "value": "\"app_termination\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ad Freezes\/AdFreezeInfoRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 31,
+      "value": "\"ChartboostSDK.AdFreezeInfoFileStoreRepository\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/AdUnitIdentifiers.swift",
+      "kind": "StringLiteral",
+      "offset": 124,
+      "length": 20,
+      "value": "\"ChartboostSDK.CHBAdUnitIdentifiers\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/SKAdNetworkResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3575,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/SKAdNetworkResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3575,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/SKAdNetworkResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3575,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/TrackingEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 120,
+      "length": 16,
+      "value": "\"ChartboostSDK.CHBTrackingEvent\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Snapshots\/EnvironmentSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 22,
+      "value": "\"ChartboostSDK.CHBEnvironmentSnapshot\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 111,
+      "length": 8,
+      "value": "\"ChartboostSDK.CHBAsset\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/User Agent\/UserAgentRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 11,
+      "value": "\"osVersion\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/User Agent\/UserAgentRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 11,
+      "value": "\"userAgent\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 6,
+      "value": "\"adId\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1047,
+      "length": 12,
+      "value": "\"trackingId\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 6,
+      "value": "\"adId\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1047,
+      "length": 12,
+      "value": "\"trackingId\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/TrackingEventContext.swift",
+      "kind": "StringLiteral",
+      "offset": 127,
+      "length": 23,
+      "value": "\"ChartboostSDK.CHBTrackingEventContext\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Environment\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Environment\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 27,
+      "value": "\"ChartboostSDK.CHBSKANOverlayConfiguration\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1789,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1789,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/ParsingError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 410,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/ParsingError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 410,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Showing Ads\/OverlayManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 834,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Snapshots\/SessionSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 18,
+      "value": "\"ChartboostSDK.CHBSessionSnapshot\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 17,
+      "value": "\"com.chartboost.\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/EventThrottler.swift",
+      "kind": "Dictionary",
+      "offset": 587,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/EventThrottler.swift",
+      "kind": "Dictionary",
+      "offset": 646,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/EventThrottler.swift",
+      "kind": "Array",
+      "offset": 696,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 7,
+      "value": "\"ad_id\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
+      "length": 12,
+      "value": "\"media-type\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 11,
+      "value": "\"deep-link\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 793,
+      "length": 11,
+      "value": "\"itunes_id\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 14,
+      "value": "\"show_loading\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 27,
+      "value": "\"enable_appsheet_animation\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 996,
+      "length": 19,
+      "value": "\"prefetch_required\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1075,
+      "length": 25,
+      "value": "\"certification_providers\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 7,
+      "value": "\"ad_id\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
+      "length": 12,
+      "value": "\"media-type\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 11,
+      "value": "\"deep-link\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 793,
+      "length": 11,
+      "value": "\"itunes_id\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 14,
+      "value": "\"show_loading\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 27,
+      "value": "\"enable_appsheet_animation\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 996,
+      "length": 19,
+      "value": "\"prefetch_required\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1075,
+      "length": 25,
+      "value": "\"certification_providers\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 19,
+      "value": "\"template_mongo_id\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 19,
+      "value": "\"template_mongo_id\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/OpenRTBResponse+AdUnitMappable.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 12,
+      "value": "\"adUnitType\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/OpenRTBResponse+AdUnitMappable.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/AdUnit.swift",
+      "kind": "StringLiteral",
+      "offset": 113,
+      "length": 9,
+      "value": "\"ChartboostSDK.CHBAdUnit\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2257,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3197,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3202,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3266,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3271,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3337,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3342,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3405,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3410,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3476,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3481,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3548,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3553,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 435,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 507,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 435,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 507,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/EvenTracker.swift",
+      "kind": "Array",
+      "offset": 1126,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/TrackEventFileStoreRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 29,
+      "value": "\"ChartboostSDK.TrackEventFileStoreRepository\""
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANAttributionParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 28,
+      "value": "\"ChartboostSDK.CHBSKANAttributionParameters\""
+    }
+  ]
+}

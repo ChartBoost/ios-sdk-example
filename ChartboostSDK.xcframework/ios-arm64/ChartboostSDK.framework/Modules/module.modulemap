@@ -1,0 +1,24 @@
+framework module ChartboostSDK {
+  
+  umbrella header "ChartboostSDK.h"
+  
+  export *
+  module * { export * }
+  
+  link framework "UIKit"
+  link framework "WebKit"
+  link framework "StoreKit"
+  link framework "CoreMedia"
+  link framework "AVFoundation"
+  link framework "AppTrackingTransparency"
+  link framework "AdSupport"
+  link framework "CoreTelephony"
+  link framework "SafariServices"
+  link framework "CoreFoundation"
+  link framework "SystemConfiguration"
+}
+
+module ChartboostSDK.Swift {
+  header "ChartboostSDK-Swift.h"
+  requires objc
+}
