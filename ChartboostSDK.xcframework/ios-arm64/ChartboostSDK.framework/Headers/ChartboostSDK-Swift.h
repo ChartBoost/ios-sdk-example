@@ -257,6 +257,7 @@ using UInt = size_t;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
 #endif
 #if defined(__cplusplus)
 #endif
