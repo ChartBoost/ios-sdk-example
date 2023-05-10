@@ -10,6 +10,7 @@
 		0708DCD62507507E5C4A1C4E /* Pods_ChartboostExample_Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DDB3CEF20B1080F7794556 /* Pods_ChartboostExample_Pods.framework */; };
 		11D6027A1EC13FDB0075AF5E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D602791EC13FDB0075AF5E /* WebKit.framework */; };
 		11E67ECC203778E8004291DF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E67ECB203778E8004291DF /* Launch Screen.storyboard */; };
+		309E16FD2A05312100C58138 /* ChartboostSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 309E16FC2A05312100C58138 /* ChartboostSDKResources.bundle */; };
 		33790B18247682F5007502D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6C9182B31BC00C21472 /* ViewController.m */; };
 		33790B19247682F5007502D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6C0182B31BC00C21472 /* AppDelegate.m */; };
 		33790B1A247682F5007502D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6BC182B31BC00C21472 /* main.m */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		11D602791EC13FDB0075AF5E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		11E67ECB203778E8004291DF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		309E16FC2A05312100C58138 /* ChartboostSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ChartboostSDKResources.bundle; path = ../ChartboostSDKResources.bundle; sourceTree = "<group>"; };
 		33790B28247682F5007502D3 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DDB3CEF20B1080F7794556 /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921702562834CDCD006C4DE0 /* ChartboostSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ChartboostSDK.xcframework; path = ../ChartboostSDK.xcframework; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		DA93B6A4182B31BC00C21472 = {
 			isa = PBXGroup;
 			children = (
+				309E16FC2A05312100C58138 /* ChartboostSDKResources.bundle */,
 				DA93B6B6182B31BC00C21472 /* ChartboostExample */,
 				DA93B6AF182B31BC00C21472 /* Frameworks */,
 				DA93B6AE182B31BC00C21472 /* Products */,
@@ -161,6 +164,7 @@
 				33790B17247682F5007502D3 /* Sources */,
 				33790B1B247682F5007502D3 /* Frameworks */,
 				33790B20247682F5007502D3 /* Resources */,
+				D827886FAB5EAAC6E611F4D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309E16FD2A05312100C58138 /* ChartboostSDKResources.bundle in Resources */,
 				DA93B6CC182B31BC00C21472 /* Images.xcassets in Resources */,
 				11E67ECC203778E8004291DF /* Launch Screen.storyboard in Resources */,
 				DA93B6BB182B31BC00C21472 /* InfoPlist.strings in Resources */,
@@ -273,6 +278,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D827886FAB5EAAC6E611F4D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods-resources.sh",
+				"${PODS_ROOT}/ChartboostSDK/ChartboostSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ChartboostSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -76,6 +76,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
         "declKind": "Import",
@@ -637,6 +647,36 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChartboostSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "CHBMediation",
         "printedName": "CHBMediation",
@@ -822,6 +862,78 @@
             "mangledName": "$sSE"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Timer",
+        "printedName": "Timer",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSTimer",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSTimer",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -889,6 +1001,27 @@
       "offset": 273,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Viewability\/ViewableDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Viewability\/ViewableDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 445,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Viewability\/ViewableDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 476,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
@@ -1117,28 +1250,28 @@
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
       "kind": "StringLiteral",
-      "offset": 987,
+      "offset": 1007,
       "length": 6,
       "value": "\"adId\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1047,
+      "offset": 1067,
       "length": 12,
       "value": "\"trackingId\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
       "kind": "StringLiteral",
-      "offset": 987,
+      "offset": 1007,
       "length": 6,
       "value": "\"adId\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1047,
+      "offset": 1067,
       "length": 12,
       "value": "\"trackingId\""
     },
@@ -1271,126 +1404,126 @@
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 665,
+      "offset": 685,
       "length": 7,
       "value": "\"ad_id\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 698,
+      "offset": 718,
       "length": 12,
       "value": "\"media-type\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 757,
+      "offset": 777,
       "length": 11,
       "value": "\"deep-link\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 793,
+      "offset": 813,
       "length": 11,
       "value": "\"itunes_id\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 859,
+      "offset": 879,
       "length": 14,
       "value": "\"show_loading\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 913,
+      "offset": 933,
       "length": 27,
       "value": "\"enable_appsheet_animation\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 996,
+      "offset": 1016,
       "length": 19,
       "value": "\"prefetch_required\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1095,
       "length": 25,
       "value": "\"certification_providers\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 665,
+      "offset": 685,
       "length": 7,
       "value": "\"ad_id\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 698,
+      "offset": 718,
       "length": 12,
       "value": "\"media-type\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 757,
+      "offset": 777,
       "length": 11,
       "value": "\"deep-link\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 793,
+      "offset": 813,
       "length": 11,
       "value": "\"itunes_id\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 859,
+      "offset": 879,
       "length": 14,
       "value": "\"show_loading\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 913,
+      "offset": 933,
       "length": 27,
       "value": "\"enable_appsheet_animation\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 996,
+      "offset": 1016,
       "length": 19,
       "value": "\"prefetch_required\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1095,
       "length": 25,
       "value": "\"certification_providers\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1376,
+      "offset": 1415,
       "length": 19,
       "value": "\"template_mongo_id\""
     },
     {
       "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1376,
+      "offset": 1415,
       "length": 19,
       "value": "\"template_mongo_id\""
     },
