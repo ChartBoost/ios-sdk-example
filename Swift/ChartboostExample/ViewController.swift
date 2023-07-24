@@ -101,7 +101,7 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
     
     // MARK: - Ad Delegate (Interstitial, Rewarded & Banner)
     
-    func didCacheAd(_ event: CHBCacheEvent, error: CHBCacheError?) {
+    func didCacheAd(_ event: CHBCacheEvent, error: CacheError?) {
         log(message: "didCacheAd: \(type(of: event.ad)) \(statusWithError(error))")
     }
     
@@ -109,15 +109,15 @@ class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDele
         log(message: "willShowAd: \(type(of: event.ad))")
     }
     
-    func didShowAd(_ event: CHBShowEvent, error: CHBShowError?) {
+    func didShowAd(_ event: CHBShowEvent, error: ShowError?) {
         log(message: "didShowAd: \(type(of: event.ad)) \(statusWithError(error))")
     }
     
-    func didClickAd(_ event: CHBClickEvent, error: CHBClickError?) {
+    func didClickAd(_ event: CHBClickEvent, error: ClickError?) {
         log(message: "didClickAd: \(type(of: event.ad)) \(statusWithError(error))")
     }
     
-    func didFinishHandlingClick(_ event: CHBClickEvent, error: CHBClickError?) {
+    func didFinishHandlingClick(_ event: CHBClickEvent, error: ClickError?) {
         log(message: "didFinishHandlingClick: \(type(of: event.ad)) \(statusWithError(error))")
     }
     
