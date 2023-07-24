@@ -230,6 +230,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 #endif
 
 #import <ChartboostSDK/ChartboostSDK.h>
@@ -256,6 +257,84 @@ using UInt = size_t;
 @interface CHBMediation (SWIFT_EXTENSION(ChartboostSDK))
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 @end
+
+@class NSString;
+@class NSCoder;
+
+/// An error object passed on cache-related delegate methods.
+SWIFT_CLASS_NAMED("CacheError")
+@interface CHBCacheError : NSError
+- (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// Error codes for failed cache operations.
+typedef SWIFT_ENUM_NAMED(NSInteger, CHBCacheErrorCode, "CacheErrorCode", open) {
+  CHBCacheErrorCodeInternalError = 0,
+  CHBCacheErrorCodeInternetUnavailable = 1,
+  CHBCacheErrorCodeNetworkFailure = 2,
+  CHBCacheErrorCodeNoAdFound = 3,
+  CHBCacheErrorCodeSessionNotStarted = 4,
+  CHBCacheErrorCodeAssetDownloadFailure = 5,
+  CHBCacheErrorCodePublisherDisabled = 6,
+  CHBCacheErrorCodeServerError = 7,
+};
+
+
+/// An error object passed on click-related delegate methods.
+SWIFT_CLASS_NAMED("ClickError")
+@interface CHBClickError : NSError
+- (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// Error codes for failed click operations.
+typedef SWIFT_ENUM_NAMED(NSInteger, CHBClickErrorCode, "ClickErrorCode", open) {
+  CHBClickErrorCodeUriInvalid = 0,
+  CHBClickErrorCodeUriUnrecognized = 1,
+  CHBClickErrorCodeInternalError = 2,
+};
+
+
+@interface NSError (SWIFT_EXTENSION(ChartboostSDK))
+/// IMPORTANT: For 64-bit and iPhone OS applications, there is a linker bug that prevents -ObjC from loading objects files from static libraries that contain only categories and no classes. The workaround is to use the -all_load or -force_load flags. -all_load forces the linker to load all object files from every archive it sees, even those without Objective-C code. -force_load is available in Xcode 3.2 and later. It allows finer grain control of archive loading. Each -force_load option must be followed by a path to an archive, and every object file in that archive will be loaded.
+/// The Solution applied here is to include this trackDescription method inside of a file that already contains other classes so it gets linked.
+- (NSString * _Nonnull)trackDescription SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+/// An error object passed on show-related delegate methods.
+SWIFT_CLASS_NAMED("ShowError")
+@interface CHBShowError : NSError
+- (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// Error codes for failed show operations.
+typedef SWIFT_ENUM_NAMED(NSInteger, CHBShowErrorCode, "ShowErrorCode", open) {
+  CHBShowErrorCodeInternalError = 0,
+  CHBShowErrorCodeSessionNotStarted = 1,
+  CHBShowErrorCodeInternetUnavailable = 2,
+  CHBShowErrorCodePresentationFailure = 3,
+  CHBShowErrorCodeNoCachedAd = 4,
+  CHBShowErrorCodeNoViewController = 5,
+};
+
+
+/// An error object passed on SDK start completion callbacks.
+SWIFT_CLASS_NAMED("StartError")
+@interface CHBStartError : NSError
+- (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// Error codes for failed start operations.
+typedef SWIFT_ENUM_NAMED(NSInteger, CHBStartErrorCode, "StartErrorCode", open) {
+  CHBStartErrorCodeInvalidCredentials = 0,
+  CHBStartErrorCodeNetworkFailure = 1,
+  CHBStartErrorCodeServerError = 2,
+};
 
 
 #endif
@@ -498,6 +577,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 #endif
 
 #import <ChartboostSDK/ChartboostSDK.h>
@@ -524,6 +604,84 @@ using UInt = size_t;
 @interface CHBMediation (SWIFT_EXTENSION(ChartboostSDK))
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 @end
+
+@class NSString;
+@class NSCoder;
+
+/// An error object passed on cache-related delegate methods.
+SWIFT_CLASS_NAMED("CacheError")
+@interface CHBCacheError : NSError
+- (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// Error codes for failed cache operations.
+typedef SWIFT_ENUM_NAMED(NSInteger, CHBCacheErrorCode, "CacheErrorCode", open) {
+  CHBCacheErrorCodeInternalError = 0,
+  CHBCacheErrorCodeInternetUnavailable = 1,
+  CHBCacheErrorCodeNetworkFailure = 2,
+  CHBCacheErrorCodeNoAdFound = 3,
+  CHBCacheErrorCodeSessionNotStarted = 4,
+  CHBCacheErrorCodeAssetDownloadFailure = 5,
+  CHBCacheErrorCodePublisherDisabled = 6,
+  CHBCacheErrorCodeServerError = 7,
+};
+
+
+/// An error object passed on click-related delegate methods.
+SWIFT_CLASS_NAMED("ClickError")
+@interface CHBClickError : NSError
+- (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// Error codes for failed click operations.
+typedef SWIFT_ENUM_NAMED(NSInteger, CHBClickErrorCode, "ClickErrorCode", open) {
+  CHBClickErrorCodeUriInvalid = 0,
+  CHBClickErrorCodeUriUnrecognized = 1,
+  CHBClickErrorCodeInternalError = 2,
+};
+
+
+@interface NSError (SWIFT_EXTENSION(ChartboostSDK))
+/// IMPORTANT: For 64-bit and iPhone OS applications, there is a linker bug that prevents -ObjC from loading objects files from static libraries that contain only categories and no classes. The workaround is to use the -all_load or -force_load flags. -all_load forces the linker to load all object files from every archive it sees, even those without Objective-C code. -force_load is available in Xcode 3.2 and later. It allows finer grain control of archive loading. Each -force_load option must be followed by a path to an archive, and every object file in that archive will be loaded.
+/// The Solution applied here is to include this trackDescription method inside of a file that already contains other classes so it gets linked.
+- (NSString * _Nonnull)trackDescription SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+/// An error object passed on show-related delegate methods.
+SWIFT_CLASS_NAMED("ShowError")
+@interface CHBShowError : NSError
+- (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// Error codes for failed show operations.
+typedef SWIFT_ENUM_NAMED(NSInteger, CHBShowErrorCode, "ShowErrorCode", open) {
+  CHBShowErrorCodeInternalError = 0,
+  CHBShowErrorCodeSessionNotStarted = 1,
+  CHBShowErrorCodeInternetUnavailable = 2,
+  CHBShowErrorCodePresentationFailure = 3,
+  CHBShowErrorCodeNoCachedAd = 4,
+  CHBShowErrorCodeNoViewController = 5,
+};
+
+
+/// An error object passed on SDK start completion callbacks.
+SWIFT_CLASS_NAMED("StartError")
+@interface CHBStartError : NSError
+- (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+/// Error codes for failed start operations.
+typedef SWIFT_ENUM_NAMED(NSInteger, CHBStartErrorCode, "StartErrorCode", open) {
+  CHBStartErrorCodeInvalidCredentials = 0,
+  CHBStartErrorCodeNetworkFailure = 1,
+  CHBStartErrorCodeServerError = 2,
+};
 
 
 #endif

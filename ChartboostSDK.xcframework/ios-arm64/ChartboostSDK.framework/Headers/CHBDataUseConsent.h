@@ -10,8 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /*!
-@typedef CHBPrivacyStandard
-@brief Constant that identifies a privacy standard to comply to.
+Constant that identifies a privacy standard to comply to.
 */
 typedef NSString * CHBPrivacyStandard NS_TYPED_EXTENSIBLE_ENUM;
 /*! @brief GDPR privacy standard identifier */
@@ -24,14 +23,14 @@ FOUNDATION_EXPORT CHBPrivacyStandard const CHBPrivacyStandardCOPPA;
 FOUNDATION_EXPORT CHBPrivacyStandard const CHBPrivacyStandardLGPD;
 
 /*!
-@class CHBDataUseConsent
-@brief Abstract class. Subclasses define a data use consent option for a privacy standard.
+Abstract class. Subclasses define a data use consent option for a privacy standard.
+# Discussion #
 Not intended to be used directly, always use a subclass to pass to +[Chartboost addDataUseConsent:] or to cast the result of +[Chartboost dataUseConsentForPrivacyStandard:]
 */
 @interface CHBDataUseConsent: NSObject
-/*! @brief The identifier for the privacy standard this consent applies to. */
+/*! The identifier for the privacy standard this consent applies to. */
 @property (nonatomic, readonly) CHBPrivacyStandard privacyStandard;
-/*! @brief Use the subclasses initializers to obtain a valid consent instance. */
+/*! Use the subclasses initializers to obtain a valid consent instance. */
 - (instancetype)init NS_UNAVAILABLE;
 
 @end
@@ -39,8 +38,7 @@ Not intended to be used directly, always use a subclass to pass to +[Chartboost 
 // MARK: - GDPR
 
 /*!
-@typedef NS_ENUM (NSUInteger, CHBGDPRConsent)
-@brief Consent options for GDPR compliance.
+Consent options for GDPR compliance.
 */
 typedef NS_ENUM(NSUInteger, CHBGDPRConsent) {
     /*! User does not consent to behavioral targeting in compliance with GDPR. */
@@ -50,17 +48,16 @@ typedef NS_ENUM(NSUInteger, CHBGDPRConsent) {
 } NS_SWIFT_NAME(CHBGDPRDataUseConsent.Consent);
 
 /*!
-@class CHBGDPRDataUseConsent
-@brief CHBDataUseConsent subclass for compliance with GDPR.
+CHBDataUseConsent subclass for compliance with GDPR.
 */
 NS_SWIFT_NAME(CHBDataUseConsent.GDPR)
 @interface CHBGDPRDataUseConsent: CHBDataUseConsent
-/*! @brief The GDPR consent option. */
+/*! The GDPR consent option. */
 @property (nonatomic, readonly) CHBGDPRConsent consent;
 /*!
- @brief Returns a GDPR consent object.
- @param consent The desired GDPR consent option.
- */
+Returns a GDPR consent object.
+- parameter consent: The desired GDPR consent option.
+*/
 + (CHBGDPRDataUseConsent *)gdprConsent:(CHBGDPRConsent)consent NS_SWIFT_NAME(init(_:));
 
 @end
@@ -68,8 +65,7 @@ NS_SWIFT_NAME(CHBDataUseConsent.GDPR)
 // MARK: - CCPA
 
 /*!
-@typedef NS_ENUM (NSUInteger, CHBCCPAConsent)
-@brief Consent options for CCPA compliance.
+Consent options for CCPA compliance.
 */
 typedef NS_ENUM(NSUInteger, CHBCCPAConsent) {
     /*! User does not consent to the sale of his or her personal information in compliance with CCPA. */
@@ -79,16 +75,15 @@ typedef NS_ENUM(NSUInteger, CHBCCPAConsent) {
 } NS_SWIFT_NAME(CHBCCPADataUseConsent.Consent);
 
 /*!
-@class CHBCCPADataUseConsent
-@brief CHBDataUseConsent subclass for compliance with CCPA.
+CHBDataUseConsent subclass for compliance with CCPA.
 */
 NS_SWIFT_NAME(CHBDataUseConsent.CCPA)
 @interface CHBCCPADataUseConsent: CHBDataUseConsent
-/*! @brief The CCPA consent option. */
+/*!The CCPA consent option. */
 @property (nonatomic, readonly) CHBCCPAConsent consent;
 /*!
-@brief Returns a CCPA consent object.
-@param consent The desired CCPA consent option.
+Returns a CCPA consent object.
+- parameter consent: The desired CCPA consent option.
 */
 + (CHBCCPADataUseConsent *)ccpaConsent:(CHBCCPAConsent)consent NS_SWIFT_NAME(init(_:));
 @end
@@ -96,16 +91,15 @@ NS_SWIFT_NAME(CHBDataUseConsent.CCPA)
 // MARK: - COPPA
 
 /*!
-@class CHBCOPPADataUseConsent
-@brief CHBDataUseConsent subclass for compliance with COPPA.
+CHBDataUseConsent subclass for compliance with COPPA.
 */
 NS_SWIFT_NAME(CHBDataUseConsent.COPPA)
 @interface CHBCOPPADataUseConsent: CHBDataUseConsent
-/*! @brief Indicates if the app is directed to children. */
+/*!Indicates if the app is directed to children. */
 @property (nonatomic, readonly) BOOL isChildDirected;
 /*!
- @brief Returns a COPPA consent object.
- @param isChildDirected Pass `true` if your app is directed to children.
+Returns a COPPA consent object.
+- parameter isChildDirected: Pass `true` if your app is directed to children.
  */
 + (CHBCOPPADataUseConsent *)isChildDirected:(BOOL)isChildDirected NS_SWIFT_NAME(init(isChildDirected:));
 @end
@@ -113,36 +107,35 @@ NS_SWIFT_NAME(CHBDataUseConsent.COPPA)
 // MARK: - LGPD
 
 /*!
-@class CHBLGPDDataUseConsent
-@brief CHBDataUseConsent subclass for compliance with LGPD.
+CHBDataUseConsent subclass for compliance with LGPD.
 */
 NS_SWIFT_NAME(CHBDataUseConsent.LGPD)
 @interface CHBLGPDDataUseConsent: CHBDataUseConsent
-/*! @brief Indicates if the user consents to behavioral targeting in compliance with LGPD. */
+/*!Indicates if the user consents to behavioral targeting in compliance with LGPD. */
 @property (nonatomic, readonly) BOOL allowBehavioralTargeting;
 /*!
- @brief Returns a LGPD consent object.
- @param allowBehavioralTargeting Pass `true` if the user consents to behavioral targeting, `false` otherwise.
- */
+Returns a LGPD consent object.
+- parameter allowBehavioralTargeting: Pass `true` if the user consents to behavioral targeting, `false` otherwise.
+*/
 + (CHBLGPDDataUseConsent *)allowBehavioralTargeting:(BOOL)allowBehavioralTargeting NS_SWIFT_NAME(init(allowBehavioralTargeting:));
 @end
 
 // MARK: - Custom
 
 /*!
-@class CHBCustomDataUseConsent
-@brief CHBDataUseConsent subclass for compliance with a custom privacy standard.
+CHBDataUseConsent subclass for compliance with a custom privacy standard.
 */
 NS_SWIFT_NAME(CHBDataUseConsent.Custom)
 @interface CHBCustomDataUseConsent: CHBDataUseConsent
-/*! @brief The custom consent value. */
+/*!The custom consent value. */
 @property (nonatomic, readonly) NSString *consent;
 /*!
- @brief Returns a custom consent object.
- @discussion Normally you would use other CHBDataUseConsent subclasses instead, which provide predefined options for current privacy standards.
- If you decide to use this make sure you pass valid values, as defined in https://answers.chartboost.com/en-us/child_article/ios-privacy-methods
- @param privacyStandard The desired privacy standard identifier.
- @param consent The desired consent value.
+Returns a custom consent object.
+# Discussion #
+- Normally you would use other CHBDataUseConsent subclasses instead, which provide predefined options for current privacy standards.
+- If you decide to use this make sure you pass valid values, as defined in [Chartboost Helpsite - Privacy Methods](https://answers.chartboost.com/en-us/child_article/ios-privacy-methods)
+- parameter privacyStandard: The desired privacy standard identifier.
+- parameter consent: The desired consent value.
 */
 + (CHBCustomDataUseConsent *)customConsentWithPrivacyStandard:(CHBPrivacyStandard)privacyStandard consent:(NSString *)consent NS_SWIFT_NAME(init(privacyStandard:consent:));
 
