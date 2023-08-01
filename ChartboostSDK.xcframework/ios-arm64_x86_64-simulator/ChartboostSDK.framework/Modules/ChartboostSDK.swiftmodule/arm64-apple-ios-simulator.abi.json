@@ -1,1776 +1,3805 @@
 {
-  "ABIRoot": {
-    "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
-    "children": [
+  "ABIRoot" : {
+    "printedName" : "TopLevel",
+    "json_format_version" : 8,
+    "name" : "TopLevel",
+    "kind" : "Root",
+    "children" : [
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "kind" : "Import"
+      },
+      {
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation"
+      },
+      {
+        "printedName" : "UIKit",
+        "name" : "UIKit",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import"
+      },
+      {
+        "declKind" : "Import",
+        "printedName" : "WebKit",
+        "name" : "WebKit",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "kind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "kind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "kind" : "Import",
+        "name" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declKind" : "Import",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "printedName" : "Foundation"
+      },
+      {
+        "name" : "CoreGraphics",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "CoreGraphics"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "printedName" : "Foundation"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import"
+      },
+      {
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "printedName" : "Foundation"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import"
+      },
+      {
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "Foundation"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "declKind" : "Import",
+        "printedName" : "CoreTelephony",
+        "name" : "CoreTelephony",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import"
+      },
+      {
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "name" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation"
+      },
+      {
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "printedName" : "StoreKit",
+        "name" : "StoreKit",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "name" : "UIKit",
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "printedName" : "UIKit"
+      },
+      {
+        "kind" : "Import",
+        "name" : "StoreKit",
+        "declKind" : "Import",
+        "printedName" : "StoreKit",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation"
+      },
+      {
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declKind" : "Import"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "printedName" : "Foundation"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "CoreGraphics",
-        "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK"
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "name" : "UIKit",
+        "printedName" : "UIKit"
+      },
+      {
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import"
+      },
+      {
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import"
+      },
+      {
+        "kind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "kind" : "Import",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "name" : "Foundation"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "printedName" : "Foundation"
+      },
+      {
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "printedName" : "WebKit",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "WebKit",
+        "kind" : "Import"
+      },
+      {
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "kind" : "Import",
+        "name" : "StoreKit",
+        "declKind" : "Import",
+        "printedName" : "StoreKit",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "name" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
           "RawDocComment"
-        ]
+        ],
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "name" : "Foundation",
+        "declAttributes" : [
           "RawDocComment"
-        ]
+        ],
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "declAttributes" : [
           "RawDocComment"
-        ]
+        ],
+        "name" : "Foundation"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
           "RawDocComment"
-        ]
+        ],
+        "name" : "Foundation"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "name" : "Foundation",
+        "declAttributes" : [
           "RawDocComment"
-        ]
+        ],
+        "declKind" : "Import",
+        "printedName" : "Foundation"
       },
       {
-        "kind": "Import",
-        "name": "CoreTelephony",
-        "printedName": "CoreTelephony",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
+        "declKind" : "Import",
+        "declAttributes" : [
           "RawDocComment"
-        ]
+        ],
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "name" : "Foundation"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ChartboostSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CHBMediation",
-        "printedName": "CHBMediation",
-        "children": [
+        "name" : "CacheErrorCode",
+        "declKind" : "Enum",
+        "moduleName" : "ChartboostSDK",
+        "conformances" : [
           {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So12CHBMediationC13ChartboostSDKE6encode2toys7Encoder_p_tKF",
-            "mangledName": "$sSo12CHBMediationC13ChartboostSDKE6encode2toys7Encoder_p_tKF",
-            "moduleName": "ChartboostSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "usr" : "s:SY",
+            "mangledName" : "$sSY",
+            "kind" : "Conformance",
+            "name" : "RawRepresentable",
+            "children" : [
               {
-                "kind": "TypeNominal",
-                "name": "CHBMediation",
-                "printedName": "ChartboostSDK.CHBMediation",
-                "usr": "c:objc(cs)CHBMediation"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
+                "kind" : "TypeWitness",
+                "name" : "RawValue",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "printedName" : "RawValue"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:So12CHBMediationC13ChartboostSDKE4fromABs7Decoder_p_tKcfc",
-            "mangledName": "$sSo12CHBMediationC13ChartboostSDKE4fromABs7Decoder_p_tKcfc",
-            "moduleName": "ChartboostSDK",
-            "declAttributes": [
+            "printedName" : "RawRepresentable"
+          }
+        ],
+        "enumRawTypeName" : "Int",
+        "objc_name" : "CHBCacheErrorCode",
+        "kind" : "TypeDecl",
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+        "children" : [
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode@CHBCacheErrorCodeInternalError",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO08internalD0yA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "CacheErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                        "printedName" : "ChartboostSDK.CacheErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.CacheErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.CacheErrorCode.Type) -> ChartboostSDK.CacheErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 0,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "internalError",
+            "kind" : "Var",
+            "name" : "internalError",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode@CHBCacheErrorCodeInternetUnavailable",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO19internetUnavailableyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "CacheErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                        "printedName" : "ChartboostSDK.CacheErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.CacheErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.CacheErrorCode.Type) -> ChartboostSDK.CacheErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 1,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "internetUnavailable",
+            "kind" : "Var",
+            "name" : "internetUnavailable",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode@CHBCacheErrorCodeNetworkFailure",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO14networkFailureyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "CacheErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                        "printedName" : "ChartboostSDK.CacheErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.CacheErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.CacheErrorCode.Type) -> ChartboostSDK.CacheErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 2,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "networkFailure",
+            "kind" : "Var",
+            "name" : "networkFailure",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode@CHBCacheErrorCodeNoAdFound",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO9noAdFoundyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "CacheErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                        "printedName" : "ChartboostSDK.CacheErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.CacheErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.CacheErrorCode.Type) -> ChartboostSDK.CacheErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 3,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "noAdFound",
+            "kind" : "Var",
+            "name" : "noAdFound",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode@CHBCacheErrorCodeSessionNotStarted",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO17sessionNotStartedyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "CacheErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                        "printedName" : "ChartboostSDK.CacheErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.CacheErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.CacheErrorCode.Type) -> ChartboostSDK.CacheErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 4,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "sessionNotStarted",
+            "kind" : "Var",
+            "name" : "sessionNotStarted",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode@CHBCacheErrorCodeAssetDownloadFailure",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO20assetDownloadFailureyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "CacheErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                        "printedName" : "ChartboostSDK.CacheErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.CacheErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.CacheErrorCode.Type) -> ChartboostSDK.CacheErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 5,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "assetDownloadFailure",
+            "kind" : "Var",
+            "name" : "assetDownloadFailure",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode@CHBCacheErrorCodePublisherDisabled",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO17publisherDisabledyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "CacheErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                        "printedName" : "ChartboostSDK.CacheErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.CacheErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.CacheErrorCode.Type) -> ChartboostSDK.CacheErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 6,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "publisherDisabled",
+            "kind" : "Var",
+            "name" : "publisherDisabled",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode@CHBCacheErrorCodeServerError",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO06serverD0yA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "CacheErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                        "printedName" : "ChartboostSDK.CacheErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.CacheErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.CacheErrorCode.Type) -> ChartboostSDK.CacheErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 7,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "serverError",
+            "kind" : "Var",
+            "name" : "serverError",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "s:13ChartboostSDK14CacheErrorCodeO11descriptionSSvp",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO11descriptionSSvp",
+            "declAttributes" : [
+              "AccessControl"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "String",
+                "usr" : "s:SS",
+                "printedName" : "Swift.String"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK14CacheErrorCodeO11descriptionSSvg",
+                "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO11descriptionSSvg",
+                "accessorKind" : "get",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "String",
+                    "usr" : "s:SS",
+                    "printedName" : "Swift.String"
+                  }
+                ],
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "description",
+            "kind" : "Var",
+            "name" : "description",
+            "declKind" : "Var"
+          },
+          {
+            "usr" : "s:13ChartboostSDK14CacheErrorCodeO8rawValueACSgSi_tcfc",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO8rawValueACSgSi_tcfc",
+            "implicit" : true,
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.CacheErrorCode?"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              }
+            ],
+            "init_kind" : "Designated",
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "init(rawValue:)",
+            "kind" : "Constructor",
+            "name" : "init",
+            "declKind" : "Constructor"
+          },
+          {
+            "usr" : "s:13ChartboostSDK14CacheErrorCodeO8rawValueSivp",
+            "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO8rawValueSivp",
+            "implicit" : true,
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK14CacheErrorCodeO8rawValueSivg",
+                "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO8rawValueSivg",
+                "implicit" : true,
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "accessorKind" : "get",
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "rawValue",
+            "kind" : "Var",
+            "name" : "rawValue",
+            "declKind" : "Var"
+          }
+        ],
+        "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO",
+        "printedName" : "CacheErrorCode"
+      },
+      {
+        "kind" : "TypeDecl",
+        "mangledName" : "$s13ChartboostSDK10CacheErrorC",
+        "inheritsConvenienceInitializers" : true,
+        "superclassNames" : [
+          "Foundation.NSError",
+          "ObjectiveC.NSObject"
+        ],
+        "declKind" : "Class",
+        "conformances" : [
+          {
+            "mangledName" : "$ss8SendableP",
+            "kind" : "Conformance",
+            "name" : "Sendable",
+            "usr" : "s:s8SendableP",
+            "printedName" : "Sendable"
+          },
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          },
+          {
+            "mangledName" : "$ss5ErrorP",
+            "kind" : "Conformance",
+            "name" : "Error",
+            "usr" : "s:s5ErrorP",
+            "printedName" : "Error"
+          }
+        ],
+        "children" : [
+          {
+            "usr" : "s:13ChartboostSDK10CacheErrorC9cacheCodeAA0cdF0OSgvp",
+            "mangledName" : "$s13ChartboostSDK10CacheErrorC9cacheCodeAA0cdF0OSgvp",
+            "declAttributes" : [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                    "printedName" : "ChartboostSDK.CacheErrorCode"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.CacheErrorCode?"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK10CacheErrorC9cacheCodeAA0cdF0OSgvg",
+                "mangledName" : "$s13ChartboostSDK10CacheErrorC9cacheCodeAA0cdF0OSgvg",
+                "accessorKind" : "get",
+                "children" : [
+                  {
+                    "usr" : "s:Sq",
+                    "kind" : "TypeNominal",
+                    "name" : "Optional",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "CacheErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+                        "printedName" : "ChartboostSDK.CacheErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.CacheErrorCode?"
+                  }
+                ],
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "cacheCode",
+            "kind" : "Var",
+            "name" : "cacheCode",
+            "declKind" : "Var"
+          },
+          {
+            "objc_name" : "initWithDomain:code:userInfo:",
+            "mangledName" : "$s13ChartboostSDK10CacheErrorC6domain4code8userInfoACSS_SiSDySSypGSgtcfc",
+            "printedName" : "init(domain:code:userInfo:)",
+            "usr" : "c:@M@ChartboostSDK@objc(cs)CHBCacheError(im)initWithDomain:code:userInfo:",
+            "overriding" : true,
+            "implicit" : true,
+            "declKind" : "Constructor",
+            "moduleName" : "ChartboostSDK",
+            "declAttributes" : [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind" : "Designated",
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "CacheError",
+                "usr" : "c:@M@ChartboostSDK@objc(cs)CHBCacheError",
+                "printedName" : "ChartboostSDK.CacheError"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "String",
+                "usr" : "s:SS",
+                "printedName" : "Swift.String"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              },
+              {
+                "hasDefaultArg" : true,
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "usr" : "s:SD",
+                    "kind" : "TypeNominal",
+                    "name" : "Dictionary",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "String",
+                        "usr" : "s:SS",
+                        "printedName" : "Swift.String"
+                      },
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ProtocolComposition",
+                        "printedName" : "Any"
+                      }
+                    ],
+                    "printedName" : "[Swift.String : Any]"
+                  }
+                ],
+                "printedName" : "[Swift.String : Any]?"
+              }
+            ],
+            "kind" : "Constructor",
+            "name" : "init"
+          },
+          {
+            "objc_name" : "initWithCoder:",
+            "mangledName" : "$s13ChartboostSDK10CacheErrorC5coderACSgSo7NSCoderC_tcfc",
+            "printedName" : "init(coder:)",
+            "usr" : "c:@M@ChartboostSDK@objc(cs)CHBCacheError(im)initWithCoder:",
+            "overriding" : true,
+            "implicit" : true,
+            "declKind" : "Constructor",
+            "moduleName" : "ChartboostSDK",
+            "declAttributes" : [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind" : "Designated",
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "CacheError",
+                    "usr" : "c:@M@ChartboostSDK@objc(cs)CHBCacheError",
+                    "printedName" : "ChartboostSDK.CacheError"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.CacheError?"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "NSCoder",
+                "usr" : "c:objc(cs)NSCoder",
+                "printedName" : "Foundation.NSCoder"
+              }
+            ],
+            "kind" : "Constructor",
+            "name" : "init"
+          }
+        ],
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBCacheError",
+        "moduleName" : "ChartboostSDK",
+        "name" : "CacheError",
+        "objc_name" : "CHBCacheError",
+        "printedName" : "CacheError",
+        "superclassUsr" : "c:objc(cs)NSError"
+      },
+      {
+        "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO",
+        "objc_name" : "CHBShowErrorCode",
+        "enumRawTypeName" : "Int",
+        "printedName" : "ShowErrorCode",
+        "name" : "ShowErrorCode",
+        "conformances" : [
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "usr" : "s:SY",
+            "mangledName" : "$sSY",
+            "kind" : "Conformance",
+            "name" : "RawRepresentable",
+            "children" : [
+              {
+                "kind" : "TypeWitness",
+                "name" : "RawValue",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "printedName" : "RawValue"
+              }
+            ],
+            "printedName" : "RawRepresentable"
+          }
+        ],
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "children" : [
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode@CHBShowErrorCodeInternalError",
+            "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO08internalD0yA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ShowErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                    "printedName" : "ChartboostSDK.ShowErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ShowErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                        "printedName" : "ChartboostSDK.ShowErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ShowErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.ShowErrorCode.Type) -> ChartboostSDK.ShowErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 0,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "internalError",
+            "kind" : "Var",
+            "name" : "internalError",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode@CHBShowErrorCodeSessionNotStarted",
+            "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO17sessionNotStartedyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ShowErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                    "printedName" : "ChartboostSDK.ShowErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ShowErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                        "printedName" : "ChartboostSDK.ShowErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ShowErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.ShowErrorCode.Type) -> ChartboostSDK.ShowErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 1,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "sessionNotStarted",
+            "kind" : "Var",
+            "name" : "sessionNotStarted",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode@CHBShowErrorCodeInternetUnavailable",
+            "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO19internetUnavailableyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ShowErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                    "printedName" : "ChartboostSDK.ShowErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ShowErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                        "printedName" : "ChartboostSDK.ShowErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ShowErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.ShowErrorCode.Type) -> ChartboostSDK.ShowErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 2,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "internetUnavailable",
+            "kind" : "Var",
+            "name" : "internetUnavailable",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode@CHBShowErrorCodePresentationFailure",
+            "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO19presentationFailureyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ShowErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                    "printedName" : "ChartboostSDK.ShowErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ShowErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                        "printedName" : "ChartboostSDK.ShowErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ShowErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.ShowErrorCode.Type) -> ChartboostSDK.ShowErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 3,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "presentationFailure",
+            "kind" : "Var",
+            "name" : "presentationFailure",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode@CHBShowErrorCodeNoCachedAd",
+            "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO10noCachedAdyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ShowErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                    "printedName" : "ChartboostSDK.ShowErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ShowErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                        "printedName" : "ChartboostSDK.ShowErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ShowErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.ShowErrorCode.Type) -> ChartboostSDK.ShowErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 4,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "noCachedAd",
+            "kind" : "Var",
+            "name" : "noCachedAd",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode@CHBShowErrorCodeNoViewController",
+            "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO16noViewControlleryA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ShowErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                    "printedName" : "ChartboostSDK.ShowErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ShowErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                        "printedName" : "ChartboostSDK.ShowErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ShowErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.ShowErrorCode.Type) -> ChartboostSDK.ShowErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 5,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "noViewController",
+            "kind" : "Var",
+            "name" : "noViewController",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "s:13ChartboostSDK13ShowErrorCodeO11descriptionSSvp",
+            "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO11descriptionSSvp",
+            "declAttributes" : [
+              "AccessControl"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "String",
+                "usr" : "s:SS",
+                "printedName" : "Swift.String"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK13ShowErrorCodeO11descriptionSSvg",
+                "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO11descriptionSSvg",
+                "accessorKind" : "get",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "String",
+                    "usr" : "s:SS",
+                    "printedName" : "Swift.String"
+                  }
+                ],
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "description",
+            "kind" : "Var",
+            "name" : "description",
+            "declKind" : "Var"
+          },
+          {
+            "usr" : "s:13ChartboostSDK13ShowErrorCodeO8rawValueACSgSi_tcfc",
+            "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO8rawValueACSgSi_tcfc",
+            "implicit" : true,
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ShowErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                    "printedName" : "ChartboostSDK.ShowErrorCode"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.ShowErrorCode?"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              }
+            ],
+            "init_kind" : "Designated",
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "init(rawValue:)",
+            "kind" : "Constructor",
+            "name" : "init",
+            "declKind" : "Constructor"
+          },
+          {
+            "usr" : "s:13ChartboostSDK13ShowErrorCodeO8rawValueSivp",
+            "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO8rawValueSivp",
+            "implicit" : true,
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK13ShowErrorCodeO8rawValueSivg",
+                "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO8rawValueSivg",
+                "implicit" : true,
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "accessorKind" : "get",
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "rawValue",
+            "kind" : "Var",
+            "name" : "rawValue",
+            "declKind" : "Var"
+          }
+        ],
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Enum",
+        "kind" : "TypeDecl",
+        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode"
+      },
+      {
+        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBShowError",
+        "children" : [
+          {
+            "usr" : "s:13ChartboostSDK9ShowErrorC8showCodeAA0cdF0OSgvp",
+            "mangledName" : "$s13ChartboostSDK9ShowErrorC8showCodeAA0cdF0OSgvp",
+            "declAttributes" : [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ShowErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                    "printedName" : "ChartboostSDK.ShowErrorCode"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.ShowErrorCode?"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK9ShowErrorC8showCodeAA0cdF0OSgvg",
+                "mangledName" : "$s13ChartboostSDK9ShowErrorC8showCodeAA0cdF0OSgvg",
+                "accessorKind" : "get",
+                "children" : [
+                  {
+                    "usr" : "s:Sq",
+                    "kind" : "TypeNominal",
+                    "name" : "Optional",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ShowErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+                        "printedName" : "ChartboostSDK.ShowErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ShowErrorCode?"
+                  }
+                ],
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "showCode",
+            "kind" : "Var",
+            "name" : "showCode",
+            "declKind" : "Var"
+          },
+          {
+            "objc_name" : "initWithDomain:code:userInfo:",
+            "mangledName" : "$s13ChartboostSDK9ShowErrorC6domain4code8userInfoACSS_SiSDySSypGSgtcfc",
+            "printedName" : "init(domain:code:userInfo:)",
+            "usr" : "c:@M@ChartboostSDK@objc(cs)CHBShowError(im)initWithDomain:code:userInfo:",
+            "overriding" : true,
+            "implicit" : true,
+            "declKind" : "Constructor",
+            "moduleName" : "ChartboostSDK",
+            "declAttributes" : [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind" : "Designated",
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "ShowError",
+                "usr" : "c:@M@ChartboostSDK@objc(cs)CHBShowError",
+                "printedName" : "ChartboostSDK.ShowError"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "String",
+                "usr" : "s:SS",
+                "printedName" : "Swift.String"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              },
+              {
+                "hasDefaultArg" : true,
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "usr" : "s:SD",
+                    "kind" : "TypeNominal",
+                    "name" : "Dictionary",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "String",
+                        "usr" : "s:SS",
+                        "printedName" : "Swift.String"
+                      },
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ProtocolComposition",
+                        "printedName" : "Any"
+                      }
+                    ],
+                    "printedName" : "[Swift.String : Any]"
+                  }
+                ],
+                "printedName" : "[Swift.String : Any]?"
+              }
+            ],
+            "kind" : "Constructor",
+            "name" : "init"
+          },
+          {
+            "objc_name" : "initWithCoder:",
+            "mangledName" : "$s13ChartboostSDK9ShowErrorC5coderACSgSo7NSCoderC_tcfc",
+            "printedName" : "init(coder:)",
+            "usr" : "c:@M@ChartboostSDK@objc(cs)CHBShowError(im)initWithCoder:",
+            "overriding" : true,
+            "implicit" : true,
+            "declKind" : "Constructor",
+            "moduleName" : "ChartboostSDK",
+            "declAttributes" : [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind" : "Designated",
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ShowError",
+                    "usr" : "c:@M@ChartboostSDK@objc(cs)CHBShowError",
+                    "printedName" : "ChartboostSDK.ShowError"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.ShowError?"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "NSCoder",
+                "usr" : "c:objc(cs)NSCoder",
+                "printedName" : "Foundation.NSCoder"
+              }
+            ],
+            "kind" : "Constructor",
+            "name" : "init"
+          }
+        ],
+        "inheritsConvenienceInitializers" : true,
+        "superclassUsr" : "c:objc(cs)NSError",
+        "moduleName" : "ChartboostSDK",
+        "objc_name" : "CHBShowError",
+        "printedName" : "ShowError",
+        "superclassNames" : [
+          "Foundation.NSError",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances" : [
+          {
+            "mangledName" : "$ss8SendableP",
+            "kind" : "Conformance",
+            "name" : "Sendable",
+            "usr" : "s:s8SendableP",
+            "printedName" : "Sendable"
+          },
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          },
+          {
+            "mangledName" : "$ss5ErrorP",
+            "kind" : "Conformance",
+            "name" : "Error",
+            "usr" : "s:s5ErrorP",
+            "printedName" : "Error"
+          }
+        ],
+        "name" : "ShowError",
+        "kind" : "TypeDecl",
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "mangledName" : "$s13ChartboostSDK9ShowErrorC",
+        "declKind" : "Class"
+      },
+      {
+        "objc_name" : "CHBClickErrorCode",
+        "children" : [
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode@CHBClickErrorCodeUriInvalid",
+            "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO10uriInvalidyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ClickErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+                    "printedName" : "ChartboostSDK.ClickErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ClickErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+                        "printedName" : "ChartboostSDK.ClickErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ClickErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.ClickErrorCode.Type) -> ChartboostSDK.ClickErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 0,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "uriInvalid",
+            "kind" : "Var",
+            "name" : "uriInvalid",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode@CHBClickErrorCodeUriUnrecognized",
+            "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO15uriUnrecognizedyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ClickErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+                    "printedName" : "ChartboostSDK.ClickErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ClickErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+                        "printedName" : "ChartboostSDK.ClickErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ClickErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.ClickErrorCode.Type) -> ChartboostSDK.ClickErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 1,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "uriUnrecognized",
+            "kind" : "Var",
+            "name" : "uriUnrecognized",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode@CHBClickErrorCodeInternalError",
+            "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO08internalD0yA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ClickErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+                    "printedName" : "ChartboostSDK.ClickErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ClickErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+                        "printedName" : "ChartboostSDK.ClickErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ClickErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.ClickErrorCode.Type) -> ChartboostSDK.ClickErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 2,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "internalError",
+            "kind" : "Var",
+            "name" : "internalError",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "s:13ChartboostSDK14ClickErrorCodeO11descriptionSSvp",
+            "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO11descriptionSSvp",
+            "declAttributes" : [
+              "AccessControl"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "String",
+                "usr" : "s:SS",
+                "printedName" : "Swift.String"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK14ClickErrorCodeO11descriptionSSvg",
+                "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO11descriptionSSvg",
+                "accessorKind" : "get",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "String",
+                    "usr" : "s:SS",
+                    "printedName" : "Swift.String"
+                  }
+                ],
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "description",
+            "kind" : "Var",
+            "name" : "description",
+            "declKind" : "Var"
+          },
+          {
+            "usr" : "s:13ChartboostSDK14ClickErrorCodeO8rawValueACSgSi_tcfc",
+            "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO8rawValueACSgSi_tcfc",
+            "implicit" : true,
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ClickErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+                    "printedName" : "ChartboostSDK.ClickErrorCode"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.ClickErrorCode?"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              }
+            ],
+            "init_kind" : "Designated",
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "init(rawValue:)",
+            "kind" : "Constructor",
+            "name" : "init",
+            "declKind" : "Constructor"
+          },
+          {
+            "usr" : "s:13ChartboostSDK14ClickErrorCodeO8rawValueSivp",
+            "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO8rawValueSivp",
+            "implicit" : true,
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK14ClickErrorCodeO8rawValueSivg",
+                "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO8rawValueSivg",
+                "implicit" : true,
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "accessorKind" : "get",
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "rawValue",
+            "kind" : "Var",
+            "name" : "rawValue",
+            "declKind" : "Var"
+          }
+        ],
+        "kind" : "TypeDecl",
+        "printedName" : "ClickErrorCode",
+        "name" : "ClickErrorCode",
+        "declKind" : "Enum",
+        "conformances" : [
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "usr" : "s:SY",
+            "mangledName" : "$sSY",
+            "kind" : "Conformance",
+            "name" : "RawRepresentable",
+            "children" : [
+              {
+                "kind" : "TypeWitness",
+                "name" : "RawValue",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "printedName" : "RawValue"
+              }
+            ],
+            "printedName" : "RawRepresentable"
+          }
+        ],
+        "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName" : "Int",
+        "moduleName" : "ChartboostSDK",
+        "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO"
+      },
+      {
+        "objc_name" : "CHBClickError",
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "kind" : "TypeDecl",
+        "moduleName" : "ChartboostSDK",
+        "children" : [
+          {
+            "usr" : "s:13ChartboostSDK10ClickErrorC9clickCodeAA0cdF0OSgvp",
+            "mangledName" : "$s13ChartboostSDK10ClickErrorC9clickCodeAA0cdF0OSgvp",
+            "declAttributes" : [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ClickErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+                    "printedName" : "ChartboostSDK.ClickErrorCode"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.ClickErrorCode?"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK10ClickErrorC9clickCodeAA0cdF0OSgvg",
+                "mangledName" : "$s13ChartboostSDK10ClickErrorC9clickCodeAA0cdF0OSgvg",
+                "accessorKind" : "get",
+                "children" : [
+                  {
+                    "usr" : "s:Sq",
+                    "kind" : "TypeNominal",
+                    "name" : "Optional",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ClickErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+                        "printedName" : "ChartboostSDK.ClickErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.ClickErrorCode?"
+                  }
+                ],
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "clickCode",
+            "kind" : "Var",
+            "name" : "clickCode",
+            "declKind" : "Var"
+          },
+          {
+            "objc_name" : "initWithDomain:code:userInfo:",
+            "mangledName" : "$s13ChartboostSDK10ClickErrorC6domain4code8userInfoACSS_SiSDySSypGSgtcfc",
+            "printedName" : "init(domain:code:userInfo:)",
+            "usr" : "c:@M@ChartboostSDK@objc(cs)CHBClickError(im)initWithDomain:code:userInfo:",
+            "overriding" : true,
+            "implicit" : true,
+            "declKind" : "Constructor",
+            "moduleName" : "ChartboostSDK",
+            "declAttributes" : [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind" : "Designated",
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "ClickError",
+                "usr" : "c:@M@ChartboostSDK@objc(cs)CHBClickError",
+                "printedName" : "ChartboostSDK.ClickError"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "String",
+                "usr" : "s:SS",
+                "printedName" : "Swift.String"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              },
+              {
+                "hasDefaultArg" : true,
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "usr" : "s:SD",
+                    "kind" : "TypeNominal",
+                    "name" : "Dictionary",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "String",
+                        "usr" : "s:SS",
+                        "printedName" : "Swift.String"
+                      },
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ProtocolComposition",
+                        "printedName" : "Any"
+                      }
+                    ],
+                    "printedName" : "[Swift.String : Any]"
+                  }
+                ],
+                "printedName" : "[Swift.String : Any]?"
+              }
+            ],
+            "kind" : "Constructor",
+            "name" : "init"
+          },
+          {
+            "objc_name" : "initWithCoder:",
+            "mangledName" : "$s13ChartboostSDK10ClickErrorC5coderACSgSo7NSCoderC_tcfc",
+            "printedName" : "init(coder:)",
+            "usr" : "c:@M@ChartboostSDK@objc(cs)CHBClickError(im)initWithCoder:",
+            "overriding" : true,
+            "implicit" : true,
+            "declKind" : "Constructor",
+            "moduleName" : "ChartboostSDK",
+            "declAttributes" : [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind" : "Designated",
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ClickError",
+                    "usr" : "c:@M@ChartboostSDK@objc(cs)CHBClickError",
+                    "printedName" : "ChartboostSDK.ClickError"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.ClickError?"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "NSCoder",
+                "usr" : "c:objc(cs)NSCoder",
+                "printedName" : "Foundation.NSCoder"
+              }
+            ],
+            "kind" : "Constructor",
+            "name" : "init"
+          }
+        ],
+        "superclassUsr" : "c:objc(cs)NSError",
+        "inheritsConvenienceInitializers" : true,
+        "printedName" : "ClickError",
+        "superclassNames" : [
+          "Foundation.NSError",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances" : [
+          {
+            "mangledName" : "$ss8SendableP",
+            "kind" : "Conformance",
+            "name" : "Sendable",
+            "usr" : "s:s8SendableP",
+            "printedName" : "Sendable"
+          },
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          },
+          {
+            "mangledName" : "$ss5ErrorP",
+            "kind" : "Conformance",
+            "name" : "Error",
+            "usr" : "s:s5ErrorP",
+            "printedName" : "Error"
+          }
+        ],
+        "declKind" : "Class",
+        "name" : "ClickError",
+        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBClickError",
+        "mangledName" : "$s13ChartboostSDK10ClickErrorC"
+      },
+      {
+        "printedName" : "StartErrorCode",
+        "conformances" : [
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "usr" : "s:SY",
+            "mangledName" : "$sSY",
+            "kind" : "Conformance",
+            "name" : "RawRepresentable",
+            "children" : [
+              {
+                "kind" : "TypeWitness",
+                "name" : "RawValue",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "printedName" : "RawValue"
+              }
+            ],
+            "printedName" : "RawRepresentable"
+          }
+        ],
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "kind" : "TypeDecl",
+        "children" : [
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode@CHBStartErrorCodeInvalidCredentials",
+            "mangledName" : "$s13ChartboostSDK14StartErrorCodeO18invalidCredentialsyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "StartErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+                    "printedName" : "ChartboostSDK.StartErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "StartErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+                        "printedName" : "ChartboostSDK.StartErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.StartErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.StartErrorCode.Type) -> ChartboostSDK.StartErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 0,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "invalidCredentials",
+            "kind" : "Var",
+            "name" : "invalidCredentials",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode@CHBStartErrorCodeNetworkFailure",
+            "mangledName" : "$s13ChartboostSDK14StartErrorCodeO14networkFailureyA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "StartErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+                    "printedName" : "ChartboostSDK.StartErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "StartErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+                        "printedName" : "ChartboostSDK.StartErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.StartErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.StartErrorCode.Type) -> ChartboostSDK.StartErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 1,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "networkFailure",
+            "kind" : "Var",
+            "name" : "networkFailure",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode@CHBStartErrorCodeServerError",
+            "mangledName" : "$s13ChartboostSDK14StartErrorCodeO06serverD0yA2CmF",
+            "declAttributes" : [
+              "ObjC"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeFunc",
+                "name" : "Function",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "StartErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+                    "printedName" : "ChartboostSDK.StartErrorCode"
+                  },
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Metatype",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "StartErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+                        "printedName" : "ChartboostSDK.StartErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.StartErrorCode.Type"
+                  }
+                ],
+                "printedName" : "(ChartboostSDK.StartErrorCode.Type) -> ChartboostSDK.StartErrorCode"
+              }
+            ],
+            "fixedbinaryorder" : 2,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "serverError",
+            "kind" : "Var",
+            "name" : "serverError",
+            "declKind" : "EnumElement"
+          },
+          {
+            "usr" : "s:13ChartboostSDK14StartErrorCodeO11descriptionSSvp",
+            "mangledName" : "$s13ChartboostSDK14StartErrorCodeO11descriptionSSvp",
+            "declAttributes" : [
+              "AccessControl"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "String",
+                "usr" : "s:SS",
+                "printedName" : "Swift.String"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK14StartErrorCodeO11descriptionSSvg",
+                "mangledName" : "$s13ChartboostSDK14StartErrorCodeO11descriptionSSvg",
+                "accessorKind" : "get",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "String",
+                    "usr" : "s:SS",
+                    "printedName" : "Swift.String"
+                  }
+                ],
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "description",
+            "kind" : "Var",
+            "name" : "description",
+            "declKind" : "Var"
+          },
+          {
+            "usr" : "s:13ChartboostSDK14StartErrorCodeO8rawValueACSgSi_tcfc",
+            "mangledName" : "$s13ChartboostSDK14StartErrorCodeO8rawValueACSgSi_tcfc",
+            "implicit" : true,
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "StartErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+                    "printedName" : "ChartboostSDK.StartErrorCode"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.StartErrorCode?"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              }
+            ],
+            "init_kind" : "Designated",
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "init(rawValue:)",
+            "kind" : "Constructor",
+            "name" : "init",
+            "declKind" : "Constructor"
+          },
+          {
+            "usr" : "s:13ChartboostSDK14StartErrorCodeO8rawValueSivp",
+            "mangledName" : "$s13ChartboostSDK14StartErrorCodeO8rawValueSivp",
+            "implicit" : true,
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK14StartErrorCodeO8rawValueSivg",
+                "mangledName" : "$s13ChartboostSDK14StartErrorCodeO8rawValueSivg",
+                "implicit" : true,
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "accessorKind" : "get",
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "rawValue",
+            "kind" : "Var",
+            "name" : "rawValue",
+            "declKind" : "Var"
+          }
+        ],
+        "enumRawTypeName" : "Int",
+        "name" : "StartErrorCode",
+        "declKind" : "Enum",
+        "mangledName" : "$s13ChartboostSDK14StartErrorCodeO",
+        "objc_name" : "CHBStartErrorCode",
+        "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "name" : "StartError",
+        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBStartError",
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "objc_name" : "CHBStartError",
+        "declKind" : "Class",
+        "moduleName" : "ChartboostSDK",
+        "superclassNames" : [
+          "Foundation.NSError",
+          "ObjectiveC.NSObject"
+        ],
+        "printedName" : "StartError",
+        "conformances" : [
+          {
+            "mangledName" : "$ss8SendableP",
+            "kind" : "Conformance",
+            "name" : "Sendable",
+            "usr" : "s:s8SendableP",
+            "printedName" : "Sendable"
+          },
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          },
+          {
+            "mangledName" : "$ss5ErrorP",
+            "kind" : "Conformance",
+            "name" : "Error",
+            "usr" : "s:s5ErrorP",
+            "printedName" : "Error"
+          }
+        ],
+        "superclassUsr" : "c:objc(cs)NSError",
+        "kind" : "TypeDecl",
+        "children" : [
+          {
+            "usr" : "s:13ChartboostSDK10StartErrorC9startCodeAA0cdF0OSgvp",
+            "mangledName" : "$s13ChartboostSDK10StartErrorC9startCodeAA0cdF0OSgvp",
+            "declAttributes" : [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "StartErrorCode",
+                    "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+                    "printedName" : "ChartboostSDK.StartErrorCode"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.StartErrorCode?"
+              }
+            ],
+            "accessors" : [
+              {
+                "usr" : "s:13ChartboostSDK10StartErrorC9startCodeAA0cdF0OSgvg",
+                "mangledName" : "$s13ChartboostSDK10StartErrorC9startCodeAA0cdF0OSgvg",
+                "accessorKind" : "get",
+                "children" : [
+                  {
+                    "usr" : "s:Sq",
+                    "kind" : "TypeNominal",
+                    "name" : "Optional",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "StartErrorCode",
+                        "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
+                        "printedName" : "ChartboostSDK.StartErrorCode"
+                      }
+                    ],
+                    "printedName" : "ChartboostSDK.StartErrorCode?"
+                  }
+                ],
+                "moduleName" : "ChartboostSDK",
+                "printedName" : "Get()",
+                "kind" : "Accessor",
+                "name" : "Get",
+                "declKind" : "Accessor"
+              }
+            ],
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "startCode",
+            "kind" : "Var",
+            "name" : "startCode",
+            "declKind" : "Var"
+          },
+          {
+            "objc_name" : "initWithDomain:code:userInfo:",
+            "mangledName" : "$s13ChartboostSDK10StartErrorC6domain4code8userInfoACSS_SiSDySSypGSgtcfc",
+            "printedName" : "init(domain:code:userInfo:)",
+            "usr" : "c:@M@ChartboostSDK@objc(cs)CHBStartError(im)initWithDomain:code:userInfo:",
+            "overriding" : true,
+            "implicit" : true,
+            "declKind" : "Constructor",
+            "moduleName" : "ChartboostSDK",
+            "declAttributes" : [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind" : "Designated",
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "StartError",
+                "usr" : "c:@M@ChartboostSDK@objc(cs)CHBStartError",
+                "printedName" : "ChartboostSDK.StartError"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "String",
+                "usr" : "s:SS",
+                "printedName" : "Swift.String"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "Int",
+                "usr" : "s:Si",
+                "printedName" : "Swift.Int"
+              },
+              {
+                "hasDefaultArg" : true,
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "usr" : "s:SD",
+                    "kind" : "TypeNominal",
+                    "name" : "Dictionary",
+                    "children" : [
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "String",
+                        "usr" : "s:SS",
+                        "printedName" : "Swift.String"
+                      },
+                      {
+                        "kind" : "TypeNominal",
+                        "name" : "ProtocolComposition",
+                        "printedName" : "Any"
+                      }
+                    ],
+                    "printedName" : "[Swift.String : Any]"
+                  }
+                ],
+                "printedName" : "[Swift.String : Any]?"
+              }
+            ],
+            "kind" : "Constructor",
+            "name" : "init"
+          },
+          {
+            "objc_name" : "initWithCoder:",
+            "mangledName" : "$s13ChartboostSDK10StartErrorC5coderACSgSo7NSCoderC_tcfc",
+            "printedName" : "init(coder:)",
+            "usr" : "c:@M@ChartboostSDK@objc(cs)CHBStartError(im)initWithCoder:",
+            "overriding" : true,
+            "implicit" : true,
+            "declKind" : "Constructor",
+            "moduleName" : "ChartboostSDK",
+            "declAttributes" : [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind" : "Designated",
+            "children" : [
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "StartError",
+                    "usr" : "c:@M@ChartboostSDK@objc(cs)CHBStartError",
+                    "printedName" : "ChartboostSDK.StartError"
+                  }
+                ],
+                "printedName" : "ChartboostSDK.StartError?"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "NSCoder",
+                "usr" : "c:objc(cs)NSCoder",
+                "printedName" : "Foundation.NSCoder"
+              }
+            ],
+            "kind" : "Constructor",
+            "name" : "init"
+          }
+        ],
+        "mangledName" : "$s13ChartboostSDK10StartErrorC",
+        "inheritsConvenienceInitializers" : true
+      },
+      {
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation"
+      },
+      {
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "name" : "Foundation",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "kind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import"
+      },
+      {
+        "name" : "CHBMediation",
+        "isExternal" : true,
+        "objc_name" : "CHBMediation",
+        "children" : [
+          {
+            "isFromExtension" : true,
+            "mangledName" : "$sSo12CHBMediationC13ChartboostSDKE6encode2toys7Encoder_p_tKF",
+            "printedName" : "encode(to:)",
+            "throwing" : true,
+            "funcSelfKind" : "NonMutating",
+            "usr" : "s:So12CHBMediationC13ChartboostSDKE6encode2toys7Encoder_p_tKF",
+            "declAttributes" : [
+              "AccessControl"
+            ],
+            "declKind" : "Func",
+            "moduleName" : "ChartboostSDK",
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "Void",
+                "printedName" : "()"
+              },
+              {
+                "kind" : "TypeNominal",
+                "name" : "Encoder",
+                "usr" : "s:s7EncoderP",
+                "printedName" : "Swift.Encoder"
+              }
+            ],
+            "kind" : "Function",
+            "name" : "encode"
+          },
+          {
+            "isFromExtension" : true,
+            "mangledName" : "$sSo12CHBMediationC13ChartboostSDKE4fromABs7Decoder_p_tKcfc",
+            "printedName" : "init(from:)",
+            "throwing" : true,
+            "usr" : "s:So12CHBMediationC13ChartboostSDKE4fromABs7Decoder_p_tKcfc",
+            "declAttributes" : [
               "Convenience",
               "Required",
               "AccessControl"
             ],
-            "isFromExtension": true,
-            "throwing": true,
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Function",
-            "name": "isEqual",
-            "printedName": "isEqual(_:)",
-            "children": [
+            "declKind" : "Constructor",
+            "moduleName" : "ChartboostSDK",
+            "init_kind" : "Convenience",
+            "children" : [
               {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "kind" : "TypeNominal",
+                "name" : "CHBMediation",
+                "usr" : "c:objc(cs)CHBMediation",
+                "printedName" : "ChartboostSDK.CHBMediation"
               },
               {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
+                "kind" : "TypeNominal",
+                "name" : "Decoder",
+                "usr" : "s:s7DecoderP",
+                "printedName" : "Swift.Decoder"
               }
             ],
-            "declKind": "Func",
-            "usr": "c:@CM@ChartboostSDK@@objc(cs)CHBMediation(im)isEqual:",
-            "mangledName": "$sSo12CHBMediationC13ChartboostSDKE7isEqualySbypSgF",
-            "moduleName": "ChartboostSDK",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "isEqual:",
-            "declAttributes": [
+            "kind" : "Constructor",
+            "name" : "init"
+          },
+          {
+            "isFromExtension" : true,
+            "objc_name" : "isEqual:",
+            "mangledName" : "$sSo12CHBMediationC13ChartboostSDKE7isEqualySbypSgF",
+            "printedName" : "isEqual(_:)",
+            "funcSelfKind" : "NonMutating",
+            "usr" : "c:@CM@ChartboostSDK@@objc(cs)CHBMediation(im)isEqual:",
+            "overriding" : true,
+            "declAttributes" : [
               "Dynamic",
               "ObjC",
               "Override",
               "AccessControl"
             ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
+            "declKind" : "Func",
+            "moduleName" : "ChartboostSDK",
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "Bool",
+                "usr" : "s:Sb",
+                "printedName" : "Swift.Bool"
+              },
+              {
+                "usr" : "s:Sq",
+                "kind" : "TypeNominal",
+                "name" : "Optional",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "ProtocolComposition",
+                    "printedName" : "Any"
+                  }
+                ],
+                "printedName" : "Any?"
+              }
+            ],
+            "isOpen" : true,
+            "kind" : "Function",
+            "name" : "isEqual"
           }
         ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)CHBMediation",
-        "moduleName": "ChartboostSDK",
-        "isOpen": true,
-        "objc_name": "CHBMediation",
-        "declAttributes": [
+        "printedName" : "CHBMediation",
+        "declKind" : "Class",
+        "isOpen" : true,
+        "declAttributes" : [
           "ObjC",
           "Dynamic"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
+        "superclassUsr" : "c:objc(cs)NSObject",
+        "kind" : "TypeDecl",
+        "usr" : "c:objc(cs)CHBMediation",
+        "conformances" : [
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          },
+          {
+            "mangledName" : "$sSe",
+            "kind" : "Conformance",
+            "name" : "Decodable",
+            "usr" : "s:Se",
+            "printedName" : "Decodable"
+          },
+          {
+            "mangledName" : "$sSE",
+            "kind" : "Conformance",
+            "name" : "Encodable",
+            "usr" : "s:SE",
+            "printedName" : "Encodable"
+          }
+        ],
+        "moduleName" : "ChartboostSDK",
+        "superclassNames" : [
           "ObjectiveC.NSObject"
         ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
+        "inheritsConvenienceInitializers" : true
       },
       {
-        "kind": "TypeDecl",
-        "name": "Timer",
-        "printedName": "Timer",
-        "declKind": "Class",
-        "usr": "c:objc(cs)NSTimer",
-        "moduleName": "Foundation",
-        "isOpen": true,
-        "objc_name": "NSTimer",
-        "declAttributes": [
+        "kind" : "TypeDecl",
+        "moduleName" : "StoreKit",
+        "objc_name" : "SKProductsRequest",
+        "isExternal" : true,
+        "declKind" : "Class",
+        "inheritsConvenienceInitializers" : true,
+        "superclassUsr" : "c:objc(cs)SKRequest",
+        "declAttributes" : [
+          "Available",
           "ObjC",
           "NonSendable",
           "Dynamic"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
+        "name" : "SKProductsRequest",
+        "usr" : "c:objc(cs)SKProductsRequest",
+        "printedName" : "SKProductsRequest",
+        "intro_iOS" : "3.0",
+        "conformances" : [
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          }
+        ],
+        "isOpen" : true,
+        "superclassNames" : [
+          "StoreKit.SKRequest",
+          "ObjectiveC.NSObject"
+        ]
+      },
+      {
+        "objc_name" : "NSTimer",
+        "name" : "Timer",
+        "superclassNames" : [
           "ObjectiveC.NSObject"
         ],
-        "conformances": [
+        "kind" : "TypeDecl",
+        "conformances" : [
           {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
           },
           {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
           },
           {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
           },
           {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
           },
           {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
           },
           {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
           },
           {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
           }
-        ]
+        ],
+        "superclassUsr" : "c:objc(cs)NSObject",
+        "moduleName" : "Foundation",
+        "declAttributes" : [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "inheritsConvenienceInitializers" : true,
+        "isExternal" : true,
+        "usr" : "c:objc(cs)NSTimer",
+        "printedName" : "Timer",
+        "declKind" : "Class",
+        "isOpen" : true
+      },
+      {
+        "kind" : "TypeDecl",
+        "usr" : "c:objc(cs)NSError",
+        "isExternal" : true,
+        "inheritsConvenienceInitializers" : true,
+        "superclassUsr" : "c:objc(cs)NSObject",
+        "superclassNames" : [
+          "ObjectiveC.NSObject"
+        ],
+        "name" : "NSError",
+        "children" : [
+          {
+            "usr" : "c:@CM@ChartboostSDK@@objc(cs)NSError(im)trackDescription",
+            "mangledName" : "$sSo7NSErrorC13ChartboostSDKE16trackDescriptionSSyF",
+            "declAttributes" : [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "children" : [
+              {
+                "kind" : "TypeNominal",
+                "name" : "String",
+                "usr" : "s:SS",
+                "printedName" : "Swift.String"
+              }
+            ],
+            "isFromExtension" : true,
+            "moduleName" : "ChartboostSDK",
+            "printedName" : "trackDescription()",
+            "kind" : "Function",
+            "funcSelfKind" : "NonMutating",
+            "name" : "trackDescription",
+            "declKind" : "Func"
+          }
+        ],
+        "objc_name" : "NSError",
+        "isOpen" : true,
+        "conformances" : [
+          {
+            "mangledName" : "$ss8SendableP",
+            "kind" : "Conformance",
+            "name" : "Sendable",
+            "usr" : "s:s8SendableP",
+            "printedName" : "Sendable"
+          },
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          },
+          {
+            "mangledName" : "$ss5ErrorP",
+            "kind" : "Conformance",
+            "name" : "Error",
+            "usr" : "s:s5ErrorP",
+            "printedName" : "Error"
+          }
+        ],
+        "moduleName" : "Foundation",
+        "declAttributes" : [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "declKind" : "Class",
+        "printedName" : "NSError"
       }
-    ],
-    "json_format_version": 8
-  },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Snapshots\/ImpressionCounterSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 28,
-      "value": "\"ChartboostSDK.CHBImpressionCounterSnapshot\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 186,
-      "length": 2,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 213,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 243,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 273,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 186,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 213,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 243,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/NetworkStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 273,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Viewability\/ViewableDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 409,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Viewability\/ViewableDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 445,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Viewability\/ViewableDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 476,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 186,
-      "length": 25,
-      "value": "\"{{ show_close_button }}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 236,
-      "length": 15,
-      "value": "\"{{ ad_type }}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 277,
-      "length": 15,
-      "value": "\"{% ad_type %}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 319,
-      "length": 17,
-      "value": "\"{% ad_domain %}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 358,
-      "length": 11,
-      "value": "\"{% adm %}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 392,
-      "length": 12,
-      "value": "\"{% crid %}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 437,
-      "length": 24,
-      "value": "\"{% publisher_app_id %}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 488,
-      "length": 16,
-      "value": "\"{% encoding %}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 530,
-      "length": 16,
-      "value": "\"{% is_muted %}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 573,
-      "length": 17,
-      "value": "\"{% is_banner %}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 627,
-      "length": 28,
-      "value": "\"{% publisher_has_frames %}\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/AdResponseParams.swift",
-      "kind": "StringLiteral",
-      "offset": 680,
-      "length": 18,
-      "value": "\"\"{% params %}\"\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
-      "kind": "IntegerLiteral",
-      "offset": 210,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
-      "kind": "IntegerLiteral",
-      "offset": 228,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
-      "kind": "IntegerLiteral",
-      "offset": 210,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
-      "kind": "IntegerLiteral",
-      "offset": 228,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ads\/Models\/AdTraits.swift",
-      "kind": "StringLiteral",
-      "offset": 359,
-      "length": 11,
-      "value": "\"ChartboostSDK.CHBAdTraits\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/CurrentLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 189,
-      "length": 12,
-      "value": "\"Chartboost\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/CurrentLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 314,
-      "length": 19,
-      "value": "\"chartboost.logger\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ad Freezes\/AdFreezeInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 571,
-      "length": 25,
-      "value": "\"ad_freeze_event_context\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ad Freezes\/AdFreezeInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 628,
-      "length": 13,
-      "value": "\"ad_did_show\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ad Freezes\/AdFreezeInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 678,
-      "length": 17,
-      "value": "\"app_termination\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Ad Freezes\/AdFreezeInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 427,
-      "length": 31,
-      "value": "\"ChartboostSDK.AdFreezeInfoFileStoreRepository\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/AdUnitIdentifiers.swift",
-      "kind": "StringLiteral",
-      "offset": 124,
-      "length": 20,
-      "value": "\"ChartboostSDK.CHBAdUnitIdentifiers\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/SKAdNetworkResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3575,
-      "length": 16,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/SKAdNetworkResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3575,
-      "length": 16,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/SKAdNetworkResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3575,
-      "length": 16,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/TrackingEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 120,
-      "length": 16,
-      "value": "\"ChartboostSDK.CHBTrackingEvent\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Snapshots\/EnvironmentSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 282,
-      "length": 22,
-      "value": "\"ChartboostSDK.CHBEnvironmentSnapshot\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Assets\/Asset.swift",
-      "kind": "StringLiteral",
-      "offset": 111,
-      "length": 8,
-      "value": "\"ChartboostSDK.CHBAsset\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/User Agent\/UserAgentRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 309,
-      "length": 11,
-      "value": "\"osVersion\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/User Agent\/UserAgentRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 356,
-      "length": 11,
-      "value": "\"userAgent\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1007,
-      "length": 6,
-      "value": "\"adId\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1067,
-      "length": 12,
-      "value": "\"trackingId\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1007,
-      "length": 6,
-      "value": "\"adId\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/OpenRTBResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1067,
-      "length": 12,
-      "value": "\"trackingId\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/TrackingEventContext.swift",
-      "kind": "StringLiteral",
-      "offset": 127,
-      "length": 23,
-      "value": "\"ChartboostSDK.CHBTrackingEventContext\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Environment\/Environment.swift",
-      "kind": "IntegerLiteral",
-      "offset": 183,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Environment\/Environment.swift",
-      "kind": "IntegerLiteral",
-      "offset": 183,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 146,
-      "length": 27,
-      "value": "\"ChartboostSDK.CHBSKANOverlayConfiguration\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1771,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1789,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1771,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANOverlayConfiguration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1789,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/ParsingError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 410,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/ParsingError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 410,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Showing Ads\/OverlayManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 834,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Snapshots\/SessionSnapshot.swift",
-      "kind": "StringLiteral",
-      "offset": 266,
-      "length": 18,
-      "value": "\"ChartboostSDK.CHBSessionSnapshot\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 175,
-      "length": 7,
-      "value": "\"appId\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 220,
-      "length": 17,
-      "value": "\"com.chartboost.\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 175,
-      "length": 7,
-      "value": "\"appId\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/EventThrottler.swift",
-      "kind": "Dictionary",
-      "offset": 587,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/EventThrottler.swift",
-      "kind": "Dictionary",
-      "offset": 646,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/EventThrottler.swift",
-      "kind": "Array",
-      "offset": 696,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 685,
-      "length": 7,
-      "value": "\"ad_id\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 718,
-      "length": 12,
-      "value": "\"media-type\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 777,
-      "length": 11,
-      "value": "\"deep-link\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 813,
-      "length": 11,
-      "value": "\"itunes_id\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 879,
-      "length": 14,
-      "value": "\"show_loading\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 933,
-      "length": 27,
-      "value": "\"enable_appsheet_animation\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1016,
-      "length": 19,
-      "value": "\"prefetch_required\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1095,
-      "length": 25,
-      "value": "\"certification_providers\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 685,
-      "length": 7,
-      "value": "\"ad_id\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 718,
-      "length": 12,
-      "value": "\"media-type\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 777,
-      "length": 11,
-      "value": "\"deep-link\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 813,
-      "length": 11,
-      "value": "\"itunes_id\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 879,
-      "length": 14,
-      "value": "\"show_loading\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 933,
-      "length": 27,
-      "value": "\"enable_appsheet_animation\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1016,
-      "length": 19,
-      "value": "\"prefetch_required\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1095,
-      "length": 25,
-      "value": "\"certification_providers\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1415,
-      "length": 19,
-      "value": "\"template_mongo_id\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Networking\/Response\/AdGetResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1415,
-      "length": 19,
-      "value": "\"template_mongo_id\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/OpenRTBResponse+AdUnitMappable.swift",
-      "kind": "StringLiteral",
-      "offset": 187,
-      "length": 12,
-      "value": "\"adUnitType\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Parsers\/Mappers\/OpenRTBResponse+AdUnitMappable.swift",
-      "kind": "StringLiteral",
-      "offset": 223,
-      "length": 7,
-      "value": "\"appId\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/AdUnit.swift",
-      "kind": "StringLiteral",
-      "offset": 113,
-      "length": 9,
-      "value": "\"ChartboostSDK.CHBAdUnit\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2257,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3197,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3202,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3266,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3271,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3337,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3342,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3405,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3410,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3476,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3481,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3548,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Logging\/Formatter\/OptionSetFormatter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3553,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 342,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 364,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 382,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 411,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 435,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 459,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 483,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 507,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 342,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 364,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 382,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 411,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 435,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 459,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 483,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/API\/Requests\/OpenRTBConnectionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 507,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/EvenTracker.swift",
-      "kind": "Array",
-      "offset": 1126,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Tracking\/TrackEventFileStoreRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 575,
-      "length": 29,
-      "value": "\"ChartboostSDK.TrackEventFileStoreRepository\""
-    },
-    {
-      "filePath": "\/Users\/cbx\/actions-runner\/_work\/ios-sdk\/ios-sdk\/Chartboost\/Chartboost\/Loading Ads\/SKANAttributionParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 131,
-      "length": 28,
-      "value": "\"ChartboostSDK.CHBSKANAttributionParameters\""
-    }
-  ]
+    ]
+  }
 }
