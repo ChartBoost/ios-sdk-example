@@ -2,7 +2,7 @@
 
 *Version 9.4.0*
 
-Our example app showcases how to integrate the [Chartboost SDK]([https://answers.chartboost.com/en-us/child_article/ios](https://developers.chartboost.com/docs/monetization-ios-get-started)).
+Our example app showcases how to integrate the [Chartboost SDK](https://developers.chartboost.com/docs/monetization-ios-get-started).
 
 ## Versions
 
