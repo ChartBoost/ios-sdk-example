@@ -2,10 +2,12 @@
 // swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ChartboostSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
 @_exported import ChartboostSDK
 import CoreGraphics
 import CoreTelephony
 import Foundation
+import SafariServices
 import StoreKit
 import Swift
 import UIKit
@@ -17,6 +19,7 @@ extension ChartboostSDK.CHBMediation : Swift.Codable {
   required convenience public init(from decoder: Swift.Decoder) throws
   @objc override dynamic open func isEqual(_ object: Any?) -> Swift.Bool
 }
+public typealias RedirectionURLFinished = (url: Foundation.URL, redirected: Swift.Bool)
 @objc(CHBCacheErrorCode) public enum CacheErrorCode : Swift.Int {
   case internalError
   case internetUnavailable
@@ -50,6 +53,8 @@ extension ChartboostSDK.CHBMediation : Swift.Codable {
   case presentationFailure
   case noCachedAd
   case noViewController
+  case noAdInstance
+  case assetsFailure
   public var description: Swift.String {
     get
   }
