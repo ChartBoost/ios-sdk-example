@@ -1,16 +1,16 @@
 PODS:
-  - ChartboostSDK (9.4.0)
+  - ChartboostSDK (9.5.0)
 
 DEPENDENCIES:
-  - ChartboostSDK (~> 9.4.0)
+  - ChartboostSDK (~> 9.5.0)
 
 SPEC REPOS:
   trunk:
     - ChartboostSDK
 
 SPEC CHECKSUMS:
-  ChartboostSDK: 53079774b4cd6aefd0805ec54a74f1ffd75b1317
+  ChartboostSDK: fcafde1217b10e80cd0e768fa828572de795561b
 
-PODFILE CHECKSUM: 28d691a13771ad5c46c1dfeb13730e6027c85d26
+PODFILE CHECKSUM: 66f2c285f6a161b9e3c749cbcb6b0083a31b1838
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1

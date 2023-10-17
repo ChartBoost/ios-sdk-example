@@ -319,6 +319,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, CHBShowErrorCode, "ShowErrorCode", open) {
   CHBShowErrorCodePresentationFailure = 3,
   CHBShowErrorCodeNoCachedAd = 4,
   CHBShowErrorCodeNoViewController = 5,
+  CHBShowErrorCodeNoAdInstance = 6,
+  CHBShowErrorCodeAssetsFailure = 7,
 };
 
 
@@ -666,6 +668,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, CHBShowErrorCode, "ShowErrorCode", open) {
   CHBShowErrorCodePresentationFailure = 3,
   CHBShowErrorCodeNoCachedAd = 4,
   CHBShowErrorCodeNoViewController = 5,
+  CHBShowErrorCodeNoAdInstance = 6,
+  CHBShowErrorCodeAssetsFailure = 7,
 };
 
 

@@ -196,7 +196,8 @@ Called when the link viewer presented as result of an ad click has been dismisse
  }
  ```
 */
-- (void)didFinishHandlingClick:(CHBClickEvent *)event error:(nullable CHBClickError *)error;
+
+- (void)didFinishHandlingClick:(CHBClickEvent *)event error:(nullable CHBClickError *)error __attribute__((deprecated("Will be removed with the next major update")));
 
 @end
 
