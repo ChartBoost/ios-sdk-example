@@ -1,6 +1,6 @@
 # Chartboost SDK iOS Example App
 
-*Version 9.5.0*
+*Version 9.5.1*
 
 Our example app showcases how to integrate the [Chartboost SDK](https://developers.chartboost.com/docs/monetization-ios-get-started).
 

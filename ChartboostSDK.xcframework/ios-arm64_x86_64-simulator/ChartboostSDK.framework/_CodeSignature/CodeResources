@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/ChartboostSDK-Swift.h</key>
 		<data>
-		V0CGLgoztGoPUqM2ghcoIFlx+14=
+		aJ7twwBIjbMiEC4gCnUfjM+q7d8=
 		</data>
 		<key>Headers/ChartboostSDK.h</key>
 		<data>
@@ -50,47 +50,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		q4lrHM98f0a0ZxzY2I2XDa6qv+Q=
+		qAVSIWYlVpqRxbqMKh0EzrQNEuc=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3Qb9f62Wdod+DTTIbd3eqCAdJcA=
+		3qI8ceAcV+4epYm3eFCkBam+qPg=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kQm1j6FReGKiHBj0uZ5Wrv25GxI=
+		SLcZ8uzOoKo+hbVMnv1O82Il1NA=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wlk3zn9TP2077S7l3GWH5QptklI=
+		2E7cgGRGWb61l58EK2M9myOHpfU=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kQm1j6FReGKiHBj0uZ5Wrv25GxI=
+		SLcZ8uzOoKo+hbVMnv1O82Il1NA=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FQdyPnwbTTIuZAf/sp3PyHEqe/A=
+		ctVL7JnHIYswYoYwZiDEEsUxC6o=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3Qb9f62Wdod+DTTIbd3eqCAdJcA=
+		3qI8ceAcV+4epYm3eFCkBam+qPg=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XjySocS1Frmrh0XKMTpQgsSZPbI=
+		Ti1QPk9gWz56CWXOgld8q9Nk2rA=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		21HWohH51gcQJMcqr1D1R5bKIkU=
+		4+b9UX107fap3oYxcDOsGLD/myg=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XjySocS1Frmrh0XKMTpQgsSZPbI=
+		Ti1QPk9gWz56CWXOgld8q9Nk2rA=
 		</data>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Npd79ooqdpKVaYoDk1N6b2HrL8w=
+		5xR+LCJIJjwo+O2atRwhVErcg/Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -206,11 +206,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V0CGLgoztGoPUqM2ghcoIFlx+14=
+			aJ7twwBIjbMiEC4gCnUfjM+q7d8=
 			</data>
 			<key>hash2</key>
 			<data>
-			UinD73IXcT80gbYpHA4HKPpHNB/VytOJOE+jb/FrauE=
+			AqUEtBCCX1L/UQrqVfJcRF/4zIC3WpovgnkDghHCZPM=
 			</data>
 		</dict>
 		<key>Headers/ChartboostSDK.h</key>
@@ -228,110 +228,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3Qb9f62Wdod+DTTIbd3eqCAdJcA=
+			3qI8ceAcV+4epYm3eFCkBam+qPg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GHsB8jH64k3/+cU2NRfhGHj4NWaSuVyA3mxHg6iuGAs=
+			Nv0DaIXjcXuZ9b2G5Vv+rYHvHBXkBT8MJN2u5Flt2dc=
 			</data>
 		</dict>
 		<key>Modules/ChartboostSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kQm1j6FReGKiHBj0uZ5Wrv25GxI=
+			SLcZ8uzOoKo+hbVMnv1O82Il1NA=
 			</data>
 			<key>hash2</key>
 			<data>
-			a2GEc2Gp2myaFlbs2YeOFv9cLBALjy/L+27UaNnN/yc=
+			OROkY6uaY86NSswUy5tJjTpoFDRwqhoyZ3sVkqWmdt4=
 			</data>
 		</dict>
 		<key>Modules/ChartboostSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wlk3zn9TP2077S7l3GWH5QptklI=
+			2E7cgGRGWb61l58EK2M9myOHpfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			HKsm+dYyzysIfU84qO2qZkT6QYxt0HQAot4baVN4xMk=
+			n8eK74oB9IOWRB0EQdpc1n368HWLGoRxG4iMk4eJouc=
 			</data>
 		</dict>
 		<key>Modules/ChartboostSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kQm1j6FReGKiHBj0uZ5Wrv25GxI=
+			SLcZ8uzOoKo+hbVMnv1O82Il1NA=
 			</data>
 			<key>hash2</key>
 			<data>
-			a2GEc2Gp2myaFlbs2YeOFv9cLBALjy/L+27UaNnN/yc=
+			OROkY6uaY86NSswUy5tJjTpoFDRwqhoyZ3sVkqWmdt4=
 			</data>
 		</dict>
 		<key>Modules/ChartboostSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FQdyPnwbTTIuZAf/sp3PyHEqe/A=
+			ctVL7JnHIYswYoYwZiDEEsUxC6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			XZ/nG3ZHicEO5rzBphPsxa7Gf2kCnyMl09BYtn/83RI=
+			B2i65EilYPEVDIrX+VvXsE3SUzfcuap5mvmEnBxch50=
 			</data>
 		</dict>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3Qb9f62Wdod+DTTIbd3eqCAdJcA=
+			3qI8ceAcV+4epYm3eFCkBam+qPg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GHsB8jH64k3/+cU2NRfhGHj4NWaSuVyA3mxHg6iuGAs=
+			Nv0DaIXjcXuZ9b2G5Vv+rYHvHBXkBT8MJN2u5Flt2dc=
 			</data>
 		</dict>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XjySocS1Frmrh0XKMTpQgsSZPbI=
+			Ti1QPk9gWz56CWXOgld8q9Nk2rA=
 			</data>
 			<key>hash2</key>
 			<data>
-			F0KPUdX0DxXIXVdSVYlXo0s8DRx0uVH1/+Y17D8SRVE=
+			zQ72/ELjhv+Z0fqFeDl7hkTD0IStSVn7oUk0Vi4lY3g=
 			</data>
 		</dict>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			21HWohH51gcQJMcqr1D1R5bKIkU=
+			4+b9UX107fap3oYxcDOsGLD/myg=
 			</data>
 			<key>hash2</key>
 			<data>
-			gxnd6b9vDBRbEtSNTjzgCtfzbypU/DQKY3el+k9K83g=
+			qenZgwo3GB/2AAAl2s7f3dioV5YuNsAmrfl5h5XTbnI=
 			</data>
 		</dict>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XjySocS1Frmrh0XKMTpQgsSZPbI=
+			Ti1QPk9gWz56CWXOgld8q9Nk2rA=
 			</data>
 			<key>hash2</key>
 			<data>
-			F0KPUdX0DxXIXVdSVYlXo0s8DRx0uVH1/+Y17D8SRVE=
+			zQ72/ELjhv+Z0fqFeDl7hkTD0IStSVn7oUk0Vi4lY3g=
 			</data>
 		</dict>
 		<key>Modules/ChartboostSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Npd79ooqdpKVaYoDk1N6b2HrL8w=
+			5xR+LCJIJjwo+O2atRwhVErcg/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			6cMcw53ypc+O656qcmJAa6JMxzCHRBkzvCfs+4Y5Qqg=
+			xZSu3fT9R4DlJs+C90Zpc1LUovrO6xkUBGxbWT8f+Z8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
