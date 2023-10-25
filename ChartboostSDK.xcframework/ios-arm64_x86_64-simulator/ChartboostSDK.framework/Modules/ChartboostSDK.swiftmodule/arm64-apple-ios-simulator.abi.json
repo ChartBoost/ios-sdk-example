@@ -1,1134 +1,896 @@
 {
   "ABIRoot" : {
-    "printedName" : "TopLevel",
-    "json_format_version" : 8,
     "kind" : "Root",
+    "json_format_version" : 8,
+    "printedName" : "TopLevel",
     "name" : "TopLevel",
     "children" : [
       {
+        "name" : "Foundation",
+        "declKind" : "Import",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
         "kind" : "Import",
+        "printedName" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
         "name" : "Foundation",
+        "printedName" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "kind" : "Import",
         "moduleName" : "ChartboostSDK",
         "declKind" : "Import"
       },
       {
-        "name" : "Foundation",
-        "kind" : "Import",
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "kind" : "Import",
         "declAttributes" : [
           "RawDocComment"
         ],
         "moduleName" : "ChartboostSDK",
         "declKind" : "Import",
+        "kind" : "Import",
         "printedName" : "Foundation",
         "name" : "Foundation"
       },
       {
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import",
-        "declKind" : "Import"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
+        "name" : "UIKit",
         "kind" : "Import",
         "declKind" : "Import",
         "printedName" : "UIKit",
-        "name" : "UIKit"
-      },
-      {
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "WebKit",
-        "name" : "WebKit",
-        "declKind" : "Import"
-      },
-      {
-        "declKind" : "Import",
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation"
-      },
-      {
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import",
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "name" : "Foundation"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "printedName" : "Foundation"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "declKind" : "Import",
-        "name" : "Foundation",
         "moduleName" : "ChartboostSDK"
       },
       {
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
         "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "kind" : "Import"
+        "kind" : "Import",
+        "name" : "WebKit",
+        "printedName" : "WebKit",
+        "declKind" : "Import"
       },
       {
-        "name" : "Foundation",
-        "kind" : "Import",
         "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "name" : "Foundation",
         "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
         "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
+        "printedName" : "Foundation",
         "declKind" : "Import",
         "kind" : "Import",
         "name" : "Foundation",
-        "printedName" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
         "moduleName" : "ChartboostSDK"
       },
       {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
         "declKind" : "Import",
+        "kind" : "Import",
+        "name" : "Foundation"
+      },
+      {
+        "printedName" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
         "kind" : "Import",
         "moduleName" : "ChartboostSDK",
-        "name" : "Foundation",
-        "printedName" : "Foundation"
+        "declKind" : "Import",
+        "name" : "Foundation"
       },
       {
         "printedName" : "Foundation",
         "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
+        "name" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "name" : "Foundation",
+        "declKind" : "Import",
         "kind" : "Import"
       },
       {
+        "printedName" : "Foundation",
+        "declKind" : "Import",
         "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation"
+      },
+      {
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "name" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "name" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "printedName" : "Foundation"
+      },
+      {
         "name" : "CoreGraphics",
-        "moduleName" : "ChartboostSDK",
         "declKind" : "Import",
-        "printedName" : "CoreGraphics"
+        "printedName" : "CoreGraphics",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK"
       },
       {
         "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
         "name" : "Foundation",
         "kind" : "Import",
-        "declKind" : "Import"
-      },
-      {
         "declKind" : "Import",
-        "kind" : "Import",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
         "declAttributes" : [
           "RawDocComment"
         ],
         "printedName" : "Foundation"
       },
       {
-        "moduleName" : "ChartboostSDK",
         "name" : "Foundation",
         "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
         "declKind" : "Import",
         "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
         "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "printedName" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "declKind" : "Import",
-        "name" : "Foundation",
         "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declKind" : "Import",
         "kind" : "Import"
       },
       {
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "kind" : "Import",
         "declKind" : "Import",
+        "printedName" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "moduleName" : "ChartboostSDK"
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation"
       },
       {
         "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
         "printedName" : "WebKit",
         "name" : "WebKit",
-        "declKind" : "Import",
         "kind" : "Import"
       },
       {
-        "printedName" : "Foundation",
+        "name" : "Foundation",
         "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation",
-        "kind" : "Import"
-      },
-      {
-        "kind" : "Import",
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "kind" : "Import",
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "name" : "Foundation",
-        "kind" : "Import",
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "printedName" : "UIKit",
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "name" : "UIKit"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "kind" : "Import"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import",
-        "name" : "Foundation",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation",
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "name" : "Foundation",
-        "kind" : "Import",
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK",
         "printedName" : "Foundation"
       },
       {
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
         "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "declKind" : "Import"
-      },
-      {
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "printedName" : "Foundation",
         "declKind" : "Import",
         "declAttributes" : [
           "RawDocComment"
         ],
+        "printedName" : "Foundation",
+        "kind" : "Import",
         "name" : "Foundation"
       },
       {
         "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
         "declAttributes" : [
           "RawDocComment"
         ],
-        "printedName" : "Foundation",
+        "printedName" : "UIKit",
+        "name" : "UIKit",
         "declKind" : "Import",
         "moduleName" : "ChartboostSDK",
         "kind" : "Import"
       },
       {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
         "declKind" : "Import",
+        "kind" : "Import"
+      },
+      {
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "printedName" : "Foundation"
+      },
+      {
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "declKind" : "Import"
+      },
+      {
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "name" : "Foundation"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import"
+      },
+      {
         "kind" : "Import",
         "printedName" : "CoreTelephony",
-        "name" : "CoreTelephony",
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "CoreTelephony"
+      },
+      {
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
         "moduleName" : "ChartboostSDK"
       },
       {
         "declAttributes" : [
           "RawDocComment"
         ],
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "name" : "Foundation"
-      },
-      {
-        "declKind" : "Import",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
         "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import"
       },
       {
+        "printedName" : "UIKit",
         "declKind" : "Import",
         "kind" : "Import",
         "moduleName" : "ChartboostSDK",
-        "printedName" : "UIKit",
         "name" : "UIKit"
       },
       {
         "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import",
-        "printedName" : "Foundation",
-        "name" : "Foundation"
-      },
-      {
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK",
         "name" : "Foundation",
-        "kind" : "Import"
-      },
-      {
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "kind" : "Import"
-      },
-      {
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "printedName" : "Foundation"
-      },
-      {
         "kind" : "Import",
         "declKind" : "Import",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
         "declAttributes" : [
           "RawDocComment"
         ],
         "printedName" : "Foundation"
       },
       {
-        "kind" : "Import",
         "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
         "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import",
         "declAttributes" : [
           "RawDocComment"
-        ],
-        "name" : "Foundation"
+        ]
       },
       {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK",
         "kind" : "Import",
         "declKind" : "Import",
         "printedName" : "Foundation",
-        "name" : "Foundation"
-      },
-      {
         "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
         "name" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
+        ]
+      },
+      {
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
         ],
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
         "declKind" : "Import",
         "kind" : "Import"
       },
       {
-        "declKind" : "Import",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
         "moduleName" : "ChartboostSDK",
         "name" : "Foundation",
         "printedName" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
         "kind" : "Import",
+        "declKind" : "Import",
         "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "declKind" : "Import",
-        "printedName" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
         "kind" : "Import",
         "moduleName" : "ChartboostSDK",
-        "name" : "Foundation"
-      },
-      {
-        "printedName" : "Foundation",
         "declKind" : "Import",
         "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation"
+      },
+      {
         "kind" : "Import",
         "declAttributes" : [
           "RawDocComment"
-        ]
+        ],
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declKind" : "Import"
       },
       {
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "name" : "Foundation",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation"
+      },
+      {
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
         "printedName" : "StoreKit",
-        "moduleName" : "ChartboostSDK",
         "declKind" : "Import",
-        "name" : "StoreKit",
-        "kind" : "Import"
-      },
-      {
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
-        "name" : "Foundation"
-      },
-      {
-        "printedName" : "UIKit",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "name" : "UIKit",
-        "declKind" : "Import"
-      },
-      {
-        "name" : "StoreKit",
-        "printedName" : "StoreKit",
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "declKind" : "Import"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "name" : "Foundation"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "name" : "Foundation",
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation"
-      },
-      {
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import",
-        "name" : "Foundation",
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import"
-      },
-      {
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "name" : "UIKit",
-        "printedName" : "UIKit",
-        "kind" : "Import"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "kind" : "Import"
-      },
-      {
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "name" : "Foundation"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "name" : "Foundation",
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "kind" : "Import",
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "name" : "Foundation",
-        "printedName" : "Foundation"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "declKind" : "Import",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "kind" : "Import"
-      },
-      {
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "kind" : "Import"
-      },
-      {
-        "printedName" : "UIKit",
-        "name" : "UIKit",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "kind" : "Import"
-      },
-      {
-        "kind" : "Import",
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation"
-      },
-      {
-        "name" : "UIKit",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "UIKit",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "kind" : "Import"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "kind" : "Import",
-        "printedName" : "SafariServices",
-        "name" : "SafariServices"
-      },
-      {
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "kind" : "Import"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "printedName" : "AVFoundation",
-        "declKind" : "Import",
-        "name" : "AVFoundation"
-      },
-      {
-        "kind" : "Import",
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "name" : "WebKit",
-        "printedName" : "WebKit",
-        "declKind" : "Import",
-        "kind" : "Import"
-      },
-      {
-        "kind" : "Import",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import",
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "name" : "Foundation"
-      },
-      {
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "declKind" : "Import",
-        "name" : "Foundation"
-      },
-      {
-        "kind" : "Import",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation"
-      },
-      {
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import",
-        "name" : "Foundation",
-        "declKind" : "Import"
-      },
-      {
-        "name" : "Foundation",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation"
-      },
-      {
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import"
-      },
-      {
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import"
-      },
-      {
-        "kind" : "Import",
-        "name" : "Foundation",
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import"
-      },
-      {
-        "declKind" : "Import",
-        "kind" : "Import",
-        "name" : "Foundation",
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "printedName" : "Foundation"
-      },
-      {
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation"
-      },
-      {
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "kind" : "Import",
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "printedName" : "Foundation"
-      },
-      {
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "kind" : "Import"
-      },
-      {
-        "printedName" : "WebKit",
-        "name" : "WebKit",
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "declKind" : "Import"
-      },
-      {
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
-        "declKind" : "Import"
-      },
-      {
-        "name" : "Foundation",
-        "declKind" : "Import",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "printedName" : "StoreKit",
         "name" : "StoreKit"
       },
       {
-        "moduleName" : "ChartboostSDK",
         "name" : "Foundation",
+        "printedName" : "Foundation",
         "declKind" : "Import",
         "declAttributes" : [
           "RawDocComment"
         ],
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "name" : "UIKit",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "UIKit"
+      },
+      {
+        "printedName" : "StoreKit",
+        "moduleName" : "ChartboostSDK",
+        "name" : "StoreKit",
+        "kind" : "Import",
+        "declKind" : "Import"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
         "printedName" : "Foundation",
-        "kind" : "Import"
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declKind" : "Import"
       },
       {
         "printedName" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
+        "kind" : "Import",
         "name" : "Foundation",
         "moduleName" : "ChartboostSDK",
+        "declKind" : "Import"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "name" : "Foundation",
         "declKind" : "Import",
-        "kind" : "Import"
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "printedName" : "Foundation"
+      },
+      {
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import"
       },
       {
         "declKind" : "Import",
         "printedName" : "UIKit",
+        "kind" : "Import",
         "moduleName" : "ChartboostSDK",
-        "name" : "UIKit",
+        "name" : "UIKit"
+      },
+      {
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
         "kind" : "Import"
       },
       {
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import"
+      },
+      {
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declKind" : "Import"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation"
+      },
+      {
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import"
+      },
+      {
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation"
+      },
+      {
+        "name" : "UIKit",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "printedName" : "UIKit",
+        "declKind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "Foundation"
+      },
+      {
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "UIKit",
+        "declKind" : "Import",
+        "name" : "UIKit",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "name" : "SafariServices",
+        "printedName" : "SafariServices",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "kind" : "Import",
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "AVFoundation",
+        "name" : "AVFoundation"
+      },
+      {
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
         "name" : "WebKit",
         "printedName" : "WebKit",
         "kind" : "Import",
-        "declKind" : "Import",
-        "moduleName" : "ChartboostSDK"
+        "declKind" : "Import"
       },
       {
+        "name" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "declKind" : "Import",
-        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
         "kind" : "Import",
         "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK"
+        "declKind" : "Import"
       },
       {
         "moduleName" : "ChartboostSDK",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
         "name" : "Foundation",
         "kind" : "Import",
+        "declKind" : "Import",
+        "printedName" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
-        "moduleName" : "ChartboostSDK",
         "declKind" : "Import",
-        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
         "printedName" : "Foundation",
+        "kind" : "Import",
         "name" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ]
       },
       {
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
+        "name" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
         "declKind" : "Import",
         "name" : "Foundation",
-        "moduleName" : "ChartboostSDK",
-        "printedName" : "Foundation",
         "kind" : "Import"
       },
       {
         "printedName" : "Foundation",
         "moduleName" : "ChartboostSDK",
-        "name" : "Foundation",
         "kind" : "Import",
         "declKind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ]
-      },
-      {
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "declKind" : "Import",
-        "kind" : "Import",
-        "name" : "Foundation",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "printedName" : "Foundation",
-        "declKind" : "Import",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
         "declAttributes" : [
           "RawDocComment"
         ],
         "name" : "Foundation"
       },
       {
-        "declKind" : "Import",
-        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
         "printedName" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
         "kind" : "Import",
         "declAttributes" : [
           "RawDocComment"
         ],
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "printedName" : "Foundation"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import",
+        "kind" : "Import",
+        "printedName" : "Foundation",
         "moduleName" : "ChartboostSDK"
       },
       {
@@ -1136,12 +898,257 @@
           "RawDocComment"
         ],
         "printedName" : "Foundation",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
         "name" : "Foundation",
         "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
         "declKind" : "Import",
+        "kind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "moduleName" : "ChartboostSDK",
         "kind" : "Import"
       },
       {
+        "kind" : "Import",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "printedName" : "Foundation"
+      },
+      {
+        "kind" : "Import",
+        "printedName" : "WebKit",
+        "declKind" : "Import",
+        "name" : "WebKit",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "printedName" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation"
+      },
+      {
+        "declKind" : "Import",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "declKind" : "Import"
+      },
+      {
+        "kind" : "Import",
+        "printedName" : "StoreKit",
+        "name" : "StoreKit",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import"
+      },
+      {
+        "name" : "Foundation",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation"
+      },
+      {
+        "printedName" : "UIKit",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "UIKit",
+        "kind" : "Import"
+      },
+      {
+        "kind" : "Import",
+        "printedName" : "WebKit",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "WebKit"
+      },
+      {
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "declKind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import"
+      },
+      {
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation"
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK"
+      },
+      {
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import",
+        "declKind" : "Import",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "name" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "kind" : "Import"
+      },
+      {
+        "kind" : "TypeDecl",
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
         "children" : [
           {
             "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode@CHBCacheErrorCodeInternalError",
@@ -1584,20 +1591,10 @@
             "declKind" : "Var"
           }
         ],
-        "moduleName" : "ChartboostSDK",
-        "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO",
-        "name" : "CacheErrorCode",
-        "enumRawTypeName" : "Int",
-        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
         "printedName" : "CacheErrorCode",
-        "declKind" : "Enum",
+        "name" : "CacheErrorCode",
+        "mangledName" : "$s13ChartboostSDK14CacheErrorCodeO",
         "objc_name" : "CHBCacheErrorCode",
-        "declAttributes" : [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "kind" : "TypeDecl",
         "conformances" : [
           {
             "mangledName" : "$sSQ",
@@ -1635,82 +1632,26 @@
             ],
             "printedName" : "RawRepresentable"
           }
-        ]
+        ],
+        "declKind" : "Enum",
+        "usr" : "c:@M@ChartboostSDK@E@CHBCacheErrorCode",
+        "enumRawTypeName" : "Int"
       },
       {
-        "superclassUsr" : "c:objc(cs)NSError",
-        "moduleName" : "ChartboostSDK",
-        "kind" : "TypeDecl",
+        "mangledName" : "$s13ChartboostSDK10CacheErrorC",
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "printedName" : "CacheError",
         "declKind" : "Class",
-        "superclassNames" : [
-          "Foundation.NSError",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances" : [
-          {
-            "mangledName" : "$ss8SendableP",
-            "kind" : "Conformance",
-            "name" : "Sendable",
-            "usr" : "s:s8SendableP",
-            "printedName" : "Sendable"
-          },
-          {
-            "mangledName" : "$sSQ",
-            "kind" : "Conformance",
-            "name" : "Equatable",
-            "usr" : "s:SQ",
-            "printedName" : "Equatable"
-          },
-          {
-            "mangledName" : "$sSH",
-            "kind" : "Conformance",
-            "name" : "Hashable",
-            "usr" : "s:SH",
-            "printedName" : "Hashable"
-          },
-          {
-            "mangledName" : "$ss7CVarArgP",
-            "kind" : "Conformance",
-            "name" : "CVarArg",
-            "usr" : "s:s7CVarArgP",
-            "printedName" : "CVarArg"
-          },
-          {
-            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "kind" : "Conformance",
-            "name" : "_KeyValueCodingAndObservingPublishing",
-            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "printedName" : "_KeyValueCodingAndObservingPublishing"
-          },
-          {
-            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
-            "kind" : "Conformance",
-            "name" : "_KeyValueCodingAndObserving",
-            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
-            "printedName" : "_KeyValueCodingAndObserving"
-          },
-          {
-            "mangledName" : "$ss23CustomStringConvertibleP",
-            "kind" : "Conformance",
-            "name" : "CustomStringConvertible",
-            "usr" : "s:s23CustomStringConvertibleP",
-            "printedName" : "CustomStringConvertible"
-          },
-          {
-            "mangledName" : "$ss28CustomDebugStringConvertibleP",
-            "kind" : "Conformance",
-            "name" : "CustomDebugStringConvertible",
-            "usr" : "s:s28CustomDebugStringConvertibleP",
-            "printedName" : "CustomDebugStringConvertible"
-          },
-          {
-            "mangledName" : "$ss5ErrorP",
-            "kind" : "Conformance",
-            "name" : "Error",
-            "usr" : "s:s5ErrorP",
-            "printedName" : "Error"
-          }
-        ],
+        "name" : "CacheError",
+        "kind" : "TypeDecl",
+        "moduleName" : "ChartboostSDK",
+        "objc_name" : "CHBCacheError",
+        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBCacheError",
+        "inheritsConvenienceInitializers" : true,
         "children" : [
           {
             "usr" : "s:13ChartboostSDK10CacheErrorC9cacheCodeAA0cdF0OSgvp",
@@ -1876,27 +1817,128 @@
             "name" : "init"
           }
         ],
-        "printedName" : "CacheError",
-        "mangledName" : "$s13ChartboostSDK10CacheErrorC",
-        "name" : "CacheError",
-        "declAttributes" : [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
+        "superclassUsr" : "c:objc(cs)NSError",
+        "conformances" : [
+          {
+            "mangledName" : "$ss8SendableP",
+            "kind" : "Conformance",
+            "name" : "Sendable",
+            "usr" : "s:s8SendableP",
+            "printedName" : "Sendable"
+          },
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          },
+          {
+            "mangledName" : "$ss5ErrorP",
+            "kind" : "Conformance",
+            "name" : "Error",
+            "usr" : "s:s5ErrorP",
+            "printedName" : "Error"
+          }
         ],
-        "objc_name" : "CHBCacheError",
-        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBCacheError",
-        "inheritsConvenienceInitializers" : true
+        "superclassNames" : [
+          "Foundation.NSError",
+          "ObjectiveC.NSObject"
+        ]
       },
       {
-        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
-        "objc_name" : "CHBShowErrorCode",
+        "kind" : "TypeDecl",
+        "enumRawTypeName" : "Int",
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "ShowErrorCode",
+        "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO",
+        "name" : "ShowErrorCode",
+        "declKind" : "Enum",
+        "conformances" : [
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "usr" : "s:SY",
+            "mangledName" : "$sSY",
+            "kind" : "Conformance",
+            "name" : "RawRepresentable",
+            "children" : [
+              {
+                "kind" : "TypeWitness",
+                "name" : "RawValue",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "printedName" : "RawValue"
+              }
+            ],
+            "printedName" : "RawRepresentable"
+          }
+        ],
         "declAttributes" : [
           "AccessControl",
           "ObjC",
           "RawDocComment"
         ],
-        "moduleName" : "ChartboostSDK",
         "children" : [
           {
             "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode@CHBShowErrorCodeInternalError",
@@ -2339,56 +2381,27 @@
             "declKind" : "Var"
           }
         ],
-        "printedName" : "ShowErrorCode",
-        "name" : "ShowErrorCode",
-        "enumRawTypeName" : "Int",
-        "mangledName" : "$s13ChartboostSDK13ShowErrorCodeO",
-        "kind" : "TypeDecl",
-        "declKind" : "Enum",
-        "conformances" : [
-          {
-            "mangledName" : "$sSQ",
-            "kind" : "Conformance",
-            "name" : "Equatable",
-            "usr" : "s:SQ",
-            "printedName" : "Equatable"
-          },
-          {
-            "mangledName" : "$sSH",
-            "kind" : "Conformance",
-            "name" : "Hashable",
-            "usr" : "s:SH",
-            "printedName" : "Hashable"
-          },
-          {
-            "usr" : "s:SY",
-            "mangledName" : "$sSY",
-            "kind" : "Conformance",
-            "name" : "RawRepresentable",
-            "children" : [
-              {
-                "kind" : "TypeWitness",
-                "name" : "RawValue",
-                "children" : [
-                  {
-                    "kind" : "TypeNominal",
-                    "name" : "Int",
-                    "usr" : "s:Si",
-                    "printedName" : "Swift.Int"
-                  }
-                ],
-                "printedName" : "RawValue"
-              }
-            ],
-            "printedName" : "RawRepresentable"
-          }
-        ]
+        "usr" : "c:@M@ChartboostSDK@E@CHBShowErrorCode",
+        "objc_name" : "CHBShowErrorCode"
       },
       {
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "objc_name" : "CHBShowError",
         "inheritsConvenienceInitializers" : true,
         "usr" : "c:@M@ChartboostSDK@objc(cs)CHBShowError",
-        "objc_name" : "CHBShowError",
+        "declKind" : "Class",
         "superclassUsr" : "c:objc(cs)NSError",
+        "name" : "ShowError",
+        "superclassNames" : [
+          "Foundation.NSError",
+          "ObjectiveC.NSObject"
+        ],
+        "printedName" : "ShowError",
+        "mangledName" : "$s13ChartboostSDK9ShowErrorC",
         "children" : [
           {
             "usr" : "s:13ChartboostSDK9ShowErrorC8showCodeAA0cdF0OSgvp",
@@ -2554,20 +2567,7 @@
             "name" : "init"
           }
         ],
-        "declKind" : "Class",
-        "printedName" : "ShowError",
-        "declAttributes" : [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassNames" : [
-          "Foundation.NSError",
-          "ObjectiveC.NSObject"
-        ],
-        "kind" : "TypeDecl",
         "moduleName" : "ChartboostSDK",
-        "mangledName" : "$s13ChartboostSDK9ShowErrorC",
         "conformances" : [
           {
             "mangledName" : "$ss8SendableP",
@@ -2633,9 +2633,59 @@
             "printedName" : "Error"
           }
         ],
-        "name" : "ShowError"
+        "kind" : "TypeDecl"
       },
       {
+        "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO",
+        "enumRawTypeName" : "Int",
+        "moduleName" : "ChartboostSDK",
+        "conformances" : [
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "usr" : "s:SY",
+            "mangledName" : "$sSY",
+            "kind" : "Conformance",
+            "name" : "RawRepresentable",
+            "children" : [
+              {
+                "kind" : "TypeWitness",
+                "name" : "RawValue",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "printedName" : "RawValue"
+              }
+            ],
+            "printedName" : "RawRepresentable"
+          }
+        ],
+        "declKind" : "Enum",
+        "printedName" : "ClickErrorCode",
+        "objc_name" : "CHBClickErrorCode",
         "children" : [
           {
             "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode@CHBClickErrorCodeUriInvalid",
@@ -2873,143 +2923,13 @@
             "declKind" : "Var"
           }
         ],
-        "objc_name" : "CHBClickErrorCode",
-        "mangledName" : "$s13ChartboostSDK14ClickErrorCodeO",
-        "printedName" : "ClickErrorCode",
-        "enumRawTypeName" : "Int",
-        "usr" : "c:@M@ChartboostSDK@E@CHBClickErrorCode",
-        "moduleName" : "ChartboostSDK",
-        "declKind" : "Enum",
-        "declAttributes" : [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "name" : "ClickErrorCode",
         "kind" : "TypeDecl",
-        "conformances" : [
-          {
-            "mangledName" : "$sSQ",
-            "kind" : "Conformance",
-            "name" : "Equatable",
-            "usr" : "s:SQ",
-            "printedName" : "Equatable"
-          },
-          {
-            "mangledName" : "$sSH",
-            "kind" : "Conformance",
-            "name" : "Hashable",
-            "usr" : "s:SH",
-            "printedName" : "Hashable"
-          },
-          {
-            "usr" : "s:SY",
-            "mangledName" : "$sSY",
-            "kind" : "Conformance",
-            "name" : "RawRepresentable",
-            "children" : [
-              {
-                "kind" : "TypeWitness",
-                "name" : "RawValue",
-                "children" : [
-                  {
-                    "kind" : "TypeNominal",
-                    "name" : "Int",
-                    "usr" : "s:Si",
-                    "printedName" : "Swift.Int"
-                  }
-                ],
-                "printedName" : "RawValue"
-              }
-            ],
-            "printedName" : "RawRepresentable"
-          }
-        ]
+        "name" : "ClickErrorCode"
       },
       {
-        "declKind" : "Class",
-        "kind" : "TypeDecl",
-        "objc_name" : "CHBClickError",
-        "mangledName" : "$s13ChartboostSDK10ClickErrorC",
         "inheritsConvenienceInitializers" : true,
-        "superclassNames" : [
-          "Foundation.NSError",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances" : [
-          {
-            "mangledName" : "$ss8SendableP",
-            "kind" : "Conformance",
-            "name" : "Sendable",
-            "usr" : "s:s8SendableP",
-            "printedName" : "Sendable"
-          },
-          {
-            "mangledName" : "$sSQ",
-            "kind" : "Conformance",
-            "name" : "Equatable",
-            "usr" : "s:SQ",
-            "printedName" : "Equatable"
-          },
-          {
-            "mangledName" : "$sSH",
-            "kind" : "Conformance",
-            "name" : "Hashable",
-            "usr" : "s:SH",
-            "printedName" : "Hashable"
-          },
-          {
-            "mangledName" : "$ss7CVarArgP",
-            "kind" : "Conformance",
-            "name" : "CVarArg",
-            "usr" : "s:s7CVarArgP",
-            "printedName" : "CVarArg"
-          },
-          {
-            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "kind" : "Conformance",
-            "name" : "_KeyValueCodingAndObservingPublishing",
-            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "printedName" : "_KeyValueCodingAndObservingPublishing"
-          },
-          {
-            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
-            "kind" : "Conformance",
-            "name" : "_KeyValueCodingAndObserving",
-            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
-            "printedName" : "_KeyValueCodingAndObserving"
-          },
-          {
-            "mangledName" : "$ss23CustomStringConvertibleP",
-            "kind" : "Conformance",
-            "name" : "CustomStringConvertible",
-            "usr" : "s:s23CustomStringConvertibleP",
-            "printedName" : "CustomStringConvertible"
-          },
-          {
-            "mangledName" : "$ss28CustomDebugStringConvertibleP",
-            "kind" : "Conformance",
-            "name" : "CustomDebugStringConvertible",
-            "usr" : "s:s28CustomDebugStringConvertibleP",
-            "printedName" : "CustomDebugStringConvertible"
-          },
-          {
-            "mangledName" : "$ss5ErrorP",
-            "kind" : "Conformance",
-            "name" : "Error",
-            "usr" : "s:s5ErrorP",
-            "printedName" : "Error"
-          }
-        ],
-        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBClickError",
-        "superclassUsr" : "c:objc(cs)NSError",
         "printedName" : "ClickError",
-        "moduleName" : "ChartboostSDK",
-        "declAttributes" : [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
+        "objc_name" : "CHBClickError",
         "name" : "ClickError",
         "children" : [
           {
@@ -3175,11 +3095,29 @@
             "kind" : "Constructor",
             "name" : "init"
           }
-        ]
-      },
-      {
-        "mangledName" : "$s13ChartboostSDK14StartErrorCodeO",
+        ],
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "declKind" : "Class",
+        "superclassUsr" : "c:objc(cs)NSError",
+        "mangledName" : "$s13ChartboostSDK10ClickErrorC",
+        "moduleName" : "ChartboostSDK",
+        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBClickError",
+        "superclassNames" : [
+          "Foundation.NSError",
+          "ObjectiveC.NSObject"
+        ],
         "conformances" : [
+          {
+            "mangledName" : "$ss8SendableP",
+            "kind" : "Conformance",
+            "name" : "Sendable",
+            "usr" : "s:s8SendableP",
+            "printedName" : "Sendable"
+          },
           {
             "mangledName" : "$sSQ",
             "kind" : "Conformance",
@@ -3195,37 +3133,60 @@
             "printedName" : "Hashable"
           },
           {
-            "usr" : "s:SY",
-            "mangledName" : "$sSY",
+            "mangledName" : "$ss7CVarArgP",
             "kind" : "Conformance",
-            "name" : "RawRepresentable",
-            "children" : [
-              {
-                "kind" : "TypeWitness",
-                "name" : "RawValue",
-                "children" : [
-                  {
-                    "kind" : "TypeNominal",
-                    "name" : "Int",
-                    "usr" : "s:Si",
-                    "printedName" : "Swift.Int"
-                  }
-                ],
-                "printedName" : "RawValue"
-              }
-            ],
-            "printedName" : "RawRepresentable"
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          },
+          {
+            "mangledName" : "$ss5ErrorP",
+            "kind" : "Conformance",
+            "name" : "Error",
+            "usr" : "s:s5ErrorP",
+            "printedName" : "Error"
           }
         ],
-        "objc_name" : "CHBStartErrorCode",
-        "declKind" : "Enum",
-        "name" : "StartErrorCode",
-        "enumRawTypeName" : "Int",
+        "kind" : "TypeDecl"
+      },
+      {
         "declAttributes" : [
           "AccessControl",
           "ObjC",
           "RawDocComment"
         ],
+        "mangledName" : "$s13ChartboostSDK14StartErrorCodeO",
+        "declKind" : "Enum",
+        "moduleName" : "ChartboostSDK",
+        "objc_name" : "CHBStartErrorCode",
         "children" : [
           {
             "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode@CHBStartErrorCodeInvalidCredentials",
@@ -3463,21 +3424,59 @@
             "declKind" : "Var"
           }
         ],
-        "moduleName" : "ChartboostSDK",
+        "conformances" : [
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "usr" : "s:SY",
+            "mangledName" : "$sSY",
+            "kind" : "Conformance",
+            "name" : "RawRepresentable",
+            "children" : [
+              {
+                "kind" : "TypeWitness",
+                "name" : "RawValue",
+                "children" : [
+                  {
+                    "kind" : "TypeNominal",
+                    "name" : "Int",
+                    "usr" : "s:Si",
+                    "printedName" : "Swift.Int"
+                  }
+                ],
+                "printedName" : "RawValue"
+              }
+            ],
+            "printedName" : "RawRepresentable"
+          }
+        ],
         "printedName" : "StartErrorCode",
+        "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode",
         "kind" : "TypeDecl",
-        "usr" : "c:@M@ChartboostSDK@E@CHBStartErrorCode"
+        "enumRawTypeName" : "Int",
+        "name" : "StartErrorCode"
       },
       {
-        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBStartError",
-        "mangledName" : "$s13ChartboostSDK10StartErrorC",
-        "superclassNames" : [
-          "Foundation.NSError",
-          "ObjectiveC.NSObject"
-        ],
         "superclassUsr" : "c:objc(cs)NSError",
-        "name" : "StartError",
-        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "printedName" : "StartError",
+        "inheritsConvenienceInitializers" : true,
         "conformances" : [
           {
             "mangledName" : "$ss8SendableP",
@@ -3543,13 +3542,17 @@
             "printedName" : "Error"
           }
         ],
-        "declAttributes" : [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "inheritsConvenienceInitializers" : true,
+        "mangledName" : "$s13ChartboostSDK10StartErrorC",
+        "usr" : "c:@M@ChartboostSDK@objc(cs)CHBStartError",
+        "name" : "StartError",
+        "objc_name" : "CHBStartError",
         "kind" : "TypeDecl",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Class",
+        "superclassNames" : [
+          "Foundation.NSError",
+          "ObjectiveC.NSObject"
+        ],
         "children" : [
           {
             "usr" : "s:13ChartboostSDK10StartErrorC9startCodeAA0cdF0OSgvp",
@@ -3714,85 +3717,92 @@
             "kind" : "Constructor",
             "name" : "init"
           }
-        ],
-        "declKind" : "Class",
-        "printedName" : "StartError",
-        "objc_name" : "CHBStartError"
+        ]
       },
       {
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
         "declKind" : "Import",
         "kind" : "Import",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK",
         "name" : "Foundation"
       },
       {
-        "name" : "Foundation",
-        "kind" : "Import",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
         "declAttributes" : [
           "RawDocComment"
         ],
+        "kind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
+        "declKind" : "Import"
+      },
+      {
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "Foundation",
+        "kind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ]
+      },
+      {
+        "name" : "Foundation",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "moduleName" : "ChartboostSDK",
+        "printedName" : "Foundation",
+        "declKind" : "Import",
+        "kind" : "Import"
+      },
+      {
+        "declKind" : "Import",
+        "declAttributes" : [
+          "RawDocComment"
+        ],
+        "kind" : "Import",
+        "name" : "Foundation",
+        "printedName" : "Foundation",
         "moduleName" : "ChartboostSDK"
       },
       {
+        "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
+        "name" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "moduleName" : "ChartboostSDK",
-        "kind" : "Import",
-        "declKind" : "Import",
-        "printedName" : "Foundation",
-        "name" : "Foundation"
+        "kind" : "Import"
       },
       {
+        "declAttributes" : [
+          "RawDocComment"
+        ],
         "declKind" : "Import",
         "name" : "Foundation",
         "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
         "moduleName" : "ChartboostSDK",
         "kind" : "Import"
       },
       {
         "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "moduleName" : "ChartboostSDK",
-        "name" : "Foundation",
-        "declKind" : "Import",
-        "kind" : "Import"
-      },
-      {
-        "printedName" : "Foundation",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "name" : "Foundation",
-        "declKind" : "Import",
         "kind" : "Import",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
+        "name" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "printedName" : "Foundation",
-        "declKind" : "Import",
         "moduleName" : "ChartboostSDK",
-        "name" : "Foundation",
-        "kind" : "Import"
+        "declKind" : "Import"
       },
       {
-        "moduleName" : "ChartboostSDK",
         "printedName" : "Foundation",
         "kind" : "Import",
+        "moduleName" : "ChartboostSDK",
         "name" : "Foundation",
         "declKind" : "Import",
         "declAttributes" : [
@@ -3800,47 +3810,112 @@
         ]
       },
       {
-        "name" : "Foundation",
-        "declKind" : "Import",
         "kind" : "Import",
-        "declAttributes" : [
-          "RawDocComment"
-        ],
-        "printedName" : "Foundation",
-        "moduleName" : "ChartboostSDK"
-      },
-      {
-        "declKind" : "Import",
-        "name" : "StoreKit",
         "printedName" : "StoreKit",
+        "name" : "StoreKit",
         "moduleName" : "ChartboostSDK",
-        "kind" : "Import"
+        "declKind" : "Import"
       },
       {
-        "declKind" : "Import",
         "kind" : "Import",
-        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import",
         "declAttributes" : [
           "RawDocComment"
         ],
         "printedName" : "Foundation",
+        "moduleName" : "ChartboostSDK",
         "name" : "Foundation"
       },
       {
+        "name" : "Foundation",
+        "kind" : "Import",
+        "printedName" : "Foundation",
         "declAttributes" : [
           "RawDocComment"
         ],
-        "declKind" : "Import",
-        "name" : "Foundation",
-        "printedName" : "Foundation",
-        "kind" : "Import",
-        "moduleName" : "ChartboostSDK"
+        "moduleName" : "ChartboostSDK",
+        "declKind" : "Import"
       },
       {
-        "printedName" : "CHBMediation",
-        "isOpen" : true,
         "isExternal" : true,
-        "inheritsConvenienceInitializers" : true,
+        "moduleName" : "ChartboostSDK",
+        "declAttributes" : [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr" : "c:objc(cs)NSObject",
+        "kind" : "TypeDecl",
+        "conformances" : [
+          {
+            "mangledName" : "$sSQ",
+            "kind" : "Conformance",
+            "name" : "Equatable",
+            "usr" : "s:SQ",
+            "printedName" : "Equatable"
+          },
+          {
+            "mangledName" : "$sSH",
+            "kind" : "Conformance",
+            "name" : "Hashable",
+            "usr" : "s:SH",
+            "printedName" : "Hashable"
+          },
+          {
+            "mangledName" : "$ss7CVarArgP",
+            "kind" : "Conformance",
+            "name" : "CVarArg",
+            "usr" : "s:s7CVarArgP",
+            "printedName" : "CVarArg"
+          },
+          {
+            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObservingPublishing",
+            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "printedName" : "_KeyValueCodingAndObservingPublishing"
+          },
+          {
+            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
+            "kind" : "Conformance",
+            "name" : "_KeyValueCodingAndObserving",
+            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
+            "printedName" : "_KeyValueCodingAndObserving"
+          },
+          {
+            "mangledName" : "$ss23CustomStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomStringConvertible",
+            "usr" : "s:s23CustomStringConvertibleP",
+            "printedName" : "CustomStringConvertible"
+          },
+          {
+            "mangledName" : "$ss28CustomDebugStringConvertibleP",
+            "kind" : "Conformance",
+            "name" : "CustomDebugStringConvertible",
+            "usr" : "s:s28CustomDebugStringConvertibleP",
+            "printedName" : "CustomDebugStringConvertible"
+          },
+          {
+            "mangledName" : "$sSe",
+            "kind" : "Conformance",
+            "name" : "Decodable",
+            "usr" : "s:Se",
+            "printedName" : "Decodable"
+          },
+          {
+            "mangledName" : "$sSE",
+            "kind" : "Conformance",
+            "name" : "Encodable",
+            "usr" : "s:SE",
+            "printedName" : "Encodable"
+          }
+        ],
+        "name" : "CHBMediation",
+        "usr" : "c:objc(cs)CHBMediation",
+        "superclassNames" : [
+          "ObjectiveC.NSObject"
+        ],
+        "isOpen" : true,
         "children" : [
           {
             "isFromExtension" : true,
@@ -3943,90 +4018,13 @@
             "name" : "isEqual"
           }
         ],
-        "name" : "CHBMediation",
-        "superclassNames" : [
-          "ObjectiveC.NSObject"
-        ],
-        "objc_name" : "CHBMediation",
-        "moduleName" : "ChartboostSDK",
-        "usr" : "c:objc(cs)CHBMediation",
-        "declAttributes" : [
-          "ObjC",
-          "Dynamic"
-        ],
-        "superclassUsr" : "c:objc(cs)NSObject",
-        "conformances" : [
-          {
-            "mangledName" : "$sSQ",
-            "kind" : "Conformance",
-            "name" : "Equatable",
-            "usr" : "s:SQ",
-            "printedName" : "Equatable"
-          },
-          {
-            "mangledName" : "$sSH",
-            "kind" : "Conformance",
-            "name" : "Hashable",
-            "usr" : "s:SH",
-            "printedName" : "Hashable"
-          },
-          {
-            "mangledName" : "$ss7CVarArgP",
-            "kind" : "Conformance",
-            "name" : "CVarArg",
-            "usr" : "s:s7CVarArgP",
-            "printedName" : "CVarArg"
-          },
-          {
-            "mangledName" : "$s10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "kind" : "Conformance",
-            "name" : "_KeyValueCodingAndObservingPublishing",
-            "usr" : "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "printedName" : "_KeyValueCodingAndObservingPublishing"
-          },
-          {
-            "mangledName" : "$s10Foundation27_KeyValueCodingAndObservingP",
-            "kind" : "Conformance",
-            "name" : "_KeyValueCodingAndObserving",
-            "usr" : "s:10Foundation27_KeyValueCodingAndObservingP",
-            "printedName" : "_KeyValueCodingAndObserving"
-          },
-          {
-            "mangledName" : "$ss23CustomStringConvertibleP",
-            "kind" : "Conformance",
-            "name" : "CustomStringConvertible",
-            "usr" : "s:s23CustomStringConvertibleP",
-            "printedName" : "CustomStringConvertible"
-          },
-          {
-            "mangledName" : "$ss28CustomDebugStringConvertibleP",
-            "kind" : "Conformance",
-            "name" : "CustomDebugStringConvertible",
-            "usr" : "s:s28CustomDebugStringConvertibleP",
-            "printedName" : "CustomDebugStringConvertible"
-          },
-          {
-            "mangledName" : "$sSe",
-            "kind" : "Conformance",
-            "name" : "Decodable",
-            "usr" : "s:Se",
-            "printedName" : "Decodable"
-          },
-          {
-            "mangledName" : "$sSE",
-            "kind" : "Conformance",
-            "name" : "Encodable",
-            "usr" : "s:SE",
-            "printedName" : "Encodable"
-          }
-        ],
         "declKind" : "Class",
-        "kind" : "TypeDecl"
+        "inheritsConvenienceInitializers" : true,
+        "objc_name" : "CHBMediation",
+        "printedName" : "CHBMediation"
       },
       {
-        "isExternal" : true,
-        "usr" : "c:objc(cs)SKProductsRequest",
-        "declKind" : "Class",
+        "superclassUsr" : "c:objc(cs)SKRequest",
         "conformances" : [
           {
             "mangledName" : "$sSQ",
@@ -4078,29 +4076,30 @@
             "printedName" : "CustomDebugStringConvertible"
           }
         ],
-        "superclassUsr" : "c:objc(cs)SKRequest",
+        "isExternal" : true,
+        "usr" : "c:objc(cs)SKProductsRequest",
+        "isOpen" : true,
+        "superclassNames" : [
+          "StoreKit.SKRequest",
+          "ObjectiveC.NSObject"
+        ],
+        "declKind" : "Class",
+        "inheritsConvenienceInitializers" : true,
+        "kind" : "TypeDecl",
         "intro_iOS" : "3.0",
+        "objc_name" : "SKProductsRequest",
+        "printedName" : "SKProductsRequest",
         "declAttributes" : [
           "Available",
           "ObjC",
           "NonSendable",
           "Dynamic"
         ],
-        "name" : "SKProductsRequest",
-        "isOpen" : true,
-        "inheritsConvenienceInitializers" : true,
-        "printedName" : "SKProductsRequest",
-        "kind" : "TypeDecl",
-        "objc_name" : "SKProductsRequest",
-        "superclassNames" : [
-          "StoreKit.SKRequest",
-          "ObjectiveC.NSObject"
-        ],
-        "moduleName" : "StoreKit"
+        "moduleName" : "StoreKit",
+        "name" : "SKProductsRequest"
       },
       {
-        "declKind" : "Class",
-        "objc_name" : "NSTimer",
+        "superclassUsr" : "c:objc(cs)NSObject",
         "conformances" : [
           {
             "mangledName" : "$sSQ",
@@ -4152,37 +4151,32 @@
             "printedName" : "CustomDebugStringConvertible"
           }
         ],
-        "printedName" : "Timer",
-        "usr" : "c:objc(cs)NSTimer",
-        "inheritsConvenienceInitializers" : true,
-        "moduleName" : "Foundation",
-        "declAttributes" : [
-          "ObjC",
-          "NonSendable",
-          "Dynamic"
-        ],
-        "kind" : "TypeDecl",
         "superclassNames" : [
           "ObjectiveC.NSObject"
         ],
-        "isOpen" : true,
+        "isExternal" : true,
+        "usr" : "c:objc(cs)NSTimer",
+        "declKind" : "Class",
+        "inheritsConvenienceInitializers" : true,
         "name" : "Timer",
-        "superclassUsr" : "c:objc(cs)NSObject",
-        "isExternal" : true
-      },
-      {
+        "printedName" : "Timer",
+        "kind" : "TypeDecl",
+        "isOpen" : true,
+        "moduleName" : "Foundation",
         "declAttributes" : [
           "ObjC",
-          "SynthesizedProtocol",
           "NonSendable",
-          "Sendable",
           "Dynamic"
         ],
-        "moduleName" : "Foundation",
-        "kind" : "TypeDecl",
-        "inheritsConvenienceInitializers" : true,
+        "objc_name" : "NSTimer"
+      },
+      {
         "declKind" : "Class",
-        "objc_name" : "NSError",
+        "superclassNames" : [
+          "ObjectiveC.NSObject"
+        ],
+        "kind" : "TypeDecl",
+        "isOpen" : true,
         "children" : [
           {
             "usr" : "c:@CM@ChartboostSDK@@objc(cs)NSError(im)trackDescription",
@@ -4210,12 +4204,15 @@
             "declKind" : "Func"
           }
         ],
-        "isExternal" : true,
-        "usr" : "c:objc(cs)NSError",
-        "isOpen" : true,
-        "printedName" : "NSError",
-        "superclassUsr" : "c:objc(cs)NSObject",
         "name" : "NSError",
+        "moduleName" : "Foundation",
+        "declAttributes" : [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
         "conformances" : [
           {
             "mangledName" : "$ss8SendableP",
@@ -4281,9 +4278,12 @@
             "printedName" : "Error"
           }
         ],
-        "superclassNames" : [
-          "ObjectiveC.NSObject"
-        ]
+        "printedName" : "NSError",
+        "inheritsConvenienceInitializers" : true,
+        "usr" : "c:objc(cs)NSError",
+        "isExternal" : true,
+        "objc_name" : "NSError",
+        "superclassUsr" : "c:objc(cs)NSObject"
       }
     ]
   }
