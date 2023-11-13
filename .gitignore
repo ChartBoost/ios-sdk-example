@@ -21,6 +21,7 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+*.xcsettings
 
 ## Obj-C/Swift specific
 *.hmap
@@ -70,3 +71,4 @@ iOSInjectionProject/
 # Custom
 *.DS_Store
 */Pods
+!Pods/Target Support Files
