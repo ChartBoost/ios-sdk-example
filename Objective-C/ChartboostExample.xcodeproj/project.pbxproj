@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -40,7 +40,7 @@
 		309E16FC2A05312100C58138 /* ChartboostSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ChartboostSDKResources.bundle; path = ../ChartboostSDKResources.bundle; sourceTree = "<group>"; };
 		33790B28247682F5007502D3 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DDB3CEF20B1080F7794556 /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		921702562834CDCD006C4DE0 /* ChartboostSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ChartboostSDK.xcframework; path = ../ChartboostSDK.xcframework; sourceTree = "<group>"; };
+		921702562834CDCD006C4DE0 /* ChartboostSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:F38H382JLK:CHARTBOOST, Inc."; lastKnownFileType = wrapper.xcframework; name = ChartboostSDK.xcframework; path = ../ChartboostSDK.xcframework; sourceTree = "<group>"; };
 		9CDE8983C85C358EF6DE6BCF /* Pods-ChartboostExample-Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.debug.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DA93B6AD182B31BC00C21472 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA93B6B8182B31BC00C21472 /* ChartboostExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChartboostExample-Info.plist"; sourceTree = "<group>"; };
