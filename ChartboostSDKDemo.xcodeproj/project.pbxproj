@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE9F53EA8DF1765A57C0410 /* Pods_Demo_ChartboostSDKDemo_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E7BF956E3C9338146D64DF /* Pods_Demo_ChartboostSDKDemo_ObjC.framework */; };
+		399FC71025821AEC00666177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147624B5DCEC00F2F6B4 /* ViewController.swift */; };
+		399FC71125821AEC00666177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */; };
+		399FC71325821AEC00666177 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148924B5DF7A00F2F6B4 /* WebKit.framework */; };
+		399FC71425821AEC00666177 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148724B5DF7000F2F6B4 /* StoreKit.framework */; };
+		399FC71725821AEC00666177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
+		399FC71825821AEC00666177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */; };
+		399FC71925821AEC00666177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */; };
+		EA07B4852C0133960056EC1B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */; };
+		EA07B4862C0133960056EC1B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148924B5DF7A00F2F6B4 /* WebKit.framework */; };
+		EA07B4872C0133960056EC1B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */; };
+		EA07B4882C0133960056EC1B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A148724B5DF7000F2F6B4 /* StoreKit.framework */; };
+		EA07B48B2C0133960056EC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A149224B5FF0000F2F6B4 /* Main.storyboard */; };
+		EA07B48C2C0133960056EC1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */; };
+		EA07B48D2C0133960056EC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */; };
+		EA07B4942C0134030056EC1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07B47B2C01338E0056EC1B /* main.m */; };
+		EA07B4952C0134030056EC1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07B47A2C01338E0056EC1B /* AppDelegate.m */; };
+		EA07B4962C0134050056EC1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07B47E2C01338E0056EC1B /* ViewController.m */; };
+		EAF3124426C3E2C3008F9BF1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */; };
+		EAF3124526C3E2C7008F9BF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */; };
+		F20E689543072198B410C82A /* Pods_Demo_ChartboostSDKDemo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D86E3F630214197608345C /* Pods_Demo_ChartboostSDKDemo_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A3D5098B247B548B1C1FA05 /* Pods-Demo-ChartboostSDKDemo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-ChartboostSDKDemo-Swift.debug.xcconfig"; path = "Target Support Files/Pods-Demo-ChartboostSDKDemo-Swift/Pods-Demo-ChartboostSDKDemo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		399FC71D25821AEC00666177 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4338BFE999A8BD85EA9B802E /* Pods-Demo-ChartboostSDKDemo-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-ChartboostSDKDemo-ObjC.release.xcconfig"; path = "Target Support Files/Pods-Demo-ChartboostSDKDemo-ObjC/Pods-Demo-ChartboostSDKDemo-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		54D86E3F630214197608345C /* Pods_Demo_ChartboostSDKDemo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_ChartboostSDKDemo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21E9599EEDD92EE1648F609 /* Pods-Demo-ChartboostSDKDemo-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-ChartboostSDKDemo-ObjC.debug.xcconfig"; path = "Target Support Files/Pods-Demo-ChartboostSDKDemo-ObjC/Pods-Demo-ChartboostSDKDemo-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		C0E7BF956E3C9338146D64DF /* Pods_Demo_ChartboostSDKDemo_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_ChartboostSDKDemo_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D51A147624B5DCEC00F2F6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D51A147E24B5DCED00F2F6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D51A148024B5DCED00F2F6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51A148724B5DF7000F2F6B4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D51A148924B5DF7A00F2F6B4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D51A149224B5FF0000F2F6B4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EA07B47A2C01338E0056EC1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA07B47B2C01338E0056EC1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA07B47C2C01338E0056EC1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA07B47D2C01338E0056EC1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA07B47E2C01338E0056EC1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA07B4922C0133960056EC1B /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F8D6D37FACFD35B45F2740FC /* Pods-Demo-ChartboostSDKDemo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo-ChartboostSDKDemo-Swift.release.xcconfig"; path = "Target Support Files/Pods-Demo-ChartboostSDKDemo-Swift/Pods-Demo-ChartboostSDKDemo-Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		399FC71225821AEC00666177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF3124426C3E2C3008F9BF1 /* CoreMedia.framework in Frameworks */,
+				399FC71325821AEC00666177 /* WebKit.framework in Frameworks */,
+				EAF3124526C3E2C7008F9BF1 /* AVFoundation.framework in Frameworks */,
+				399FC71425821AEC00666177 /* StoreKit.framework in Frameworks */,
+				F20E689543072198B410C82A /* Pods_Demo_ChartboostSDKDemo_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07B4842C0133960056EC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07B4852C0133960056EC1B /* CoreMedia.framework in Frameworks */,
+				EA07B4862C0133960056EC1B /* WebKit.framework in Frameworks */,
+				EA07B4872C0133960056EC1B /* AVFoundation.framework in Frameworks */,
+				EA07B4882C0133960056EC1B /* StoreKit.framework in Frameworks */,
+				2CE9F53EA8DF1765A57C0410 /* Pods_Demo_ChartboostSDKDemo_ObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D51A146624B5DCEC00F2F6B4 = {
+			isa = PBXGroup;
+			children = (
+				EA07B4972C013B450056EC1B /* ChartboostSDKDemo */,
+				D51A147024B5DCEC00F2F6B4 /* Products */,
+				D51A148624B5DF7000F2F6B4 /* Frameworks */,
+				E3CF80C754565E1F5D1D10F5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D51A147024B5DCEC00F2F6B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399FC71D25821AEC00666177 /* Chartboost.app */,
+				EA07B4922C0133960056EC1B /* Chartboost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D51A147124B5DCEC00F2F6B4 /* Demo_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D51A147224B5DCEC00F2F6B4 /* AppDelegate.swift */,
+				D51A147624B5DCEC00F2F6B4 /* ViewController.swift */,
+			);
+			path = Demo_Swift;
+			sourceTree = "<group>";
+		};
+		D51A148624B5DF7000F2F6B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3124226C3E2BC008F9BF1 /* AVFoundation.framework */,
+				EAF3124026C3E2B8008F9BF1 /* CoreMedia.framework */,
+				D51A148924B5DF7A00F2F6B4 /* WebKit.framework */,
+				D51A148724B5DF7000F2F6B4 /* StoreKit.framework */,
+				C0E7BF956E3C9338146D64DF /* Pods_Demo_ChartboostSDKDemo_ObjC.framework */,
+				54D86E3F630214197608345C /* Pods_Demo_ChartboostSDKDemo_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3CF80C754565E1F5D1D10F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B21E9599EEDD92EE1648F609 /* Pods-Demo-ChartboostSDKDemo-ObjC.debug.xcconfig */,
+				4338BFE999A8BD85EA9B802E /* Pods-Demo-ChartboostSDKDemo-ObjC.release.xcconfig */,
+				0A3D5098B247B548B1C1FA05 /* Pods-Demo-ChartboostSDKDemo-Swift.debug.xcconfig */,
+				F8D6D37FACFD35B45F2740FC /* Pods-Demo-ChartboostSDKDemo-Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA07B4782C0133130056EC1B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D51A147B24B5DCED00F2F6B4 /* Assets.xcassets */,
+				D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */,
+				D51A148024B5DCED00F2F6B4 /* Info.plist */,
+				D51A149224B5FF0000F2F6B4 /* Main.storyboard */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EA07B4792C0133160056EC1B /* Demo_ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				EA07B47D2C01338E0056EC1B /* AppDelegate.h */,
+				EA07B47A2C01338E0056EC1B /* AppDelegate.m */,
+				EA07B47B2C01338E0056EC1B /* main.m */,
+				EA07B47C2C01338E0056EC1B /* ViewController.h */,
+				EA07B47E2C01338E0056EC1B /* ViewController.m */,
+			);
+			path = Demo_ObjC;
+			sourceTree = "<group>";
+		};
+		EA07B4972C013B450056EC1B /* ChartboostSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA07B4792C0133160056EC1B /* Demo_ObjC */,
+				D51A147124B5DCEC00F2F6B4 /* Demo_Swift */,
+				EA07B4782C0133130056EC1B /* Shared */,
+			);
+			path = ChartboostSDKDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		399FC70D25821AEC00666177 /* ChartboostSDKDemo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399FC71A25821AEC00666177 /* Build configuration list for PBXNativeTarget "ChartboostSDKDemo-Swift" */;
+			buildPhases = (
+				399FC70E25821AEC00666177 /* [CP] Check Pods Manifest.lock */,
+				399FC70F25821AEC00666177 /* Sources */,
+				399FC71225821AEC00666177 /* Frameworks */,
+				399FC71625821AEC00666177 /* Resources */,
+				3F5C2D7EEF5BDF5C6C38C41D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChartboostSDKDemo-Swift";
+			productName = ChartboostExample;
+			productReference = 399FC71D25821AEC00666177 /* Chartboost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA07B47F2C0133960056EC1B /* ChartboostSDKDemo-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07B48F2C0133960056EC1B /* Build configuration list for PBXNativeTarget "ChartboostSDKDemo-ObjC" */;
+			buildPhases = (
+				5A367982254693F237C79D3F /* [CP] Check Pods Manifest.lock */,
+				EA07B4812C0133960056EC1B /* Sources */,
+				EA07B4842C0133960056EC1B /* Frameworks */,
+				EA07B48A2C0133960056EC1B /* Resources */,
+				8592D528AA0B9DAD106D892A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChartboostSDKDemo-ObjC";
+			productName = ChartboostExample;
+			productReference = EA07B4922C0133960056EC1B /* Chartboost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D51A146724B5DCEC00F2F6B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = Chartboost;
+			};
+			buildConfigurationList = D51A146A24B5DCEC00F2F6B4 /* Build configuration list for PBXProject "ChartboostSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D51A146624B5DCEC00F2F6B4;
+			productRefGroup = D51A147024B5DCEC00F2F6B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				399FC70D25821AEC00666177 /* ChartboostSDKDemo-Swift */,
+				EA07B47F2C0133960056EC1B /* ChartboostSDKDemo-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		399FC71625821AEC00666177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399FC71725821AEC00666177 /* Main.storyboard in Resources */,
+				399FC71825821AEC00666177 /* LaunchScreen.storyboard in Resources */,
+				399FC71925821AEC00666177 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07B48A2C0133960056EC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07B48B2C0133960056EC1B /* Main.storyboard in Resources */,
+				EA07B48C2C0133960056EC1B /* LaunchScreen.storyboard in Resources */,
+				EA07B48D2C0133960056EC1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		399FC70E25821AEC00666177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-ChartboostSDKDemo-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5C2D7EEF5BDF5C6C38C41D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-ChartboostSDKDemo-Swift/Pods-Demo-ChartboostSDKDemo-Swift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-ChartboostSDKDemo-Swift/Pods-Demo-ChartboostSDKDemo-Swift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo-ChartboostSDKDemo-Swift/Pods-Demo-ChartboostSDKDemo-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A367982254693F237C79D3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-ChartboostSDKDemo-ObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8592D528AA0B9DAD106D892A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-ChartboostSDKDemo-ObjC/Pods-Demo-ChartboostSDKDemo-ObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo-ChartboostSDKDemo-ObjC/Pods-Demo-ChartboostSDKDemo-ObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo-ChartboostSDKDemo-ObjC/Pods-Demo-ChartboostSDKDemo-ObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		399FC70F25821AEC00666177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399FC71025821AEC00666177 /* ViewController.swift in Sources */,
+				399FC71125821AEC00666177 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07B4812C0133960056EC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07B4962C0134050056EC1B /* ViewController.m in Sources */,
+				EA07B4942C0134030056EC1B /* main.m in Sources */,
+				EA07B4952C0134030056EC1B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D51A147D24B5DCED00F2F6B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51A147E24B5DCED00F2F6B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		399FC71B25821AEC00666177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3D5098B247B548B1C1FA05 /* Pods-Demo-ChartboostSDKDemo-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F38H382JLK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				INFOPLIST_FILE = ChartboostSDKDemo/Shared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
+				PRODUCT_NAME = Chartboost;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		399FC71C25821AEC00666177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D6D37FACFD35B45F2740FC /* Pods-Demo-ChartboostSDKDemo-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F38H382JLK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				INFOPLIST_FILE = ChartboostSDKDemo/Shared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
+				PRODUCT_NAME = Chartboost;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D51A148124B5DCED00F2F6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D51A148224B5DCED00F2F6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA07B4902C0133960056EC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21E9599EEDD92EE1648F609 /* Pods-Demo-ChartboostSDKDemo-ObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F38H382JLK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				INFOPLIST_FILE = ChartboostSDKDemo/Shared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleObjC;
+				PRODUCT_NAME = Chartboost;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA07B4912C0133960056EC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4338BFE999A8BD85EA9B802E /* Pods-Demo-ChartboostSDKDemo-ObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F38H382JLK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/..",
+				);
+				INFOPLIST_FILE = ChartboostSDKDemo/Shared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleObjC;
+				PRODUCT_NAME = Chartboost;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		399FC71A25821AEC00666177 /* Build configuration list for PBXNativeTarget "ChartboostSDKDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399FC71B25821AEC00666177 /* Debug */,
+				399FC71C25821AEC00666177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51A146A24B5DCEC00F2F6B4 /* Build configuration list for PBXProject "ChartboostSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51A148124B5DCED00F2F6B4 /* Debug */,
+				D51A148224B5DCED00F2F6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA07B48F2C0133960056EC1B /* Build configuration list for PBXNativeTarget "ChartboostSDKDemo-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07B4902C0133960056EC1B /* Debug */,
+				EA07B4912C0133960056EC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D51A146724B5DCEC00F2F6B4 /* Project object */;
+}

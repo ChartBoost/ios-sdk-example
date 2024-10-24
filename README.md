@@ -1,8 +1,8 @@
-# Chartboost SDK iOS Example App
+# Chartboost SDK iOS Demo App
 
-*Version 9.7.0*
+*Version 9.8.0*
 
-Our example app showcases how to integrate the [Chartboost SDK](https://developers.chartboost.com/docs/monetization-ios-get-started).
+Our demo app showcases how to integrate the [Chartboost SDK](https://developers.chartboost.com/docs/monetization-ios-get-started).
 
 ## Versions
 
@@ -12,13 +12,8 @@ For previous SDK versions check out the other branches.
 
 ## Targets
 
-The ChartboostExample project includes two targets: 
+The ChartboostSDKDemo project includes two targets: 
 
-- `ChartboostExample`: Manual dependency management. 
+- `ChartboostSDKDemo-Swift`: The Chartboost SDK is integrated in Swift files. 
 
-It requires the `ChartboostSDK.xcframework`, which is already in the root directory (where this readme is) and linked to the Xcode project.
-You can download the latest version of the Chartboost SDK [here](http://www.chartboo.st/sdk/ios).
-
-- `ChartboostExample-Pods`: CocoaPods dependency management. 
-
- Just go into the project directory and run `pod install`.
+- `ChartboostSDKDemo-ObjC`: The Chartboost SDK is integrated in Objective-C files.
