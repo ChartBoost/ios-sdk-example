@@ -8,7 +8,7 @@ abstract_target 'Demo' do
     pod 'ChartboostSDK', :path => '../'
   else
     # Production pod dependencies for general use
-    pod 'ChartboostSDK', '~> 9.10.0'
+    pod 'ChartboostSDK', '~> 9.11.0'
   end
 
   target 'ChartboostSDKDemo-ObjC'
