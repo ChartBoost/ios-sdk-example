@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="4UR-W1-e8N">
             <objects>
-                <viewController id="qjd-od-EB2" customClass="ViewController" customModule="Chartboost" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qjd-od-EB2" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" autoresizesSubviews="NO" opaque="NO" contentMode="scaleAspectFit" id="GtJ-1q-K30">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
