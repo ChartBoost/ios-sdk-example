@@ -10,9 +10,18 @@ The `master` branch includes the example app supporting the latest version of th
 
 For previous SDK versions check out the other branches.
 
+## Integration options
+
+The demo can be built with either dependency manager — the app is identical, only the SDK integration differs:
+
+- **CocoaPods**: run `pod install`, then open `ChartboostSDKDemo.xcworkspace`.
+- **Swift Package Manager**: open `ChartboostSDKDemo-SPM.xcodeproj` directly — Xcode resolves the `ChartboostSDK` package on open.
+
+> **Note (SPM):** the Chartboost SDK ships as a static framework containing Objective-C categories, so apps integrating it via SPM must add `-ObjC` to `OTHER_LDFLAGS` (already configured in the demo project). CocoaPods adds this flag automatically.
+
 ## Targets
 
-The ChartboostSDKDemo project includes two targets: 
+Both projects include the same two targets (and schemes): 
 
 - `ChartboostSDKDemo-Swift`: The Chartboost SDK is integrated in Swift files. 
 

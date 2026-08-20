@@ -6,6 +6,10 @@
 import ChartboostSDK
 import UIKit
 
+// The explicit ObjC runtime name lets the shared Main.storyboard (used by both
+// the Swift and ObjC targets) resolve the class without a module qualifier —
+// a Swift-namespaced storyboard lookup can never match the ObjC target's class.
+@objc(ViewController)
 class ViewController: UIViewController, CHBInterstitialDelegate, CHBRewardedDelegate, CHBBannerDelegate {
     private lazy var interstitial = CHBInterstitial(location: "default", delegate: self)
     private lazy var rewarded = CHBRewarded(location: "default", delegate: self)

@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0C07469768EB2DFCC1677F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEF065DA3AE0E50023E08A1 /* Main.storyboard */; };
+		31987C7619347AE72FEFFA80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD0DBAEEBB3C5676750C0FE /* main.m */; };
+		397E11B1B7AC3B52AD074069 /* ChartboostSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AB7B6B1ADDABC3E20DBA141A /* ChartboostSDK */; };
+		3C0283D70167EA03CC6CE6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1947BBAAA4C2E8CA9A9F00BE /* Assets.xcassets */; };
+		48985B25690367208AFA5090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122E55E49F1281987BBBE0B6 /* LaunchScreen.storyboard */; };
+		5FE2CBF90470D21FF16C30D9 /* ChartboostSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 758F9DFABC6E34A350B3C138 /* ChartboostSDK */; };
+		85668A22F7B53F47C48B34AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C9CFDDAEA59FF545039BF4 /* Assets.xcassets */; };
+		88E7F9A4856C7298589FFC7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D014C170E98CF054C6FA588D /* ViewController.m */; };
+		9E178C02159F474FF79A2C41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D4B62DFA2835157E10321 /* ViewController.swift */; };
+		A1DADC5DD267948404FAB763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C597ED0AA9D3358A6E659 /* AppDelegate.m */; };
+		A501ABC4050B91350F3086FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B06ABD5AAA9B5576135DB /* LaunchScreen.storyboard */; };
+		AFC4E7F0CAAADBFB4640B0F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05FB68BE0154B6A3220118D /* Main.storyboard */; };
+		EF1BD48A7FF2B7578129101F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D67EB09323CD5F523967F /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		056D67EB09323CD5F523967F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ChartboostSDKDemo/Demo_Swift/AppDelegate.swift; sourceTree = "<group>"; };
+		122E55E49F1281987BBBE0B6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ChartboostSDKDemo/Shared/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1947BBAAA4C2E8CA9A9F00BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ChartboostSDKDemo/Shared/Assets.xcassets; sourceTree = "<group>"; };
+		267C597ED0AA9D3358A6E659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ChartboostSDKDemo/Demo_ObjC/AppDelegate.m; sourceTree = "<group>"; };
+		4B9B06ABD5AAA9B5576135DB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ChartboostSDKDemo/Shared/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AD0DBAEEBB3C5676750C0FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ChartboostSDKDemo/Demo_ObjC/main.m; sourceTree = "<group>"; };
+		9B3EFCEBA573D10FB5A8304C /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77F1499AD629894CF9BDF5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ChartboostSDKDemo/Demo_ObjC/AppDelegate.h; sourceTree = "<group>"; };
+		BF1D4B62DFA2835157E10321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ChartboostSDKDemo/Demo_Swift/ViewController.swift; sourceTree = "<group>"; };
+		C05FB68BE0154B6A3220118D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ChartboostSDKDemo/Shared/Main.storyboard; sourceTree = "<group>"; };
+		C93E15FFCA4F3C1977550629 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D014C170E98CF054C6FA588D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ChartboostSDKDemo/Demo_ObjC/ViewController.m; sourceTree = "<group>"; };
+		D0C9CFDDAEA59FF545039BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ChartboostSDKDemo/Shared/Assets.xcassets; sourceTree = "<group>"; };
+		D2AE5C67CFA4678EC6969C2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ChartboostSDKDemo/Demo_ObjC/ViewController.h; sourceTree = "<group>"; };
+		FAEF065DA3AE0E50023E08A1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ChartboostSDKDemo/Shared/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CDB7D560FDE5B11A72D4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397E11B1B7AC3B52AD074069 /* ChartboostSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E725B20D4F5FE8E81AF9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE2CBF90470D21FF16C30D9 /* ChartboostSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145F6BB976A28E220AD13747 /* ChartboostSDKDemo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				056D67EB09323CD5F523967F /* AppDelegate.swift */,
+				BF1D4B62DFA2835157E10321 /* ViewController.swift */,
+				1947BBAAA4C2E8CA9A9F00BE /* Assets.xcassets */,
+				4B9B06ABD5AAA9B5576135DB /* LaunchScreen.storyboard */,
+				FAEF065DA3AE0E50023E08A1 /* Main.storyboard */,
+			);
+			name = "ChartboostSDKDemo-Swift";
+			sourceTree = "<group>";
+		};
+		33C24FFD2B8184204402935A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C93E15FFCA4F3C1977550629 /* Chartboost.app */,
+				9B3EFCEBA573D10FB5A8304C /* Chartboost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68730A31F9B22414E41199EB /* ChartboostSDKDemo-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				267C597ED0AA9D3358A6E659 /* AppDelegate.m */,
+				D014C170E98CF054C6FA588D /* ViewController.m */,
+				6AD0DBAEEBB3C5676750C0FE /* main.m */,
+				B77F1499AD629894CF9BDF5F /* AppDelegate.h */,
+				D2AE5C67CFA4678EC6969C2A /* ViewController.h */,
+				D0C9CFDDAEA59FF545039BF4 /* Assets.xcassets */,
+				122E55E49F1281987BBBE0B6 /* LaunchScreen.storyboard */,
+				C05FB68BE0154B6A3220118D /* Main.storyboard */,
+			);
+			name = "ChartboostSDKDemo-ObjC";
+			sourceTree = "<group>";
+		};
+		E17EA5D33F96D511FD5436D2 = {
+			isa = PBXGroup;
+			children = (
+				68730A31F9B22414E41199EB /* ChartboostSDKDemo-ObjC */,
+				145F6BB976A28E220AD13747 /* ChartboostSDKDemo-Swift */,
+				33C24FFD2B8184204402935A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93FC29C2F723002B10899CFE /* ChartboostSDKDemo-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AF2F198151535FC3FCCC9B /* Build configuration list for PBXNativeTarget "ChartboostSDKDemo-ObjC" */;
+			buildPhases = (
+				F6DD4AA66846478D51E4BD6B /* Sources */,
+				14CDB7D560FDE5B11A72D4F3 /* Frameworks */,
+				DEFE4B785FC25DD312EFCB45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChartboostSDKDemo-ObjC";
+			packageProductDependencies = (
+				AB7B6B1ADDABC3E20DBA141A /* ChartboostSDK */,
+			);
+			productName = Chartboost;
+			productReference = 9B3EFCEBA573D10FB5A8304C /* Chartboost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5F2CFA25C80F685722584BC /* ChartboostSDKDemo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BF6B7AF593AEE7DF14B360 /* Build configuration list for PBXNativeTarget "ChartboostSDKDemo-Swift" */;
+			buildPhases = (
+				C163A7149EB02744E64F3EB8 /* Sources */,
+				66E725B20D4F5FE8E81AF9FB /* Frameworks */,
+				5215FC1ED80FD7A7D3724501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChartboostSDKDemo-Swift";
+			packageProductDependencies = (
+				758F9DFABC6E34A350B3C138 /* ChartboostSDK */,
+			);
+			productName = Chartboost;
+			productReference = C93E15FFCA4F3C1977550629 /* Chartboost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8FC403AE3A33B8EFBEB7DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = C5F2CB47CBBAB6DA6041B176 /* Build configuration list for PBXProject "ChartboostSDKDemo-SPM" */;
+			compatibilityVersion = "Xcode 26.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E17EA5D33F96D511FD5436D2;
+			packageReferences = (
+				25CAFD902300C59E9B5EBF5F /* XCRemoteSwiftPackageReference "chartboost-monetization-ios-sdk" */,
+			);
+			productRefGroup = 33C24FFD2B8184204402935A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F2CFA25C80F685722584BC /* ChartboostSDKDemo-Swift */,
+				93FC29C2F723002B10899CFE /* ChartboostSDKDemo-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5215FC1ED80FD7A7D3724501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0283D70167EA03CC6CE6A6 /* Assets.xcassets in Resources */,
+				A501ABC4050B91350F3086FE /* LaunchScreen.storyboard in Resources */,
+				2B0C07469768EB2DFCC1677F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFE4B785FC25DD312EFCB45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85668A22F7B53F47C48B34AF /* Assets.xcassets in Resources */,
+				48985B25690367208AFA5090 /* LaunchScreen.storyboard in Resources */,
+				AFC4E7F0CAAADBFB4640B0F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C163A7149EB02744E64F3EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BD48A7FF2B7578129101F /* AppDelegate.swift in Sources */,
+				9E178C02159F474FF79A2C41 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DD4AA66846478D51E4BD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DADC5DD267948404FAB763 /* AppDelegate.m in Sources */,
+				88E7F9A4856C7298589FFC7E /* ViewController.m in Sources */,
+				31987C7619347AE72FEFFA80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0ACAC0901540C0172020F474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChartboostSDKDemo/Shared/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					/usr/lib/swift,
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		159E0C7BD7F76DB159FC22A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		382F6AAC1218EB4518ED7751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChartboostSDKDemo/Shared/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					/usr/lib/swift,
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83C7343B2807E58EB39DB024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChartboostSDKDemo/Shared/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					/usr/lib/swift,
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84901541C231A83DC7D07256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChartboostSDKDemo/Shared/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/lib/swift,
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					/usr/lib/swift,
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chartboost.ChartboostExampleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C9D9B5415EEC4B1C88B71D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7BF6B7AF593AEE7DF14B360 /* Build configuration list for PBXNativeTarget "ChartboostSDKDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382F6AAC1218EB4518ED7751 /* Debug */,
+				0ACAC0901540C0172020F474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F2CB47CBBAB6DA6041B176 /* Build configuration list for PBXProject "ChartboostSDKDemo-SPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159E0C7BD7F76DB159FC22A8 /* Debug */,
+				9C9D9B5415EEC4B1C88B71D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AF2F198151535FC3FCCC9B /* Build configuration list for PBXNativeTarget "ChartboostSDKDemo-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C7343B2807E58EB39DB024 /* Debug */,
+				84901541C231A83DC7D07256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25CAFD902300C59E9B5EBF5F /* XCRemoteSwiftPackageReference "chartboost-monetization-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChartBoost/chartboost-monetization-ios-sdk";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 9.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		758F9DFABC6E34A350B3C138 /* ChartboostSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25CAFD902300C59E9B5EBF5F /* XCRemoteSwiftPackageReference "chartboost-monetization-ios-sdk" */;
+			productName = ChartboostSDK;
+		};
+		AB7B6B1ADDABC3E20DBA141A /* ChartboostSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25CAFD902300C59E9B5EBF5F /* XCRemoteSwiftPackageReference "chartboost-monetization-ios-sdk" */;
+			productName = ChartboostSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C8FC403AE3A33B8EFBEB7DA8 /* Project object */;
+}

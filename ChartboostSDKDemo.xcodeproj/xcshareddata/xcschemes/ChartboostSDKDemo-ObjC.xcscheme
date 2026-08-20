@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1540"
+   LastUpgradeVersion = "1600"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES"
-      buildArchitectures = "Automatic">
+      buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
+            buildForProfiling = "NO"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA07B47F2C0133960056EC1B"
+               BlueprintIdentifier = "E79FC2E3DED44C585B13225F"
                BuildableName = "Chartboost.app"
                BlueprintName = "ChartboostSDKDemo-ObjC"
                ReferencedContainer = "container:ChartboostSDKDemo.xcodeproj">
@@ -27,8 +26,18 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E79FC2E3DED44C585B13225F"
+            BuildableName = "Chartboost.app"
+            BlueprintName = "ChartboostSDKDemo-ObjC"
+            ReferencedContainer = "container:ChartboostSDKDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -44,7 +53,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA07B47F2C0133960056EC1B"
+            BlueprintIdentifier = "E79FC2E3DED44C585B13225F"
             BuildableName = "Chartboost.app"
             BlueprintName = "ChartboostSDKDemo-ObjC"
             ReferencedContainer = "container:ChartboostSDKDemo.xcodeproj">
@@ -61,7 +70,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA07B47F2C0133960056EC1B"
+            BlueprintIdentifier = "E79FC2E3DED44C585B13225F"
             BuildableName = "Chartboost.app"
             BlueprintName = "ChartboostSDKDemo-ObjC"
             ReferencedContainer = "container:ChartboostSDKDemo.xcodeproj">
